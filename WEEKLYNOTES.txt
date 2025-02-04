@@ -33,3 +33,9 @@ Began brainstorming story and gameplay:
 - Will most likely be static or side-scroller due to time constraints
 - Puzzle-based and obstacles
 	- Possibly very limited/simple fight mechanics
+
+To Do:
+- Decide on game engine
+- Find references for characters and start simple sketch-ups (mostly just silhouettes)
+- Start storyboard
+- Look into simple sprite sheets
