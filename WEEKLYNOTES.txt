@@ -1,0 +1,35 @@
+-- 2/4/25 Notes --
+
+Started out with figuring out which game engine is the best to use:
+ Unreal Engine:
+- Pros: most experience with engine, many more assets to use
+- Cons: powerful engine, not best to use for more visual novel style games
+ Unity:
+- Pros: have used before, good engine to use for more 2d-style games
+- Cons: not much experience scripting in Unity, limited free assets
+ Renpy:
+- Pros: best program to use for visual novel-style games
+- Cons: never used before so would require extra time to learn program, would have to create all assets on my own
+ Godot:
+- Pros: good program to use for 2d games
+- Cons: very limited knowledge of the program
+Right now Unity seems like the one I will most likely use
+
+Looked at possible assets for both Unreal and Unity
+- Stylized environments: trying to find assets that would blend well together in one space
+- Decided on necessary environments: dungeon and forest
+	- Possibly include village as intro-level if enough time
+- Unreal Assets:
+	- Stylized - Nanite Dungeon Pack by Studio Kobo
+	- Dreamscape: Stylized Environment Tower - Stylized Nature Open World Fantasy by Polyart Studio
+	- Advanced Village Pack by Advanced Asset Packs
+- Unity Assets: 
+	- Stylized Fantasy Armory - Low Poly 3D Art by Daniel Mistage
+	- Stylized Hand Painted Dungeon by LS2 Arts
+	- Simple Forest Pack by Soft Poly Studios
+	- Stylized Low Poly Nature Lite by JustCreate
+
+Began brainstorming story and gameplay:
+- Will most likely be static or side-scroller due to time constraints
+- Puzzle-based and obstacles
+	- Possibly very limited/simple fight mechanics
