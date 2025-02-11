@@ -28,6 +28,7 @@ Looked at possible assets for both Unreal and Unity
 	- Stylized Hand Painted Dungeon by LS2 Arts
 	- Simple Forest Pack by Soft Poly Studios
 	- Stylized Low Poly Nature Lite by JustCreate
+	- URP Stylized Water Shader - Proto Series by BitGem
 
 Began brainstorming story and gameplay:
 - Will most likely be static or side-scroller due to time constraints
@@ -38,4 +39,15 @@ To Do:
 - Decide on game engine
 - Find references for characters and start simple sketch-ups (mostly just silhouettes)
 - Start storyboard
-- Look into simple sprite sheets
+
+
+-- 2/8/25 Notes --
+
+Decided on using Unity for the game
+- Added assets to game file
+	- Ran into hot pink materials: had to convert the asset materials to URP, seems to have fixed the problem
+	- All assets seem to be working, except for stylized water, may take it out
+
+-- 2/11/25 Notes --
+
+Remembered to actually push the progress on GitHub and add the game project to the repository
