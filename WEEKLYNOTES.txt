@@ -51,3 +51,8 @@ Decided on using Unity for the game
 -- 2/11/25 Notes --
 
 Remembered to actually push the progress on GitHub and add the game project to the repository
+
+-- 2/14/25 Notes --
+
+Found references and started on sketches of the two main characters
+- Still very rough, but getting a good idea of what the silhouettes of the characters should look like
