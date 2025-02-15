@@ -56,3 +56,13 @@ Remembered to actually push the progress on GitHub and add the game project to t
 
 Found references and started on sketches of the two main characters
 - Still very rough, but getting a good idea of what the silhouettes of the characters should look like
+
+-- 2/15/25 Notes --
+
+Worked on bedroom level
+- Added assets for bedroom props from SketchFab
+	- Set of Stylized beds by Peter Nox
+	- Set of Stylized cupboards by Peter Nox
+	- Set of stylized shelves and desks by Peter Nox
+	- Modular Fantasy Assets by j8cov
+	- Stylized Wood PBR Material by nikola
