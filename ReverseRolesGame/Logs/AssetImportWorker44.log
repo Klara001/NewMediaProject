@@ -1,0 +1,318 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.27f1 (27c554a2199c) revision 2606420'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32496 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker44
+-projectPath
+C:/Users/kprof/ReverseRolesGame
+-logFile
+Logs/AssetImportWorker44.log
+-srvPort
+63521
+-job-worker-count
+15
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/kprof/ReverseRolesGame
+C:/Users/kprof/ReverseRolesGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21444]  Target information:
+
+Player connection [21444]  * "[IP] 10.250.46.81 [Port] 0 [Flags] 2 [Guid] 1584903979 [EditorId] 1584903979 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21444] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21444] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.27f1 (27c554a2199c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kprof/ReverseRolesGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2820)
+    Vendor:   NVIDIA
+    VRAM:     7948 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001905 seconds.
+- Loaded All Assemblies, in  0.239 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.219 seconds
+Domain Reload Profiling: 457ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (80ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (94ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (85ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (219ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.602 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 1134ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (303ms)
+		LoadAssemblies (206ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (98ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5917 unused Assets / (4.1 MB). Loaded Objects now: 6689.
+Memory consumption went from 208.2 MB to 204.1 MB.
+Total: 5.363800 ms (FindLiveObjects: 0.393200 ms CreateObjectMapping: 0.225900 ms MarkObjects: 3.490000 ms  DeleteObjects: 1.252900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 236441.376116 seconds.
+  path: Assets/Props/chandelier/textures/lambert2SG_AO.jpeg
+  artifactKey: Guid(c00c0a89197d2e549a2c5cb4366145e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/textures/lambert2SG_AO.jpeg using Guid(c00c0a89197d2e549a2c5cb4366145e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f4ca8b457a283e16cf3ff2dc3836dd1') in 0.0733956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Props/chandelier/textures/lambert6SG_normal.png
+  artifactKey: Guid(3ff92e42557588549bb1ff4f5a6d1713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/textures/lambert6SG_normal.png using Guid(3ff92e42557588549bb1ff4f5a6d1713) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8402f4ae1ce1161cfe141877830d19c7') in 0.0177947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Props/chandelier/textures/lambert3SG_normal.png
+  artifactKey: Guid(98e78a973d1e95642b6144a96b34ab38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/textures/lambert3SG_normal.png using Guid(98e78a973d1e95642b6144a96b34ab38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73d899bd0563026305700770fd765a70') in 0.0190578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/chandelier/textures/lambert5SG_albedo.jpeg
+  artifactKey: Guid(121ab947b7c44d349a352a5f8714600e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/textures/lambert5SG_albedo.jpeg using Guid(121ab947b7c44d349a352a5f8714600e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af80c8349a7d1b61135dbdd0db7334f0') in 0.0152452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/chandelier/textures/lambert3SG_albedo.jpeg
+  artifactKey: Guid(c971a545bef036b4b809ee2cd9edb4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/textures/lambert3SG_albedo.jpeg using Guid(c971a545bef036b4b809ee2cd9edb4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89fc4eaf8a2ef15819b09b2c0e7ee553') in 0.0191354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Props/chandelier/textures/lambert2SG_metallic.jpeg
+  artifactKey: Guid(b0742ce9b2e44524394e7f318e465282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/textures/lambert2SG_metallic.jpeg using Guid(b0742ce9b2e44524394e7f318e465282) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df7cab028e5dd581e802b5681af67135') in 0.0163908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Props/chandelier/textures/lambert5SG_normal.png
+  artifactKey: Guid(5f9dac2c0dee2684e8fb23a9d48436ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/textures/lambert5SG_normal.png using Guid(5f9dac2c0dee2684e8fb23a9d48436ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14bfc6d75494cf6334d05d6f06066444') in 0.0169607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/chandelier/textures/lambert5SG_AO.jpeg
+  artifactKey: Guid(e576df98e586c644399b5063f00a9c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/textures/lambert5SG_AO.jpeg using Guid(e576df98e586c644399b5063f00a9c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9179435b23a3ee9a020bd9942a691e62') in 0.0182146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/chandelier/textures/lambert3SG_AO.jpeg
+  artifactKey: Guid(615f043037fd74e4e96cb7c8bc2410d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/textures/lambert3SG_AO.jpeg using Guid(615f043037fd74e4e96cb7c8bc2410d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f0f848a4d7b5b2d9dba7f172e27abff') in 0.0195684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Props/chandelier/textures/lambert5SG_roughness.jpeg
+  artifactKey: Guid(087686b914a93ca46be9f2f216db1f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/textures/lambert5SG_roughness.jpeg using Guid(087686b914a93ca46be9f2f216db1f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43a419a9ec30298bef3de5b217effa3b') in 0.0168195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Props/chandelier/textures/lambert3SG_metallic.jpeg
+  artifactKey: Guid(19ea1cec9b8529647b0d6a415f98362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/textures/lambert3SG_metallic.jpeg using Guid(19ea1cec9b8529647b0d6a415f98362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb9f5bfb0f170534f88964969fae48e4') in 0.016967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Props/chandelier/textures/lambert4SG_AO.jpeg
+  artifactKey: Guid(52ef655a5dfe618428c665f9e4ad6702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/textures/lambert4SG_AO.jpeg using Guid(52ef655a5dfe618428c665f9e4ad6702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4457b68ac848003572fb26c21284f6cc') in 0.0180715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.568046 seconds.
+  path: Assets/Props/chandelier/source/model/model/textures/lambert3SG_metallic.jpg
+  artifactKey: Guid(9c052acd07ec1944e95e38703fdd4db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/source/model/model/textures/lambert3SG_metallic.jpg using Guid(9c052acd07ec1944e95e38703fdd4db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f17cc5ad82dd56698012103332c857b9') in 0.024263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Props/chandelier/source/model/model/textures/lambert4SG_normal.png
+  artifactKey: Guid(a857256280caaee44beeed7fcc07c7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/source/model/model/textures/lambert4SG_normal.png using Guid(a857256280caaee44beeed7fcc07c7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '149ad2dc36353535d4d85749641bd387') in 0.0306933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Props/chandelier/source/model/model/textures/lambert6SG_albedo.jpg
+  artifactKey: Guid(b8d435d0faf94454c8998f461558e309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/source/model/model/textures/lambert6SG_albedo.jpg using Guid(b8d435d0faf94454c8998f461558e309) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '021187f4a6b17cdeb8245932b6d3a5d4') in 0.0240224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/chandelier/source/model/model/textures/lambert5SG_metallic.jpg
+  artifactKey: Guid(154875dce2d7edb4992796d5689a5a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/chandelier/source/model/model/textures/lambert5SG_metallic.jpg using Guid(154875dce2d7edb4992796d5689a5a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4339350371c3fc5c65220677e4366fc5') in 0.0110726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

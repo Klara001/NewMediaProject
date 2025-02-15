@@ -1,0 +1,958 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.27f1 (27c554a2199c) revision 2606420'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32496 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Users/kprof/ReverseRolesGame
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+63521
+-job-worker-count
+15
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/kprof/ReverseRolesGame
+C:/Users/kprof/ReverseRolesGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16668]  Target information:
+
+Player connection [16668]  * "[IP] 10.250.46.81 [Port] 0 [Flags] 2 [Guid] 1309478180 [EditorId] 1309478180 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16668] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16668] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.27f1 (27c554a2199c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kprof/ReverseRolesGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2820)
+    Vendor:   NVIDIA
+    VRAM:     7948 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001933 seconds.
+- Loaded All Assemblies, in  0.249 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.235 seconds
+Domain Reload Profiling: 483ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (81ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (90ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (235ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (205ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.641 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.603 seconds
+Domain Reload Profiling: 1242ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (104ms)
+			BuildScriptInfoCaches (43ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (604ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5917 unused Assets / (4.1 MB). Loaded Objects now: 6689.
+Memory consumption went from 194.6 MB to 190.5 MB.
+Total: 6.404900 ms (FindLiveObjects: 0.433300 ms CreateObjectMapping: 0.243600 ms MarkObjects: 4.268300 ms  DeleteObjects: 1.457800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 229772.543441 seconds.
+  path: Assets/Props/modular-fantasy-assets/textures/Rug_mat.mat
+  artifactKey: Guid(9b6820cfa97524d45811a2ba23a94bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/textures/Rug_mat.mat using Guid(9b6820cfa97524d45811a2ba23a94bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1f0a67299b3d2d41e6591302819807c') in 0.329065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.482197 seconds.
+  path: Assets/Props/modular-fantasy-assets/textures/standardSurface1_Normal.png
+  artifactKey: Guid(761421e26f4c2234ebe12307dde5cd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/textures/standardSurface1_Normal.png using Guid(761421e26f4c2234ebe12307dde5cd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4ec02fa48904e8b6690375a30f37f48') in 0.024209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.607701 seconds.
+  path: Assets/Forest Pack/Materials/Color0030.mat
+  artifactKey: Guid(0bd44bc83eac3df488f7f840fca7fe51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Pack/Materials/Color0030.mat using Guid(0bd44bc83eac3df488f7f840fca7fe51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60502d0022abad8635a0eba392ad4e64') in 0.0115719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013239 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Pillar.fbx
+  artifactKey: Guid(b520dd2e830b53248a9a07d2d9f3f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Pillar.fbx using Guid(b520dd2e830b53248a9a07d2d9f3f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f18fcb4ffeee79e5e80d0c9c34e0b416') in 0.0617278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.876494 seconds.
+  path: Assets/Props/modular-fantasy-assets/textures/Textures
+  artifactKey: Guid(999dfc245d2cc644aa79d71b07a1ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/textures/Textures using Guid(999dfc245d2cc644aa79d71b07a1ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ae5d442e5b6713b906513e08467f82c') in 0.0004237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.513271 seconds.
+  path: Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx
+  artifactKey: Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx using Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f24ecf45eb7f510697e47de938cdca69') in 0.0914147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 75
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.698001 seconds.
+  path: Assets/Props/modular-fantasy-assets/textures/Ceiling_mat.mat
+  artifactKey: Guid(906505f4ba5786d4e8ba293c0b157952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/textures/Ceiling_mat.mat using Guid(906505f4ba5786d4e8ba293c0b157952) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6a4d0e0110ed0baacb8624f56a5af4a') in 0.0253993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.667478 seconds.
+  path: Assets/Props/modular-fantasy-assets/textures/Ceiling_Normal.png
+  artifactKey: Guid(22c872a20ba71e141bf1033fd9fe9702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/textures/Ceiling_Normal.png using Guid(22c872a20ba71e141bf1033fd9fe9702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7495fe4f0290843173b9c529a4c82305') in 0.021045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.997568 seconds.
+  path: Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx
+  artifactKey: Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx using Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fbc0a20b881b397524c50d440f1f796') in 0.0909544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.704094 seconds.
+  path: Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx
+  artifactKey: Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx using Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c66abaa8f598772dab11aa697caa507') in 0.1940516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.345145 seconds.
+  path: Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx
+  artifactKey: Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx using Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8934165159618cc4a00cc891f96d882') in 0.0911491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.914688 seconds.
+  path: Assets/Props/modular-fantasy-assets/textures/Ceiling_mat.mat
+  artifactKey: Guid(906505f4ba5786d4e8ba293c0b157952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/textures/Ceiling_mat.mat using Guid(906505f4ba5786d4e8ba293c0b157952) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2ae34aa7499160fab87a2bf975b6c9c') in 0.0202775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.362684 seconds.
+  path: Assets/Props/modular-fantasy-assets/textures/Lamp_mat.mat
+  artifactKey: Guid(6b43135625e920449a991e9004e2110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/textures/Lamp_mat.mat using Guid(6b43135625e920449a991e9004e2110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d519eca2e740e257962852d3721d0ef') in 0.0231257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.866075 seconds.
+  path: Assets/Props/modular-fantasy-assets/textures/standardSurface1_Normal_OpenGL.png
+  artifactKey: Guid(1a8629031e7421645a13c05ee835d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/textures/standardSurface1_Normal_OpenGL.png using Guid(1a8629031e7421645a13c05ee835d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c701b82994c6f4f903b07fbded701038') in 0.0158163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.034110 seconds.
+  path: Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx
+  artifactKey: Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx using Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7596ddb6a522f86f4c2ebea9640f6ba') in 0.0937913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.433433 seconds.
+  path: Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx
+  artifactKey: Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx using Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b58a5fff56c1753b7a50b82d6f78da9') in 0.1235883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 223.075030 seconds.
+  path: Assets/Props/modular-fantasy-assets/textures/Lamp_mat.mat
+  artifactKey: Guid(6b43135625e920449a991e9004e2110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/textures/Lamp_mat.mat using Guid(6b43135625e920449a991e9004e2110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29c4e9330a9f503e174613582d162e9c') in 0.0273649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 2253.388381 seconds.
+  path: Assets/Props/set-of-stylized-cupboards
+  artifactKey: Guid(781916139f830024dabd440cf3696ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards using Guid(781916139f830024dabd440cf3696ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbe28f242218ad9132ba13de8d617af6') in 0.0010179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.341839 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures
+  artifactKey: Guid(1c9ef397c3a43c1439cef53cc4f35f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures using Guid(1c9ef397c3a43c1439cef53cc4f35f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '415ba352939e35b997ae22b2bca89206') in 0.0004379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.444607 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/source
+  artifactKey: Guid(82276eebbda50744098d1356e01fb960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/source using Guid(82276eebbda50744098d1356e01fb960) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1f380dd1b2cd06a12543ce1f81a95e3') in 0.0004426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.577748 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/source/Cupboards
+  artifactKey: Guid(a8a47d546f17d714fb37ab33de0bd50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/source/Cupboards using Guid(a8a47d546f17d714fb37ab33de0bd50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '510f300cda4cd36cd00886452f1811fe') in 0.0004322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.487823 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/source/Cupboards/model
+  artifactKey: Guid(43a0bda648840f349994bf8c390b78ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/source/Cupboards/model using Guid(43a0bda648840f349994bf8c390b78ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ccc330f2dacf70813a756689cb067ac') in 0.0004365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057967 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/model.dae
+  artifactKey: Guid(3021c9a0e9269084087b615acb845371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/model.dae using Guid(3021c9a0e9269084087b615acb845371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '240c978866679eed0c2cd1f003b385e6') in 0.0670877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.372531 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material__3.14.01_cupboard03.dds.001_albedo.jpeg
+  artifactKey: Guid(9af5474f4398b6e44b700197f8799e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material__3.14.01_cupboard03.dds.001_albedo.jpeg using Guid(9af5474f4398b6e44b700197f8799e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70cbce173a600c450409edb77d6ebaf8') in 0.0256632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material__3618.14.00_cupboard02.dds_metallic.jpeg
+  artifactKey: Guid(81b67cb4ca1b5e74d9f36b02a5fad194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material__3618.14.00_cupboard02.dds_metallic.jpeg using Guid(81b67cb4ca1b5e74d9f36b02a5fad194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f16c74291c7acbf80bfd236975b98b0a') in 0.0163754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material__3618.14.00_cupboard02.dds_AO.jpeg
+  artifactKey: Guid(ff10f378077ddc64db6e9b882ebd110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material__3618.14.00_cupboard02.dds_AO.jpeg using Guid(ff10f378077ddc64db6e9b882ebd110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c5745417166a19abd87248a06ae12b4') in 0.0235953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material__3618.30_cupboard00.dds_metallic.jpeg
+  artifactKey: Guid(25ccb8629f48d2a41a40849533ebd05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material__3618.30_cupboard00.dds_metallic.jpeg using Guid(25ccb8629f48d2a41a40849533ebd05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a7b93636aa794828e03149eb090533c') in 0.0136283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material__3.14.01_cupboard03.dds.001_normal.png
+  artifactKey: Guid(30f0036ac794f7445a1c7f5d04a2d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material__3.14.01_cupboard03.dds.001_normal.png using Guid(30f0036ac794f7445a1c7f5d04a2d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc581de5bdcffe9c886c54a5651f12fe') in 0.0236477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material__3.14.01_cupboard03.dds.001_roughness.jpeg
+  artifactKey: Guid(4a887f930eb6ff044a344d3ecbfb157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material__3.14.01_cupboard03.dds.001_roughness.jpeg using Guid(4a887f930eb6ff044a344d3ecbfb157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b744780ee7f5b0b2c989e1b44dc11638') in 0.0171745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material__3618.30_cupboard00.dds_albedo.jpeg
+  artifactKey: Guid(c43b375e12cf4704986e7f1723a605b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material__3618.30_cupboard00.dds_albedo.jpeg using Guid(c43b375e12cf4704986e7f1723a605b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24607f3963b0794e08876bedd59ef820') in 0.0263347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material__3618.14.00_cupboard02.dds_albedo.jpeg
+  artifactKey: Guid(fac045e653679f4458c1d891633b0311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material__3618.14.00_cupboard02.dds_albedo.jpeg using Guid(fac045e653679f4458c1d891633b0311) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '551ee6078936bb860b99169cb946813d') in 0.0204336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material__3.14.01_cupboard03.dds.001_metallic.jpeg
+  artifactKey: Guid(68b58dde637aeb04b91f11f1e6ceb500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material__3.14.01_cupboard03.dds.001_metallic.jpeg using Guid(68b58dde637aeb04b91f11f1e6ceb500) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3ad5cf55bc5f028b4c18342d2df9ea9') in 0.0080626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material__3618.30_cupboard00.dds_roughness.jpeg
+  artifactKey: Guid(f40b9301354d0c545909fa32faef9fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material__3618.30_cupboard00.dds_roughness.jpeg using Guid(f40b9301354d0c545909fa32faef9fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9db9611f778f9dcdae8bc122b2f30a0d') in 0.0159455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material_cupboard01.dds_metallic.jpeg
+  artifactKey: Guid(66c211d43fd7c014c97872f55f22deb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material_cupboard01.dds_metallic.jpeg using Guid(66c211d43fd7c014c97872f55f22deb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5cf81c3ad19b5ab46e2fbd1d901ac2b') in 0.0077231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.448747 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/New Material.mat
+  artifactKey: Guid(d75bc724a79b73a48a94e01b1eaa2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/New Material.mat using Guid(d75bc724a79b73a48a94e01b1eaa2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '102168cd496339e6664f94326cc88948') in 0.0243081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.302156 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Cupboard3_mat.mat
+  artifactKey: Guid(d75bc724a79b73a48a94e01b1eaa2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Cupboard3_mat.mat using Guid(d75bc724a79b73a48a94e01b1eaa2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3835e7d50a46722b36d474c640159342') in 0.0195041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.016000 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material__3.14.01_cupboard03.dds.001_normal.png
+  artifactKey: Guid(30f0036ac794f7445a1c7f5d04a2d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material__3.14.01_cupboard03.dds.001_normal.png using Guid(30f0036ac794f7445a1c7f5d04a2d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89668d04e287917a4ba06572251bed56') in 0.0238639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.945490 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Textures
+  artifactKey: Guid(b31955fb0e44374488c6dd1f2d89695e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Textures using Guid(b31955fb0e44374488c6dd1f2d89695e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32fe327f86298a4184005094f8dd482a') in 0.0006014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.229268 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Cupboard2_mat.mat
+  artifactKey: Guid(c3b407fee8794f54f9a75a0249272c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Cupboard2_mat.mat using Guid(c3b407fee8794f54f9a75a0249272c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '942b547c90f60ef192142c4c3d241dee') in 0.0204334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.033380 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material__3618.14.00_cupboard02.dds_normal.png
+  artifactKey: Guid(9555a391f620b0144a8c3ff79dc4769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material__3618.14.00_cupboard02.dds_normal.png using Guid(9555a391f620b0144a8c3ff79dc4769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a93e3bac773c3e7fbbf873513aac7e78') in 0.0194249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.329331 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Cupboard2_mat.mat
+  artifactKey: Guid(c3b407fee8794f54f9a75a0249272c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Cupboard2_mat.mat using Guid(c3b407fee8794f54f9a75a0249272c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15f1fa544c0663354016276acbb614e4') in 0.0341698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.557100 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material__3618.30_cupboard00.dds_normal.png
+  artifactKey: Guid(902fbba6d96736f408749f5b9207f41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material__3618.30_cupboard00.dds_normal.png using Guid(902fbba6d96736f408749f5b9207f41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50833c39917fa84b1ef8841a019d6a07') in 0.0179823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.135411 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Cupboard1_mat.mat
+  artifactKey: Guid(2e4918185d1c25f4dbea89fa16c8b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Cupboard1_mat.mat using Guid(2e4918185d1c25f4dbea89fa16c8b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3990d44739c45b060b95d823d6b89b4c') in 0.0265997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.563215 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Material_cupboard01.dds_normal.png
+  artifactKey: Guid(823e72dc01a66ea45bb1fd5dca05f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Material_cupboard01.dds_normal.png using Guid(823e72dc01a66ea45bb1fd5dca05f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3544319d15cf788fb2b3232748c442b') in 0.0229991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.486261 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Cupboard1_mat.mat
+  artifactKey: Guid(2e4918185d1c25f4dbea89fa16c8b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Cupboard1_mat.mat using Guid(2e4918185d1c25f4dbea89fa16c8b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '616a2d1547530c7081e69cdebd37e94f') in 0.0215964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.647275 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/model.dae
+  artifactKey: Guid(3021c9a0e9269084087b615acb845371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/model.dae using Guid(3021c9a0e9269084087b615acb845371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbf4c4eee387f11039740477981831cf') in 0.1223875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.411102 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks
+  artifactKey: Guid(9d06b00dafa806647ac1826566b1d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks using Guid(9d06b00dafa806647ac1826566b1d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a19c2a0a8be0e4f932e5be652ace0a7d') in 0.0008773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.142624 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/source
+  artifactKey: Guid(d652eab64d7e376459aba7b85a0bdd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/source using Guid(d652eab64d7e376459aba7b85a0bdd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '591c58260dce8928756a7ae11441d27e') in 0.0006306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.833489 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves
+  artifactKey: Guid(17cda0c257306be41a4d3aad4db59586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves using Guid(17cda0c257306be41a4d3aad4db59586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccd498466141d7cd1ffad1cf00e49b11') in 0.0004416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.504719 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model
+  artifactKey: Guid(f1881e7037bd7e846ab8298a6d239f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model using Guid(f1881e7037bd7e846ab8298a6d239f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '645b09e5bb69385e686b391d64bde676') in 0.0004091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049091 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/model.dae
+  artifactKey: Guid(ee611e7edd91c7f48b3a720cb095479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/model.dae using Guid(ee611e7edd91c7f48b3a720cb095479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5898da53ace5e59cacb93e1aafc96ec') in 0.1071881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.830179 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures
+  artifactKey: Guid(fc6b72ae1984e1d48a2174199c7d1215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures using Guid(fc6b72ae1984e1d48a2174199c7d1215) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59d7669022a6dd6dda98dd0280dfd932') in 0.000669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046563 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3.00_shelves01.dds_albedo.jpeg
+  artifactKey: Guid(b30b99769ccd15242acb2088ae6b40c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3.00_shelves01.dds_albedo.jpeg using Guid(b30b99769ccd15242acb2088ae6b40c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '560228998e7f8b1f8b395c8f403836c4') in 0.0213646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.00_shelf01.dds_normal.png
+  artifactKey: Guid(54534b94cb61a3e438ea62e1f8992a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.00_shelf01.dds_normal.png using Guid(54534b94cb61a3e438ea62e1f8992a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecceebae23e1ba3126651705ae8a1a89') in 0.0280322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.01_drawers01.dds_normal.png
+  artifactKey: Guid(2c05ec4f665d88e4e82bcb0373e8f0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.01_drawers01.dds_normal.png using Guid(2c05ec4f665d88e4e82bcb0373e8f0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f26a81872e50ac616d13c870cb61d7b9') in 0.019998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.01_drawers01.dds_metallic.jpeg
+  artifactKey: Guid(b0c0230e7d3f9bc47b94ad8ef44ea830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.01_drawers01.dds_metallic.jpeg using Guid(b0c0230e7d3f9bc47b94ad8ef44ea830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5b60a59b5efe2f26a760ad328befad1') in 0.0103455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23_drawers03.dds_roughness.jpeg
+  artifactKey: Guid(3e6f2356d9b0bf54fba34698f51019b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23_drawers03.dds_roughness.jpeg using Guid(3e6f2356d9b0bf54fba34698f51019b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cc788a29d4b55ec036dfb8f4386fe17') in 0.0236845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.00_shelf01.dds_metallic.jpeg
+  artifactKey: Guid(74f5348fcbe3f424d8715f125866be18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.00_shelf01.dds_metallic.jpeg using Guid(74f5348fcbe3f424d8715f125866be18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28dd99b65c640484e83a91f1ab4e26ea') in 0.0072233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.01_drawers01.dds_albedo.jpeg
+  artifactKey: Guid(fb3da55e7d5834c4aa2ca9f37703fd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.01_drawers01.dds_albedo.jpeg using Guid(fb3da55e7d5834c4aa2ca9f37703fd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5dbffb13cab5c66ac9a307669b8a418') in 0.0197688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.01_drawers01.dds_roughness.jpeg
+  artifactKey: Guid(7a465d69d0d356647b73c15da2971ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.01_drawers01.dds_roughness.jpeg using Guid(7a465d69d0d356647b73c15da2971ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccbd22b2101aef23ed92164fbc7d47f2') in 0.0196307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3_desk02.dds_AO.jpeg
+  artifactKey: Guid(e57904cb537d62a4b923dc2b1eefece0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3_desk02.dds_AO.jpeg using Guid(e57904cb537d62a4b923dc2b1eefece0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac3abebc3abaf58e8d55c01e51cbf34c') in 0.0202453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.00_drawers02.dds_metallic.jpeg
+  artifactKey: Guid(b33fdd108e6eb1f4195993e9ff936a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.00_drawers02.dds_metallic.jpeg using Guid(b33fdd108e6eb1f4195993e9ff936a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a50f60530366794ae48f99ca0d7bb7d') in 0.0115078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.00_shelf01.dds_roughness.jpeg
+  artifactKey: Guid(50b6641f37df518438a0319a24f65235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.00_shelf01.dds_roughness.jpeg using Guid(50b6641f37df518438a0319a24f65235) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0481c724eb5108c5c3424859c02aeb29') in 0.0197046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23_drawers03.dds_albedo.jpeg
+  artifactKey: Guid(d547b746097c93a44bd54acf2a00270b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23_drawers03.dds_albedo.jpeg using Guid(d547b746097c93a44bd54acf2a00270b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3276fa824e01c810f165a4c04e993b1') in 0.017789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3_desk02.dds_roughness.jpeg
+  artifactKey: Guid(6d7f79ee69676e64a87a8c17ba30ecca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3_desk02.dds_roughness.jpeg using Guid(6d7f79ee69676e64a87a8c17ba30ecca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a39529d8cd4f69f6d0492cacf84333f1') in 0.0173641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23_drawers03.dds_normal.png
+  artifactKey: Guid(617220b16f92fae48941983d9427f30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23_drawers03.dds_normal.png using Guid(617220b16f92fae48941983d9427f30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '761637969f6956755976d2c095d0997b') in 0.0191695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.00_drawers02.dds_normal.png
+  artifactKey: Guid(c62b4b7a537b2fb419271ea440e7c45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.00_drawers02.dds_normal.png using Guid(c62b4b7a537b2fb419271ea440e7c45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b67e857fd1052a58fb31bcdc24db6291') in 0.017632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23_drawers03.dds_metallic.jpeg
+  artifactKey: Guid(3f1fc4a34f58838419052cfe979606a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23_drawers03.dds_metallic.jpeg using Guid(3f1fc4a34f58838419052cfe979606a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43a0813430ecabf197ad401c53126e3c') in 0.0078714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.307320 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material_desk02.dds.001_AO.jpeg
+  artifactKey: Guid(a63316be1849dc84a947cd7514b0a7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material_desk02.dds.001_AO.jpeg using Guid(a63316be1849dc84a947cd7514b0a7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fef155501ad19211318402a53cefecb4') in 0.028707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material_desk02.dds.001_normal.png
+  artifactKey: Guid(5dda7f6ce2fa0de49a00e1124bef3952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material_desk02.dds.001_normal.png using Guid(5dda7f6ce2fa0de49a00e1124bef3952) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e599bd63ae82557c6c990792abd8848') in 0.0202037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.745413 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Shelves1_mat.mat
+  artifactKey: Guid(c7bdd745aafb0f248a64cfeecd7667f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Shelves1_mat.mat using Guid(c7bdd745aafb0f248a64cfeecd7667f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0aeba77918616aa57c279f747558a2b1') in 0.0201973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.105765 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3.00_shelves01.dds_normal.png
+  artifactKey: Guid(f6e667ee0b0842f46b41722ada066121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3.00_shelves01.dds_normal.png using Guid(f6e667ee0b0842f46b41722ada066121) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '781461d1adde73c6730213b0f841bea5') in 0.025902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.755233 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures
+  artifactKey: Guid(387f4dfd808db3448ad71ee5d8c4f058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures using Guid(387f4dfd808db3448ad71ee5d8c4f058) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deadda699083f35b5bdd17ff13bd73bb') in 0.000532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.110841 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Desk2_mat.mat
+  artifactKey: Guid(002783024e8f4924d9266b3df5dab91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Desk2_mat.mat using Guid(002783024e8f4924d9266b3df5dab91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '497d35f3b7bc90180b08aef17d2f64ce') in 0.026165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.241412 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3_desk02.dds_normal.png
+  artifactKey: Guid(00f2313b9d9c02b44bbc4f11aa305535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3_desk02.dds_normal.png using Guid(00f2313b9d9c02b44bbc4f11aa305535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbdcc09c5fcf4007ac05891968abf7f3') in 0.0166352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.801221 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Shelves1_mat.mat
+  artifactKey: Guid(c7bdd745aafb0f248a64cfeecd7667f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Shelves1_mat.mat using Guid(c7bdd745aafb0f248a64cfeecd7667f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf9db4e7e207b389eeaa71a099ec757a') in 0.0328834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.117131 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Shelf1_mat.mat
+  artifactKey: Guid(4ce037f888216464ba939bef72eaa599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Shelf1_mat.mat using Guid(4ce037f888216464ba939bef72eaa599) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92ec358db936e80b6d51eb0fd3145684') in 0.0198031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.268334 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Desk2_mat.mat
+  artifactKey: Guid(002783024e8f4924d9266b3df5dab91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Desk2_mat.mat using Guid(002783024e8f4924d9266b3df5dab91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0f2e91a8d74a48304f46ca79b270bb1') in 0.0286643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.640270 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.00_shelf01.dds_normal.png
+  artifactKey: Guid(54534b94cb61a3e438ea62e1f8992a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.00_shelf01.dds_normal.png using Guid(54534b94cb61a3e438ea62e1f8992a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24cfaf6578c9b722ab60f0783c3723cb') in 0.0195786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.152363 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Drawers2_mat.mat
+  artifactKey: Guid(50f2abdc6e7f54b4186a6834deb5da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Drawers2_mat.mat using Guid(50f2abdc6e7f54b4186a6834deb5da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a75e2ff96e721f01fb2bd7bc15782e4') in 0.027006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.440099 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.00_drawers02.dds_normal.png
+  artifactKey: Guid(c62b4b7a537b2fb419271ea440e7c45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.00_drawers02.dds_normal.png using Guid(c62b4b7a537b2fb419271ea440e7c45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a91b95b845c349cb9fb33c7eebeb647e') in 0.0214011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.867207 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Drawers1_mat.mat
+  artifactKey: Guid(a7b48f89df675b74a9750340adb8fc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Drawers1_mat.mat using Guid(a7b48f89df675b74a9750340adb8fc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3ee61b3fad1f3c0211f32eacd2009cc') in 0.0263507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.620916 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.01_drawers01.dds_normal.png
+  artifactKey: Guid(2c05ec4f665d88e4e82bcb0373e8f0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23.01_drawers01.dds_normal.png using Guid(2c05ec4f665d88e4e82bcb0373e8f0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbfefe7d57993ea9b0d6ad572bf8ac4c') in 0.0186386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.542802 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Drawers1_mat.mat
+  artifactKey: Guid(a7b48f89df675b74a9750340adb8fc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Drawers1_mat.mat using Guid(a7b48f89df675b74a9750340adb8fc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '156862cbe7a99c631d269916530a6d83') in 0.0392604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.557859 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23_drawers03.dds_normal.png
+  artifactKey: Guid(617220b16f92fae48941983d9427f30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material__3618.23_drawers03.dds_normal.png using Guid(617220b16f92fae48941983d9427f30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '964b5d53989705dfd37383c21e1eff3a') in 0.0172036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.710494 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Des2_mat.mat
+  artifactKey: Guid(9d01ab4611f7329489927c01c3b52863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Des2_mat.mat using Guid(9d01ab4611f7329489927c01c3b52863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98ea8630b06e5b0385d3d3bfc4bfd98a') in 0.0192796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.203273 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Desk1_mat.mat
+  artifactKey: Guid(9d01ab4611f7329489927c01c3b52863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Desk1_mat.mat using Guid(9d01ab4611f7329489927c01c3b52863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c8da9636ea174f7557f90b894c12a18') in 0.0191192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.727113 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Material_desk02.dds.001_normal.png
+  artifactKey: Guid(5dda7f6ce2fa0de49a00e1124bef3952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Material_desk02.dds.001_normal.png using Guid(5dda7f6ce2fa0de49a00e1124bef3952) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa818a0da613a24b8869aa2ddc3a4146') in 0.0181673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.591797 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Desk1_mat.mat
+  artifactKey: Guid(9d01ab4611f7329489927c01c3b52863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Desk1_mat.mat using Guid(9d01ab4611f7329489927c01c3b52863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d646d76d9a22fb19a11484048664f6d') in 0.0383069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.168408 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/model.dae
+  artifactKey: Guid(ee611e7edd91c7f48b3a720cb095479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/model.dae using Guid(ee611e7edd91c7f48b3a720cb095479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67f623b96a78b0a0f88073f4c58d79ab') in 0.0938709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.319817 seconds.
+  path: Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx
+  artifactKey: Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/modular-fantasy-assets/source/MP_FantasyAssets.fbx using Guid(d2b1019630786a741863a9f27749a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23ff3e0c2d1bd62d9266e448f322febb') in 0.2322263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 84
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.858587 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_01_Diffuse.tga
+  artifactKey: Guid(580463794dc1de446a571eb88be93bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_01_Diffuse.tga using Guid(580463794dc1de446a571eb88be93bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f759a2c22fcc06fa765d616008d46de2') in 0.0375188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 330.038502 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Shelve.001.prefab
+  artifactKey: Guid(cf4bc409920c78f448a95fe814724fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Shelve.001.prefab using Guid(cf4bc409920c78f448a95fe814724fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c50ccd4d31db1375e384d17f99d2460') in 0.2029703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.001 1.prefab
+  artifactKey: Guid(634f36a4d478a1a49b872c76d6737c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.001 1.prefab using Guid(634f36a4d478a1a49b872c76d6737c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bf9302f4f9e9fa207810e7e179810e5') in 0.0611583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Table 1.prefab
+  artifactKey: Guid(0e960e29558cafc46a13f888ad211f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Table 1.prefab using Guid(0e960e29558cafc46a13f888ad211f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35fb8109fac0ed1972d01bc07b1522ca') in 0.3482252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 597
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Wagon.003.prefab
+  artifactKey: Guid(2af38c48c074460478a0bc224a963e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Wagon.003.prefab using Guid(2af38c48c074460478a0bc224a963e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58d9e94573332b6184eb23a21a4a4ecd') in 0.2845701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 391
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
