@@ -15,7 +15,7 @@ C:/Users/kprof/ReverseRolesGame
 -logFile
 Logs/AssetImportWorker10.log
 -srvPort
-51243
+63521
 -job-worker-count
 15
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/kprof/ReverseRolesGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25232]  Target information:
+Player connection [25664]  Target information:
 
-Player connection [25232]  * "[IP] 10.250.52.94 [Port] 0 [Flags] 2 [Guid] 3271902326 [EditorId] 3271902326 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [25664]  * "[IP] 10.250.46.81 [Port] 0 [Flags] 2 [Guid] 3650163682 [EditorId] 3650163682 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25232] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [25232] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25664] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25664] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -91,46 +91,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007412 seconds.
-- Loaded All Assemblies, in  1.007 seconds
+Registered in 0.002272 seconds.
+- Loaded All Assemblies, in  0.301 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.759 seconds
-Domain Reload Profiling: 1761ms
-	BeginReloadAssembly (431ms)
+- Finished resetting the current domain, in  0.356 seconds
+Domain Reload Profiling: 655ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (95ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (101ms)
-	LoadAllAssembliesAndSetupDomain (352ms)
-		LoadAssemblies (421ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (102ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (345ms)
-			TypeCache.Refresh (342ms)
-				TypeCache.ScanAssembly (314ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (106ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (759ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (356ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (680ms)
+		SetupLoadedEditorAssemblies (313ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (14ms)
-			ProcessInitializeOnLoadAttributes (482ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -138,81 +138,93 @@ Domain Reload Profiling: 1761ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.431 seconds
-Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.758 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.374 seconds
-Domain Reload Profiling: 2801ms
-	BeginReloadAssembly (552ms)
+- Finished resetting the current domain, in  0.775 seconds
+Domain Reload Profiling: 1531ms
+	BeginReloadAssembly (302ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (745ms)
-		LoadAssemblies (561ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (260ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (335ms)
-			TypeCache.Refresh (231ms)
-				TypeCache.ScanAssembly (212ms)
-			BuildScriptInfoCaches (88ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1375ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (124ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (776ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1016ms)
+		SetupLoadedEditorAssemblies (574ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (125ms)
-			ProcessInitializeOnLoadAttributes (746ms)
-			ProcessInitializeOnLoadMethodAttributes (126ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 5917 unused Assets / (4.3 MB). Loaded Objects now: 6689.
-Memory consumption went from 204.3 MB to 200.0 MB.
-Total: 20.368200 ms (FindLiveObjects: 1.544500 ms CreateObjectMapping: 0.680500 ms MarkObjects: 13.564400 ms  DeleteObjects: 4.571800 ms)
+Memory consumption went from 198.5 MB to 194.3 MB.
+Total: 12.776600 ms (FindLiveObjects: 0.708800 ms CreateObjectMapping: 0.584000 ms MarkObjects: 8.435600 ms  DeleteObjects: 3.043500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1540.728424 seconds.
-  path: Assets/JC_StylizedNature_Lite/Prefabs/SM_Tree_01.prefab
-  artifactKey: Guid(80134143588e09c4892e00879262fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JC_StylizedNature_Lite/Prefabs/SM_Tree_01.prefab using Guid(80134143588e09c4892e00879262fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68437fc1e286944be18ed10650f5e62e') in 1.0735088 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+  Time since last request: 227584.788780 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material.00.00_bed05.dds_normal.png
+  artifactKey: Guid(e33e90854cde698439fa9eb921973171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material.00.00_bed05.dds_normal.png using Guid(e33e90854cde698439fa9eb921973171) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b21fc37d0936f391bb5d1b9977ff5573') in 0.1331853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.737000 seconds.
-  path: Assets/JC_StylizedNature_Lite/Prefabs/SM_Tree_01.prefab
-  artifactKey: Guid(80134143588e09c4892e00879262fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JC_StylizedNature_Lite/Prefabs/SM_Tree_01.prefab using Guid(80134143588e09c4892e00879262fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97376c8f6804af6ac8b49a916c3b260c') in 8.7439854 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+  Time since last request: 0.000016 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material.00_Bed01.dds_normal.png
+  artifactKey: Guid(2d797145e37de4145a19d1c1fd1614d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material.00_Bed01.dds_normal.png using Guid(2d797145e37de4145a19d1c1fd1614d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53ae596f62e72b4f69e9fe6f70fa06a9') in 0.0264489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.845974 seconds.
-  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Wall.prefab
-  artifactKey: Guid(3ad7a1cffb2556547a8b7e60fd320431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Wall.prefab using Guid(3ad7a1cffb2556547a8b7e60fd320431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e43c6d470e023682174fe5d1415cf78') in 0.0579095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000022 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material__3.00_Bed03.dds_metallic.jpeg
+  artifactKey: Guid(4ba7050a3ab242b45bb3cc04be1a5612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.00_Bed03.dds_metallic.jpeg using Guid(4ba7050a3ab242b45bb3cc04be1a5612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e935eb085e562fd95dfedd837a03b30') in 0.0238054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.352205 seconds.
-  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Wall.prefab
-  artifactKey: Guid(3ad7a1cffb2556547a8b7e60fd320431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Wall.prefab using Guid(3ad7a1cffb2556547a8b7e60fd320431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e39b07316673d1f664071a09213215c6') in 0.0604451 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000013 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material__3.02_chest02.dds_metallic.jpeg
+  artifactKey: Guid(fbfe38d4073055444b57ebb1c8fb214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.02_chest02.dds_metallic.jpeg using Guid(fbfe38d4073055444b57ebb1c8fb214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec3b18016f5a82e7f72256134cfca226') in 0.0098482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 7.927984 seconds.
+  path: Assets/Forest Pack/Materials/Color003.mat
+  artifactKey: Guid(ec0021d0215bbc443a76d57768ace091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Pack/Materials/Color003.mat using Guid(ec0021d0215bbc443a76d57768ace091) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e7666139eae73f3e64a00428fa90291') in 0.3274563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

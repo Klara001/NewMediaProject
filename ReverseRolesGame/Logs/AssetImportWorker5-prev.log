@@ -15,7 +15,7 @@ C:/Users/kprof/ReverseRolesGame
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-51243
+63521
 -job-worker-count
 15
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/kprof/ReverseRolesGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22628]  Target information:
+Player connection [6416]  Target information:
 
-Player connection [22628]  * "[IP] 10.250.52.94 [Port] 0 [Flags] 2 [Guid] 3219934317 [EditorId] 3219934317 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6416]  * "[IP] 10.250.46.81 [Port] 0 [Flags] 2 [Guid] 2493494204 [EditorId] 2493494204 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [22628] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [22628] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6416] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6416] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -91,46 +91,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004799 seconds.
-- Loaded All Assemblies, in  0.492 seconds
+Registered in 0.003664 seconds.
+- Loaded All Assemblies, in  0.259 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.626 seconds
-Domain Reload Profiling: 1115ms
-	BeginReloadAssembly (181ms)
+- Finished resetting the current domain, in  0.293 seconds
+Domain Reload Profiling: 551ms
+	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (188ms)
-		LoadAssemblies (177ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (86ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (183ms)
-				TypeCache.ScanAssembly (168ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (89ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (626ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (293ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (568ms)
+		SetupLoadedEditorAssemblies (262ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (16ms)
-			ProcessInitializeOnLoadAttributes (404ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -138,51 +138,251 @@ Domain Reload Profiling: 1115ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.435 seconds
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.677 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.326 seconds
-Domain Reload Profiling: 2757ms
-	BeginReloadAssembly (583ms)
+- Finished resetting the current domain, in  0.653 seconds
+Domain Reload Profiling: 1328ms
+	BeginReloadAssembly (267ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (750ms)
-		LoadAssemblies (491ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (240ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (386ms)
-			TypeCache.Refresh (266ms)
-				TypeCache.ScanAssembly (239ms)
-			BuildScriptInfoCaches (102ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1327ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (108ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (654ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (988ms)
+		SetupLoadedEditorAssemblies (477ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (741ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (359ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5917 unused Assets / (3.1 MB). Loaded Objects now: 6685.
-Memory consumption went from 204.4 MB to 201.3 MB.
-Total: 17.329100 ms (FindLiveObjects: 0.934600 ms CreateObjectMapping: 0.603200 ms MarkObjects: 12.138200 ms  DeleteObjects: 3.646200 ms)
+Unloading 5917 unused Assets / (4.4 MB). Loaded Objects now: 6689.
+Memory consumption went from 206.2 MB to 201.8 MB.
+Total: 12.494400 ms (FindLiveObjects: 0.658800 ms CreateObjectMapping: 0.584000 ms MarkObjects: 8.429500 ms  DeleteObjects: 2.817800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 226254.873469 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Wall.prefab
+  artifactKey: Guid(3ad7a1cffb2556547a8b7e60fd320431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Wall.prefab using Guid(3ad7a1cffb2556547a8b7e60fd320431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd682fcbce63b0f56399db853a2bfd9eb') in 0.3528323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1322.550496 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00.00_bed05.dds_AO.jpg
+  artifactKey: Guid(d5d6486f83b410e4b8ab5215652be9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00.00_bed05.dds_AO.jpg using Guid(d5d6486f83b410e4b8ab5215652be9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1a6497e3e4d8658cf387debe0af7dcb') in 0.0302584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.00_Bed03.dds_albedo.jpg
+  artifactKey: Guid(05e255ea033c5304e8f9ae7863b58cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.00_Bed03.dds_albedo.jpg using Guid(05e255ea033c5304e8f9ae7863b58cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78ef009d46ade9e4be37309a37db44ac') in 0.017759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material_Bed02.dds_roughness.jpg
+  artifactKey: Guid(293b9d9f795c1ca4e816c195917090a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material_Bed02.dds_roughness.jpg using Guid(293b9d9f795c1ca4e816c195917090a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90388390301f61c06f73b4fd9a713b24') in 0.0199569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.00_Bed03.dds_roughness.jpg
+  artifactKey: Guid(efcfd5c7a7d48dc4f83d57a83765939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.00_Bed03.dds_roughness.jpg using Guid(efcfd5c7a7d48dc4f83d57a83765939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70b53c7abcdc2a92a9aa6ef102cc6041') in 0.0195634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material_Bed02.dds_AO.jpg
+  artifactKey: Guid(f00f11384de69354e87317e7142d6298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material_Bed02.dds_AO.jpg using Guid(f00f11384de69354e87317e7142d6298) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '439b6e02a2a5a0542e0b39b6d30459d3') in 0.0194588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00.00_bed05.dds_metallic.jpg
+  artifactKey: Guid(f5f871f75a336fa4f8edd71b193b052b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00.00_bed05.dds_metallic.jpg using Guid(f5f871f75a336fa4f8edd71b193b052b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66ff7e430a1fa90cc9f3bef3b202e2fe') in 0.0073235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3_Bed04.dds_albedo.jpg
+  artifactKey: Guid(818062fa087e0fe4d80622359717f7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3_Bed04.dds_albedo.jpg using Guid(818062fa087e0fe4d80622359717f7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cee7a0b9fc4cc051cc4e0ea5448b5d3e') in 0.0228061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3_Bed04.dds_AO.jpg
+  artifactKey: Guid(66ebec74b1123ef4da10bd75b06a35c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3_Bed04.dds_AO.jpg using Guid(66ebec74b1123ef4da10bd75b06a35c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f98581b3140a12fe060d79c7607a8a66') in 0.0207381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.01_chest01.dds_AO.jpg
+  artifactKey: Guid(bcfd8377101d3a549bcf55e3fb6fac60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.01_chest01.dds_AO.jpg using Guid(bcfd8377101d3a549bcf55e3fb6fac60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fc9d9c59a16deecbc20a02be33cb47b') in 0.0178179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.01_chest01.dds_normal.png
+  artifactKey: Guid(9981ff165ba080e42bebf793b9d3f627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.01_chest01.dds_normal.png using Guid(9981ff165ba080e42bebf793b9d3f627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62a8eb7729b9ba876bdb0736b3e1a3f4') in 0.0196288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.01_chest01.dds_metallic.jpg
+  artifactKey: Guid(0fb4d9cc861027b44aee3c9c2eecc4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.01_chest01.dds_metallic.jpg using Guid(0fb4d9cc861027b44aee3c9c2eecc4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44041f5f0661b94a1ad67d03ed19c6b5') in 0.0062418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material_Bed02.dds_albedo.jpg
+  artifactKey: Guid(6abe84da6a20c27479633d5fdfe53a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material_Bed02.dds_albedo.jpg using Guid(6abe84da6a20c27479633d5fdfe53a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ffe070225c1689b43ea93c8918618de') in 0.0166068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3_Bed04.dds_normal.png
+  artifactKey: Guid(af5ccf85c6ff6ad46afc53ca9b5670c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3_Bed04.dds_normal.png using Guid(af5ccf85c6ff6ad46afc53ca9b5670c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3316f0622e087330086d52a60eeb718e') in 0.016163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.02_chest02.dds_roughness.jpg
+  artifactKey: Guid(00d4d7e1871c42d4ebc897d3c936dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.02_chest02.dds_roughness.jpg using Guid(00d4d7e1871c42d4ebc897d3c936dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb395ec64b7ec730906fffe8836b9421') in 0.0158609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.00_Bed03.dds_AO.jpg
+  artifactKey: Guid(3cba7ca5004fffb4ea5b97668fc8e82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.00_Bed03.dds_AO.jpg using Guid(3cba7ca5004fffb4ea5b97668fc8e82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '438d54dd841363a3d0a2f6487d98b3c9') in 0.0171931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.01_chest01.dds_roughness.jpg
+  artifactKey: Guid(d99d79ae5746f6e4d8eaa3ec61f0c77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.01_chest01.dds_roughness.jpg using Guid(d99d79ae5746f6e4d8eaa3ec61f0c77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd767c59aeab14c7e8631e73422b36396') in 0.017303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00_Bed01.dds_metallic.jpg
+  artifactKey: Guid(006194fad4af9634982adfe791ba5795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00_Bed01.dds_metallic.jpg using Guid(006194fad4af9634982adfe791ba5795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aac500aaaacc2a7b99cb9c6c909bbb7d') in 0.0078084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.00_Bed03.dds_metallic.jpg
+  artifactKey: Guid(cae1e1d958bcdee47923f1fe52f8c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.00_Bed03.dds_metallic.jpg using Guid(cae1e1d958bcdee47923f1fe52f8c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c1b1c188faed7ce7c9dd21568416c9d') in 0.0077631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.309582 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material.00_Bed01.dds_albedo.jpeg
+  artifactKey: Guid(aed9bfe1369662743a6ccc234c0dc334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material.00_Bed01.dds_albedo.jpeg using Guid(aed9bfe1369662743a6ccc234c0dc334) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65fdfc5ed7d690302ad904143958592a') in 0.034117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material__3.01_chest01.dds_roughness.jpeg
+  artifactKey: Guid(403fafc70308c194285e7e5d9b9172e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.01_chest01.dds_roughness.jpeg using Guid(403fafc70308c194285e7e5d9b9172e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5b773c5d41e49639e602c546e032aa3') in 0.0267082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material__3.00_Bed03.dds_albedo.jpeg
+  artifactKey: Guid(848754bed8631c04f92b7cdb976c4abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.00_Bed03.dds_albedo.jpeg using Guid(848754bed8631c04f92b7cdb976c4abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f729cc73d108328e8cfbe0f1d05d318') in 0.0209665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material__3_Bed04.dds_normal.png
+  artifactKey: Guid(5b5c13f1bdb70564297b6d7f913c1848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material__3_Bed04.dds_normal.png using Guid(5b5c13f1bdb70564297b6d7f913c1848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c224f4eff9dd56bce0387cc1b828d5fc') in 0.0193491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material__3.01_chest01.dds_albedo.jpeg
+  artifactKey: Guid(8af0d5965fc5fd246abdc1e4295ae331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.01_chest01.dds_albedo.jpeg using Guid(8af0d5965fc5fd246abdc1e4295ae331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccc428391d3e282eebe0a5811f44c5db') in 0.0180645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material__3.01_chest01.dds_metallic.jpeg
+  artifactKey: Guid(9e17e1ea7afc1cb4ba94842cd3f62d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.01_chest01.dds_metallic.jpeg using Guid(9e17e1ea7afc1cb4ba94842cd3f62d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1668bd8dee653335fe63a68f7808413d') in 0.0182183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

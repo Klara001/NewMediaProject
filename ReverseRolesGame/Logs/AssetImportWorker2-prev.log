@@ -15,7 +15,7 @@ C:/Users/kprof/ReverseRolesGame
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51243
+63521
 -job-worker-count
 15
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/kprof/ReverseRolesGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7044]  Target information:
+Player connection [5384]  Target information:
 
-Player connection [7044]  * "[IP] 10.250.52.94 [Port] 0 [Flags] 2 [Guid] 1434040816 [EditorId] 1434040816 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5384]  * "[IP] 10.250.46.81 [Port] 0 [Flags] 2 [Guid] 1876464808 [EditorId] 1876464808 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7044] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7044] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5384] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5384] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -91,46 +91,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006392 seconds.
-- Loaded All Assemblies, in  0.936 seconds
+Registered in 0.004017 seconds.
+- Loaded All Assemblies, in  0.262 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.858 seconds
-Domain Reload Profiling: 1791ms
-	BeginReloadAssembly (323ms)
+- Finished resetting the current domain, in  0.298 seconds
+Domain Reload Profiling: 559ms
+	BeginReloadAssembly (89ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (87ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (115ms)
-	LoadAllAssembliesAndSetupDomain (376ms)
-		LoadAssemblies (318ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (87ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (370ms)
-			TypeCache.Refresh (366ms)
-				TypeCache.ScanAssembly (336ms)
-			BuildScriptInfoCaches (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (859ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (90ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (299ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (741ms)
+		SetupLoadedEditorAssemblies (268ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (57ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (16ms)
-			ProcessInitializeOnLoadAttributes (501ms)
-			ProcessInitializeOnLoadMethodAttributes (150ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -138,569 +138,61 @@ Domain Reload Profiling: 1791ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.304 seconds
-Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.673 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.037 seconds
-Domain Reload Profiling: 4333ms
-	BeginReloadAssembly (918ms)
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling: 1320ms
+	BeginReloadAssembly (265ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (82ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (97ms)
-	LoadAllAssembliesAndSetupDomain (1171ms)
-		LoadAssemblies (784ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (239ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (613ms)
-			TypeCache.Refresh (424ms)
-				TypeCache.ScanAssembly (390ms)
-			BuildScriptInfoCaches (156ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (2038ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (108ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (650ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1471ms)
+		SetupLoadedEditorAssemblies (474ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (141ms)
-			ProcessInitializeOnLoadAttributes (1122ms)
-			ProcessInitializeOnLoadMethodAttributes (177ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5917 unused Assets / (3.8 MB). Loaded Objects now: 6685.
-Memory consumption went from 186.9 MB to 183.1 MB.
-Total: 10.176900 ms (FindLiveObjects: 0.673500 ms CreateObjectMapping: 0.390900 ms MarkObjects: 6.548400 ms  DeleteObjects: 2.560400 ms)
+Unloading 5917 unused Assets / (4.1 MB). Loaded Objects now: 6689.
+Memory consumption went from 207.9 MB to 203.8 MB.
+Total: 11.874200 ms (FindLiveObjects: 0.646600 ms CreateObjectMapping: 0.550900 ms MarkObjects: 8.091900 ms  DeleteObjects: 2.580900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1226.853002 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Materials
-  artifactKey: Guid(23dd8f7c55dedc9428557d7ab46cf80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bitgem/StylisedWater/URP/Materials using Guid(23dd8f7c55dedc9428557d7ab46cf80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '735b5e536a367d8ac036d3276c028da0') in 0.0085214 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026258 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Materials/example-water-01.mat
-  artifactKey: Guid(16ca5feb16ef2d744852096378401523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bitgem/StylisedWater/URP/Materials/example-water-01.mat using Guid(16ca5feb16ef2d744852096378401523) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bf9f25d2e394fd8c03c23cc1b82e937') in 5.8057814 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.202993 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Examples
-  artifactKey: Guid(13167f24b33d93a41a4efdd8d05273c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bitgem/StylisedWater/URP/Examples using Guid(13167f24b33d93a41a4efdd8d05273c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e1315c19e0fe42bcf9b60eaaa372d6d') in 0.0017237 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040694 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Examples/StylisedWaterProfile.asset
-  artifactKey: Guid(05d75389c271387408f4f25b616b2aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bitgem/StylisedWater/URP/Examples/StylisedWaterProfile.asset using Guid(05d75389c271387408f4f25b616b2aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd195f79f5594341b564da99fa0602589') in 0.0025643 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.541433 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Shaders
-  artifactKey: Guid(df0e1b2af442e2c47b1dadeab164b9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bitgem/StylisedWater/URP/Shaders using Guid(df0e1b2af442e2c47b1dadeab164b9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59c8c172f25e4ed3056f23cf4ac91e5d') in 0.0011417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.342742 seconds.
-  path: Assets/Daniel Mistage
-  artifactKey: Guid(2fab0cdfb30f28043b5e182262c9c135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage using Guid(2fab0cdfb30f28043b5e182262c9c135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1576fe01f35f181b3ecd4efa20da4d4c') in 0.0005783 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.647447 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory
-  artifactKey: Guid(9f97a846ff776a6418df7ce4e2acb7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory using Guid(9f97a846ff776a6418df7ce4e2acb7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f47fb3576c291f55edf5b8124e47a1a') in 0.0008327 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.066732 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs
-  artifactKey: Guid(d79b2e220900e0f4a9f6d53c61cd131c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs using Guid(d79b2e220900e0f4a9f6d53c61cd131c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a04785f6e8c963f61bbf9ff099a16723') in 0.0009344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.490597 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations
-  artifactKey: Guid(0a7d64dc7bbdd894193127828a8744cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations using Guid(0a7d64dc7bbdd894193127828a8744cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '416b8fa9088da41ec2bf6a60fc1328f3') in 0.0007505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057649 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Shelve.001.prefab
-  artifactKey: Guid(cf4bc409920c78f448a95fe814724fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Shelve.001.prefab using Guid(cf4bc409920c78f448a95fe814724fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a34d0b23cefe7925b52ddb2cb9fc9aa7') in 0.2732771 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.001 1.prefab
-  artifactKey: Guid(634f36a4d478a1a49b872c76d6737c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.001 1.prefab using Guid(634f36a4d478a1a49b872c76d6737c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c9499cb242fb5edbc978c24d10ef050') in 0.0484248 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.003.prefab
-  artifactKey: Guid(eb5f3e0f7a547ae45a42b304e85ed023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.003.prefab using Guid(eb5f3e0f7a547ae45a42b304e85ed023) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71a5c8c8a0e90b31f5d060532141f617') in 0.048231 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.002.prefab
-  artifactKey: Guid(d42cb37554ccc214885b52b3e01dbafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.002.prefab using Guid(d42cb37554ccc214885b52b3e01dbafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8833f7e64037dbbd0ccea08a6b602f1') in 0.0464843 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.191713 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props
-  artifactKey: Guid(487f33fd51f3bcd4390aa64a9805146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props using Guid(487f33fd51f3bcd4390aa64a9805146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca344b2a4fff899b67203085b85d64d5') in 0.001386 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.867808 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Leona - Props
-  artifactKey: Guid(8a02be920dada0046a538478e6efcab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Leona - Props using Guid(8a02be920dada0046a538478e6efcab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ba23c8696a91c26248086546f0f2d84') in 0.001025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 118.163985 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/GLOW BLUE.mat
-  artifactKey: Guid(40dfe4f29afe7dc4aa67d806dd271f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/GLOW BLUE.mat using Guid(40dfe4f29afe7dc4aa67d806dd271f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '459e69f7d954ac96ca5ae43b18c3e98b') in 0.0456373 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/PLANTS MATERIAL.mat
-  artifactKey: Guid(9254088aeea503c4a899388dc5733a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/PLANTS MATERIAL.mat using Guid(9254088aeea503c4a899388dc5733a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d84e9fb073fee5388a11130bc76c80a') in 0.1317873 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/GLOW MATERIAL.mat
-  artifactKey: Guid(59f94e4c83c99b64f89d20255c95936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/GLOW MATERIAL.mat using Guid(59f94e4c83c99b64f89d20255c95936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80110ec2490d9c8947de585514a1fc57') in 0.0165811 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/PLANE MATERIAL.mat
-  artifactKey: Guid(d3878f220d800344497382609e25c5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/PLANE MATERIAL.mat using Guid(d3878f220d800344497382609e25c5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a96c4d97dd91b093f2ae22d23ff5a2c') in 0.0160801 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.663885 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/GLOW MATERIAL.mat
-  artifactKey: Guid(59f94e4c83c99b64f89d20255c95936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/GLOW MATERIAL.mat using Guid(59f94e4c83c99b64f89d20255c95936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c986f19bb2f1e703732d0cb40aa7bf64') in 4.4006125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.042369 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Shelve.001.prefab
-  artifactKey: Guid(cf4bc409920c78f448a95fe814724fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Shelve.001.prefab using Guid(cf4bc409920c78f448a95fe814724fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff148c09ae78d5d8e1b2cd542fb98c81') in 4.9583054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.003.prefab
-  artifactKey: Guid(eb5f3e0f7a547ae45a42b304e85ed023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.003.prefab using Guid(eb5f3e0f7a547ae45a42b304e85ed023) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd9f2bd54a82e6acde60f9a7b7f302cc') in 0.0706405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.001.prefab
-  artifactKey: Guid(8ba564e377e2c614490759b11f4c6c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.001.prefab using Guid(8ba564e377e2c614490759b11f4c6c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68fbe6c7bba805fa119ba1703292727f') in 0.0577081 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 75
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.002.prefab
-  artifactKey: Guid(d42cb37554ccc214885b52b3e01dbafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.002.prefab using Guid(d42cb37554ccc214885b52b3e01dbafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2761e757241875a9a350ad3c67049762') in 0.0560197 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Wagon.003.prefab
-  artifactKey: Guid(2af38c48c074460478a0bc224a963e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Wagon.003.prefab using Guid(2af38c48c074460478a0bc224a963e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f6e110af326903fbd76fd3a106183d0') in 0.0788049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 391
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.371689 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Leona - Props/Demon Tail
-  artifactKey: Guid(86631dd8df0dc5c489472f646fcb0f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Leona - Props/Demon Tail using Guid(86631dd8df0dc5c489472f646fcb0f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91ef2faccd2c852d94fe3b1111255544') in 0.0018446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016878 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Leona - Props/Demon Tail/Demon_Tail.prefab
-  artifactKey: Guid(2a624d6aec8d5e0458787ee26c643950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Leona - Props/Demon Tail/Demon_Tail.prefab using Guid(2a624d6aec8d5e0458787ee26c643950) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a984182f598f0777fec1002a9aca25d') in 0.1367801 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.603744 seconds.
-  path: Assets/Forest Pack
-  artifactKey: Guid(f790a98aff9f29a489edafe6e8058fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack using Guid(f790a98aff9f29a489edafe6e8058fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b236089c7d850ab0f8f713fa5d01a91') in 0.0022168 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.293139 seconds.
-  path: Assets/Forest Pack/Models
-  artifactKey: Guid(dd2def8c97a1d1d4b81d74f6f02f1784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Models using Guid(dd2def8c97a1d1d4b81d74f6f02f1784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5899214e5ea5e4b626a38177a50ac767') in 0.0010397 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.637860 seconds.
-  path: Assets/Forest Pack/Prefabs
-  artifactKey: Guid(ecfd6efd950d4724ea252450ea8baed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs using Guid(ecfd6efd950d4724ea252450ea8baed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2cbcfdb8e18b4462e9000494b008ca1') in 0.0008925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046270 seconds.
-  path: Assets/Forest Pack/Prefabs/Island001.prefab
-  artifactKey: Guid(e39ff66429756d445bea3a4f8e4a5284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Island001.prefab using Guid(e39ff66429756d445bea3a4f8e4a5284) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f32200ceeb63be4271c61fe3064120e3') in 0.0304637 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Forest Pack/Prefabs/Plant001.prefab
-  artifactKey: Guid(82bd60092ede4c24db1d8df98dce230f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Plant001.prefab using Guid(82bd60092ede4c24db1d8df98dce230f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48fecc5f7d01777aedb2eb80673462a0') in 0.202653 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Forest Pack/Prefabs/Stone011.prefab
-  artifactKey: Guid(728c2607817d48b4fb3ec7c79844b1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Stone011.prefab using Guid(728c2607817d48b4fb3ec7c79844b1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ae09133895a7c23f392c71aa64e1651') in 0.0472958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Forest Pack/Prefabs/Tree004_V6.prefab
-  artifactKey: Guid(9fd02bc503e6b2946bb646476037c36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Tree004_V6.prefab using Guid(9fd02bc503e6b2946bb646476037c36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66f9c78f272a058b1785f6ddcf9f6722') in 0.037182 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Forest Pack/Prefabs/Stone002.prefab
-  artifactKey: Guid(178ec197c7df40d45ad5f26f15599f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Stone002.prefab using Guid(178ec197c7df40d45ad5f26f15599f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf4e678896c00de15eb04de87e91c30d') in 0.0349712 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Forest Pack/Prefabs/Mushroom006.prefab
-  artifactKey: Guid(535d1004a3252074cbad37541377b44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Mushroom006.prefab using Guid(535d1004a3252074cbad37541377b44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a88b2d03d8cd7443bea2a06169755bd') in 0.0410493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Forest Pack/Prefabs/Stone012.prefab
-  artifactKey: Guid(4622fc7adf8523c48b2d0ffd1d4e7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Stone012.prefab using Guid(4622fc7adf8523c48b2d0ffd1d4e7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '802e42db1ce292d04c2c3e2abea30595') in 0.0387027 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Forest Pack/Prefabs/Plant006.prefab
-  artifactKey: Guid(15f6e5faaa120954b9659c1ea5275f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Plant006.prefab using Guid(15f6e5faaa120954b9659c1ea5275f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '321099f3140a6084d5a9fb68a2fbce2b') in 0.0422671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Forest Pack/Prefabs/Stone008.prefab
-  artifactKey: Guid(87403a588a66b964784aa4dee4484166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Stone008.prefab using Guid(87403a588a66b964784aa4dee4484166) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff6508e3463796ee90d3b3f1d001ffe7') in 0.044636 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Forest Pack/Prefabs/Tree003_V1.prefab
-  artifactKey: Guid(58d906a8c99c0b545bf0d5337539b695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Tree003_V1.prefab using Guid(58d906a8c99c0b545bf0d5337539b695) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca3c40e257bd22558639911ad96a895b') in 0.0368361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Forest Pack/Prefabs/Tree001_V2.prefab
-  artifactKey: Guid(2adb2e22202106844acc66e52119d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Tree001_V2.prefab using Guid(2adb2e22202106844acc66e52119d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10c662a78d5aac2dc5f024d597540246') in 0.0380757 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Forest Pack/Prefabs/Plant004.prefab
-  artifactKey: Guid(45d3e1cadafcdb448a05591ab129256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Plant004.prefab using Guid(45d3e1cadafcdb448a05591ab129256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9368b3bec697d7337e91081fb74f2ffa') in 0.0436031 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Forest Pack/Prefabs/Plant005.prefab
-  artifactKey: Guid(d9ec95560787a16499cd67b23ce44cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Plant005.prefab using Guid(d9ec95560787a16499cd67b23ce44cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '672832d19690d5d7f712c9aa2534ec68') in 0.0589078 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Forest Pack/Prefabs/Tree004_V5.prefab
-  artifactKey: Guid(91a813dbb89a02141a0187e35d9a6707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Tree004_V5.prefab using Guid(91a813dbb89a02141a0187e35d9a6707) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '730143646fa21b5728e7e75dcfd2a76c') in 0.0457601 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Forest Pack/Prefabs/Plant003_V2.prefab
-  artifactKey: Guid(aa224299edb2e6b40b2389eebad3c9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Plant003_V2.prefab using Guid(aa224299edb2e6b40b2389eebad3c9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f8333ed4f0a7bdb511c85ca0453d213') in 0.0724054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Forest Pack/Prefabs/Mushroom003.prefab
-  artifactKey: Guid(67750ef781a769e4ba16cddc87f1e07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Mushroom003.prefab using Guid(67750ef781a769e4ba16cddc87f1e07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd4e75b8acdb6b9fc5dc7e72f816d3b5') in 0.0496436 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Forest Pack/Prefabs/Tree005_V2.prefab
-  artifactKey: Guid(6b4d2aba0a6fb4f448d7c37f6991653e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forest Pack/Prefabs/Tree005_V2.prefab using Guid(6b4d2aba0a6fb4f448d7c37f6991653e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56c32ba29aee57701853dd5733863d3f') in 0.0590865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.317194 seconds.
-  path: Assets/JC_StylizedNature_Lite
-  artifactKey: Guid(6c8ab95be3779334d99a802b92084f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JC_StylizedNature_Lite using Guid(6c8ab95be3779334d99a802b92084f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3e80edcb6a816fcc360c5c0e73f345d') in 0.0010765 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.067804 seconds.
-  path: Assets/JC_StylizedNature_Lite/Prefabs
-  artifactKey: Guid(212ead459bba62e418424c0b7cfe6058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JC_StylizedNature_Lite/Prefabs using Guid(212ead459bba62e418424c0b7cfe6058) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36a782a2dfc8ec428c59aafa2ff0b9b5') in 0.0008863 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.043898 seconds.
-  path: Assets/JC_StylizedNature_Lite/Prefabs/SM_Branch_01.prefab
-  artifactKey: Guid(d45e9e9837680e8448990bc088ba7b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JC_StylizedNature_Lite/Prefabs/SM_Branch_01.prefab using Guid(d45e9e9837680e8448990bc088ba7b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54859bbe6bb58120e3e9ed5ad71cf16e') in 0.0557437 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.226758 seconds.
-  path: Assets/JC_StylizedNature_Lite/Materials
-  artifactKey: Guid(efc95ce5bd337d14fa0313761a1d3c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JC_StylizedNature_Lite/Materials using Guid(efc95ce5bd337d14fa0313761a1d3c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '028df5afb58a15d7d27ddb5dc56a83e3') in 0.0011031 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051131 seconds.
-  path: Assets/JC_StylizedNature_Lite/Materials/M_Nature_01.mat
-  artifactKey: Guid(b8c3df82b3037b24594111a20b86cb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JC_StylizedNature_Lite/Materials/M_Nature_01.mat using Guid(b8c3df82b3037b24594111a20b86cb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58276b6c494bfc5508d7f2da5d400beb') in 0.0611921 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.026595 seconds.
-  path: Assets/JC_StylizedNature_Lite/Materials/M_Nature_01.mat
-  artifactKey: Guid(b8c3df82b3037b24594111a20b86cb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JC_StylizedNature_Lite/Materials/M_Nature_01.mat using Guid(b8c3df82b3037b24594111a20b86cb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8307f28ca3b17b93d6a23bf3e7b92885') in 2.7032842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.541738 seconds.
-  path: Assets/JC_StylizedNature_Lite/Prefabs/SM_Branch_01.prefab
-  artifactKey: Guid(d45e9e9837680e8448990bc088ba7b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JC_StylizedNature_Lite/Prefabs/SM_Branch_01.prefab using Guid(d45e9e9837680e8448990bc088ba7b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d2c60843564a9e4b52bb34c5f1f6d3d') in 4.3445158 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.765811 seconds.
-  path: Assets/StylizedHandPaintedDungeon(Free)
-  artifactKey: Guid(013eb6339e7e4bb41be29cde463f22a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedHandPaintedDungeon(Free) using Guid(013eb6339e7e4bb41be29cde463f22a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca336356b13807b048dddb0a401c802f') in 0.0027325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.336245 seconds.
-  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs
-  artifactKey: Guid(325d3c5532164bb4aa5dd8f24fa1df7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs using Guid(325d3c5532164bb4aa5dd8f24fa1df7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3bca0824eef39fc551cb355437f5bb3') in 0.0007793 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048973 seconds.
-  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Door.prefab
-  artifactKey: Guid(9175d08a6bdddeb48afa15d1b714d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Door.prefab using Guid(9175d08a6bdddeb48afa15d1b714d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f446208bb8b255abb8ed2f520ca4ba4d') in 0.0643792 seconds
+  Time since last request: 226254.857942 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Floor.prefab
+  artifactKey: Guid(e348e7143b6247b488737e4be26fb038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Floor.prefab using Guid(e348e7143b6247b488737e4be26fb038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8332ebe1bf40e2535039bca380b8926f') in 0.355977 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
-========================================================================
-Received Import Request.
-  Time since last request: 1.673124 seconds.
-  path: Assets/StylizedHandPaintedDungeon(Free)/Materials
-  artifactKey: Guid(3439d4b01c88d534ba58886b46cca809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedHandPaintedDungeon(Free)/Materials using Guid(3439d4b01c88d534ba58886b46cca809) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ef98f0ad8069552563ec2b06defbeee') in 0.0007543 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.050106 seconds.
-  path: Assets/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_01.mat
-  artifactKey: Guid(770d874acb2e37f4dbb0943d5ef8a660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_01.mat using Guid(770d874acb2e37f4dbb0943d5ef8a660) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '885ca9f888b2d9bff71b6eed3ff17814') in 0.0136034 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.861494 seconds.
-  path: Assets/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_01.mat
-  artifactKey: Guid(770d874acb2e37f4dbb0943d5ef8a660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_01.mat using Guid(770d874acb2e37f4dbb0943d5ef8a660) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '938cbfb15e4948d8eda4d692a95fb5c5') in 0.032748 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.579930 seconds.
-  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Door.prefab
-  artifactKey: Guid(9175d08a6bdddeb48afa15d1b714d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Door.prefab using Guid(9175d08a6bdddeb48afa15d1b714d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf3b810ca16dc26b575c766663ae22f3') in 0.0637339 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.515884 seconds.
-  path: Assets/Settings
-  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4b47d252bc4e8d77fd6334abcf5e3e8') in 0.0014111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.489778 seconds.
-  path: Assets/TutorialInfo
-  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd0ce3b9fb2b0078fcd59af112aef3b6') in 0.0008612 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.061621 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Scripts
-  artifactKey: Guid(e011be66ea374174bba018e80d40e91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bitgem/StylisedWater/URP/Scripts using Guid(e011be66ea374174bba018e80d40e91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd630d8604ba76a6d54319e99c02017d8') in 0.0011346 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.652699 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem
-  artifactKey: Guid(e0767f8b1ed20074ca354329870e2125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem using Guid(e0767f8b1ed20074ca354329870e2125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a90426f5a09c0f81469e9b09d90a1cbb') in 0.00054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
