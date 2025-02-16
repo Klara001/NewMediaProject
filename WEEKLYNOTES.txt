@@ -9,7 +9,7 @@ Started out with figuring out which game engine is the best to use:
 - Cons: not much experience scripting in Unity, limited free assets
  Renpy:
 - Pros: best program to use for visual novel-style games
-- Cons: never used before so would require extra time to learn program, would have to create all assets on 	my own
+- Cons: never used before so would require extra time to learn program, would have to create all assets on my own
  Godot:
 - Pros: good program to use for 2d games
 - Cons: very limited knowledge of the program
@@ -45,7 +45,7 @@ To Do:
 
 Decided on Unity for the game
 - Added assets to game file
-	- Ran into hot pink materials: had to convert the asset materials to URP, seems to have fixed the 	problem
+	- Ran into hot pink materials: had to convert the asset materials to URP, seems to have fixed the problem
 	- All assets seem to be working, except for stylized water, may take it out
 
 -- 2/11/25 Notes --
@@ -68,5 +68,9 @@ Worked on bedroom level
 	- Stylized Wood PBR Material by nikola
 Got the character controller and the camera movement set up and working. There might be a few finetuning needed in the future, but so far looks good for a start. 
 - With my own character still being sketched out, put in a place holder just to visualize how it works. 
-	- Even without the animations of a sprite sheet, the player movement looks fine. I'm gonna be 	changing around my planning a bit and just focus on getting one good static image of the character 	rather than rushing through animations for the sprite sheet, so that if time runs out, I'd prefer 	a good-looking static character moving around than a half-finished animation.
-	- Since the start of the game really only focuses on the female protagonist, I'll be prioritizing 	getting a rough draft of her character design finished before working on the male in distress 	character design
+	- Even without the animations of a sprite sheet, the player movement looks fine. I'm gonna be changing around my planning a bit and just focus on getting one good static image of the character rather than rushing through animations for the sprite sheet, so that if time runs out, I'd prefer a good-looking static character moving around than a half-finished animation.
+	- Since the start of the game really only focuses on the female protagonist, I'll be prioritizing getting a rough draft of her character design finished before working on the male in distress character design
+
+To Do Tomorrow:
+- Get dialogue system and task list started
+- Write out draft of the letter that starts the quest
