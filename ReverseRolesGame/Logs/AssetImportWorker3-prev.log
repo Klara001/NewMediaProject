@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/kprof/ReverseRolesGame
+C:/Users/kprof/OneDrive/Desktop/NewMediaProject/ReverseRolesGame
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-63521
+52893
 -job-worker-count
 15
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Users/kprof/ReverseRolesGame
-C:/Users/kprof/ReverseRolesGame
+Successfully changed project path to: C:/Users/kprof/OneDrive/Desktop/NewMediaProject/ReverseRolesGame
+C:/Users/kprof/OneDrive/Desktop/NewMediaProject/ReverseRolesGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,12 +59,12 @@ C:/Users/kprof/ReverseRolesGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19808]  Target information:
+Player connection [31368]  Target information:
 
-Player connection [19808]  * "[IP] 10.250.46.81 [Port] 0 [Flags] 2 [Guid] 3491334464 [EditorId] 3491334464 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31368]  * "[IP] 10.1.18.71 [Port] 0 [Flags] 2 [Guid] 3324333205 [EditorId] 3324333205 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19808] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19808] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31368] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31368] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,11 +75,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kprof/ReverseRolesGame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/kprof/OneDrive/Desktop/NewMediaProject/ReverseRolesGame/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -91,46 +91,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001760 seconds.
-- Loaded All Assemblies, in  0.251 seconds
+Registered in 0.002732 seconds.
+- Loaded All Assemblies, in  0.410 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.303 seconds
-Domain Reload Profiling: 553ms
-	BeginReloadAssembly (84ms)
+- Finished resetting the current domain, in  0.464 seconds
+Domain Reload Profiling: 871ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (101ms)
-		LoadAssemblies (82ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (149ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (100ms)
-			TypeCache.Refresh (98ms)
-				TypeCache.ScanAssembly (89ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (148ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (303ms)
+	FinalizeReload (465ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (271ms)
+		SetupLoadedEditorAssemblies (412ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (184ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -138,310 +138,997 @@ Domain Reload Profiling: 553ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.666 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.104 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.651 seconds
-Domain Reload Profiling: 1315ms
-	BeginReloadAssembly (267ms)
+- Finished resetting the current domain, in  1.035 seconds
+Domain Reload Profiling: 2136ms
+	BeginReloadAssembly (403ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (339ms)
-		LoadAssemblies (233ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (599ms)
+		LoadAssemblies (398ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (172ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (108ms)
-			BuildScriptInfoCaches (42ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (651ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (186ms)
+			BuildScriptInfoCaches (74ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1036ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (475ms)
+		SetupLoadedEditorAssemblies (761ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (360ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (582ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5917 unused Assets / (4.3 MB). Loaded Objects now: 6689.
-Memory consumption went from 206.1 MB to 201.8 MB.
-Total: 12.125200 ms (FindLiveObjects: 0.642700 ms CreateObjectMapping: 0.454700 ms MarkObjects: 8.160100 ms  DeleteObjects: 2.864100 ms)
+Unloading 5917 unused Assets / (5.5 MB). Loaded Objects now: 6689.
+Memory consumption went from 192.8 MB to 187.2 MB.
+Total: 14.913200 ms (FindLiveObjects: 0.792900 ms CreateObjectMapping: 0.559500 ms MarkObjects: 7.749700 ms  DeleteObjects: 5.806900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 226254.869490 seconds.
-  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Pillar.prefab
-  artifactKey: Guid(7c7baabdbc078cb4098d5880fc72c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Pillar.prefab using Guid(7c7baabdbc078cb4098d5880fc72c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e2032374fdf80a5672b25ab56a6899f') in 0.3631012 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 1225.568713 seconds.
-  path: Assets/Props
-  artifactKey: Guid(e347ce21780562b43a28d92ce4f5880d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props using Guid(e347ce21780562b43a28d92ce4f5880d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fad4adb5ac36d934007280d978716f7f') in 0.0007656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.717024 seconds.
-  path: Assets/Props/set-of-stylized-beds
-  artifactKey: Guid(0287ef13a1a763e48b31ff015493ebf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds using Guid(0287ef13a1a763e48b31ff015493ebf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25d5f6b54649acddba15062428046971') in 0.0006417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.650217 seconds.
-  path: Assets/Props/set-of-stylized-beds/textures
-  artifactKey: Guid(82e3c78a457d83246a92ae080f5ab65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/textures using Guid(82e3c78a457d83246a92ae080f5ab65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f23fe6a85ebd9a36cf89682748a8486') in 0.0006225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.411484 seconds.
-  path: Assets/Props/set-of-stylized-beds/source
-  artifactKey: Guid(1fb9fb0855af31942816743836efcfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source using Guid(1fb9fb0855af31942816743836efcfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ede39a1d7170f68fddc0b456fe6a200a') in 0.0004119 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.581706 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds
-  artifactKey: Guid(f7ffabfb1e01c7e4abc26ca2567aa21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds using Guid(f7ffabfb1e01c7e4abc26ca2567aa21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d85c9614700a3ea6c7cb6ae6dd00404') in 0.0003994 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.549273 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model
-  artifactKey: Guid(b2b95cb262155c64888e0a7b4514864d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model using Guid(b2b95cb262155c64888e0a7b4514864d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8890f7c99a9bd38142049bc7f33265e') in 0.0004107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079102 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/model.dae
-  artifactKey: Guid(8d61a64a3b81800409460084e6def8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/model.dae using Guid(8d61a64a3b81800409460084e6def8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62fd67629aa47f3bc2abf3ddef35860a') in 0.1904135 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.585897 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures
-  artifactKey: Guid(a0515be181d710a4387c34d5852ebd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures using Guid(a0515be181d710a4387c34d5852ebd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59c8b4c644c829e6682602bf9535b845') in 0.000512 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.081478 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00.00_bed05.dds_albedo.jpg
-  artifactKey: Guid(15aa43c2f2f8750458dfa4ccd52cdce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00.00_bed05.dds_albedo.jpg using Guid(15aa43c2f2f8750458dfa4ccd52cdce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9f9365d2bae1292841d212c3d2feb2b') in 0.0259118 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00.00_bed05.dds_roughness.jpg
-  artifactKey: Guid(4a6c9c7d3479d204fbd38c5e12bde471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00.00_bed05.dds_roughness.jpg using Guid(4a6c9c7d3479d204fbd38c5e12bde471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b16a32f87dc7de3ced3567e557c14519') in 0.0299188 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.02_chest02.dds_metallic.jpg
-  artifactKey: Guid(3f9b897be03d5fc43aa1598420ff866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.02_chest02.dds_metallic.jpg using Guid(3f9b897be03d5fc43aa1598420ff866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b70ca87e23a891512a4b6c3a915e97b') in 0.0207962 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.01_chest01.dds_albedo.jpg
-  artifactKey: Guid(4013aa15af2f40c4590ab013fb2600e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.01_chest01.dds_albedo.jpg using Guid(4013aa15af2f40c4590ab013fb2600e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee4738ef61bab984a15ad2da566ef638') in 0.0245175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3_Bed04.dds_roughness.jpg
-  artifactKey: Guid(9870f576c0f032b4ca5a22328383b630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3_Bed04.dds_roughness.jpg using Guid(9870f576c0f032b4ca5a22328383b630) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '626489fe410eb36a0a5d092a7df6b4bb') in 0.0200922 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00.00_bed05.dds_normal.png
-  artifactKey: Guid(7a7700fe60affa54385a365d2d9aff62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00.00_bed05.dds_normal.png using Guid(7a7700fe60affa54385a365d2d9aff62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cf2b17a071c97086d177fc9ec96c011') in 0.0197832 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.00_Bed03.dds_normal.png
-  artifactKey: Guid(b52b826b11b7b484498e60f6e8d77afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.00_Bed03.dds_normal.png using Guid(b52b826b11b7b484498e60f6e8d77afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '793a8157a969106b7c627953a4f528b3') in 0.0237687 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3_Bed04.dds_metallic.jpg
-  artifactKey: Guid(1790de066ebd0034d9dddebea92caffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3_Bed04.dds_metallic.jpg using Guid(1790de066ebd0034d9dddebea92caffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe44f0c4d1b5767b727e97991fad96c3') in 0.0097747 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00_Bed01.dds_AO.jpg
-  artifactKey: Guid(7bd1f834f77b64449a45e3089f2836e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00_Bed01.dds_AO.jpg using Guid(7bd1f834f77b64449a45e3089f2836e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32ba1a17645f64eea600f7d47ed9122c') in 0.0174678 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00_Bed01.dds_roughness.jpg
-  artifactKey: Guid(22426577802cd5249a1ab324d2743328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00_Bed01.dds_roughness.jpg using Guid(22426577802cd5249a1ab324d2743328) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '348de0be7846cbddbf6cd3d9fb141293') in 0.0197958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00_Bed01.dds_albedo.jpg
-  artifactKey: Guid(6d771b3d256fb284ebab66541b498531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00_Bed01.dds_albedo.jpg using Guid(6d771b3d256fb284ebab66541b498531) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd652379a51f4cfcbe2b219640bd479c') in 0.0163592 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.02_chest02.dds_normal.png
-  artifactKey: Guid(1265dc264ded29c47b920f1606681528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.02_chest02.dds_normal.png using Guid(1265dc264ded29c47b920f1606681528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8221998faa521d8dd04a2591a82ce888') in 0.0189836 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00_Bed01.dds_normal.png
-  artifactKey: Guid(c8e985f5f94c59f42981b53d9d7ab8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material.00_Bed01.dds_normal.png using Guid(c8e985f5f94c59f42981b53d9d7ab8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7fd125325f65f8287c521fba0b4c2f2') in 0.0195615 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material_Bed02.dds_metallic.jpg
-  artifactKey: Guid(229910c02bd543d4c9b041f7b4dfa5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material_Bed02.dds_metallic.jpg using Guid(229910c02bd543d4c9b041f7b4dfa5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d398290acac87261e181a765ecdcec7') in 0.0073542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.02_chest02.dds_AO.jpg
-  artifactKey: Guid(9718a558fb307084393243effc37a690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.02_chest02.dds_AO.jpg using Guid(9718a558fb307084393243effc37a690) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '703c9b446cebac02e6ee261a9213f536') in 0.016128 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material_Bed02.dds_normal.png
-  artifactKey: Guid(6036b198a745acf45a8f6328f75cd254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material_Bed02.dds_normal.png using Guid(6036b198a745acf45a8f6328f75cd254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25faf42552d3691bdc3f069e489ef87e') in 0.0198221 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.02_chest02.dds_albedo.jpg
-  artifactKey: Guid(97d92c9654f21e04bbc5539faaf1ee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Material__3.02_chest02.dds_albedo.jpg using Guid(97d92c9654f21e04bbc5539faaf1ee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de72a918f52adc46689b248743140b9f') in 0.0184351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.303888 seconds.
-  path: Assets/Props/set-of-stylized-beds/textures/Material.00.00_bed05.dds_roughness.jpeg
-  artifactKey: Guid(ba3b727a066f2f847b096313598d6b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/textures/Material.00.00_bed05.dds_roughness.jpeg using Guid(ba3b727a066f2f847b096313598d6b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee340f0143aedff5e14618caf585d4a6') in 0.0184179 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 252568.780179 seconds.
+  path: Assets/JC_StylizedNature_Lite/Materials/M_Nature_01.mat
+  artifactKey: Guid(b8c3df82b3037b24594111a20b86cb0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JC_StylizedNature_Lite/Materials/M_Nature_01.mat using Guid(b8c3df82b3037b24594111a20b86cb0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2932a64c30172c7553464ec10bfbbd48') in 0.3448761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Props/set-of-stylized-beds/textures/Material__3.02_chest02.dds_normal.png
-  artifactKey: Guid(dfc9cfd01faf0d9439e4325b31ddfcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.02_chest02.dds_normal.png using Guid(dfc9cfd01faf0d9439e4325b31ddfcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '211a7b02bf21174dfe28cfd672ea7223') in 0.0215858 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/JC_StylizedNature_Lite/JC_StylizedNatureLite_2022.3.1_HDRP_v1.01.unitypackage
+  artifactKey: Guid(d9d82f5af5ffea248a3cac2b7ea4a4af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JC_StylizedNature_Lite/JC_StylizedNatureLite_2022.3.1_HDRP_v1.01.unitypackage using Guid(d9d82f5af5ffea248a3cac2b7ea4a4af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b90e05948f2b5a5150c9afd152e98b50') in 0.0232845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Props/set-of-stylized-beds/textures/Material__3.00_Bed03.dds_normal.png
-  artifactKey: Guid(3df756c0f17da1b4abb1c58bd1b7e9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.00_Bed03.dds_normal.png using Guid(3df756c0f17da1b4abb1c58bd1b7e9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e29173b4d4141a6793e53971ff0d7c3d') in 0.0241436 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000040 seconds.
+  path: Assets/Forest Pack/Prefabs/Stone012.prefab
+  artifactKey: Guid(4622fc7adf8523c48b2d0ffd1d4e7730) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Prefabs/Stone012.prefab using Guid(4622fc7adf8523c48b2d0ffd1d4e7730) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '552c43d5eaad6f5d827b7cbace1bc6eb') in 0.0738673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Forest Pack/Prefabs/Tree004_V3.prefab
+  artifactKey: Guid(1b3b8b2304daa854d873f5dbdcd08c43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Prefabs/Tree004_V3.prefab using Guid(1b3b8b2304daa854d873f5dbdcd08c43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9515ee8c26396d41a71cfebb9819acca') in 0.0398557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Props/Grass_mat.mat
+  artifactKey: Guid(c91861f1bc4feb64990fc938973f1b1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/Grass_mat.mat using Guid(c91861f1bc4feb64990fc938973f1b1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f1ef751786238912383d07a89aaf000') in 0.0244862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Forest Pack/Prefabs/Plant002_V1.prefab
+  artifactKey: Guid(55f155f7c45e1a44abf603bf94daf887) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Prefabs/Plant002_V1.prefab using Guid(55f155f7c45e1a44abf603bf94daf887) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '135f37c8b4a4082c67196785c8457669') in 0.0285668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf067f92def22fc599a707e2ce07a97b') in 0.1347099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Forest Pack/Materials/Color0020.mat
+  artifactKey: Guid(5b3545fbfc5709740b8147d2f90f598e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Materials/Color0020.mat using Guid(5b3545fbfc5709740b8147d2f90f598e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10684fef9b7125032623b81b2d1460a2') in 0.0237431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Forest Pack/Prefabs/Plant002_V2.prefab
+  artifactKey: Guid(305273e6ac60fc6449e0cfbde9d7c9d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Prefabs/Plant002_V2.prefab using Guid(305273e6ac60fc6449e0cfbde9d7c9d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f131c84dedb3e5e994770cf8045678af') in 0.0198793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '141f19e300ea7ebab848018ce67c12d9') in 0.1958353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Props/set-of-stylized-beds/textures/Material.00_Bed01.dds_roughness.jpeg
-  artifactKey: Guid(042988ce37e6f4f44b7b47d11bead927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/textures/Material.00_Bed01.dds_roughness.jpeg using Guid(042988ce37e6f4f44b7b47d11bead927) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9613c1e0ac442eedc2490e406dda1b62') in 0.0214748 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/JC_StylizedNature_Lite/Prefabs/SM_Mushroom_01.prefab
+  artifactKey: Guid(13db1919278a0e74db4dcc7d8e260718) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JC_StylizedNature_Lite/Prefabs/SM_Mushroom_01.prefab using Guid(13db1919278a0e74db4dcc7d8e260718) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49b23d4134a98feefc29505ba05923e4') in 0.0266393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Props/set-of-stylized-beds/textures/Material_Bed02.dds_metallic.jpeg
-  artifactKey: Guid(14f706627316a2c42820608a566ece00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/textures/Material_Bed02.dds_metallic.jpeg using Guid(14f706627316a2c42820608a566ece00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '247a3b04271adccd595b404c521221d1') in 0.0144608 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000022 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/BoxAttachable.fbx
+  artifactKey: Guid(8f1bb64f6e23bdb4a841f2bc761c2db6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/BoxAttachable.fbx using Guid(8f1bb64f6e23bdb4a841f2bc761c2db6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd93afad12154401ff7a41e2f786c1fc') in 0.0340162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Axe.008.fbx
+  artifactKey: Guid(9fcc9cb70cf42544b824b85a941e5e93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Axe.008.fbx using Guid(9fcc9cb70cf42544b824b85a941e5e93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '799833683955d3a245918aae66c77478') in 0.0229924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afcf14ecc076a0531c56d144e00602e9') in 0.044397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Axe2.002.fbx
+  artifactKey: Guid(52119d3ff3e47124892322e519ce880e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Axe2.002.fbx using Guid(52119d3ff3e47124892322e519ce880e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6d6b1fc382aff363e6965dd2cd00401') in 0.0208602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JC_StylizedNature_Lite/Prefabs/SM_Rock_01.prefab
+  artifactKey: Guid(02323f354a4cb6343a4c4466e3cabdcb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JC_StylizedNature_Lite/Prefabs/SM_Rock_01.prefab using Guid(02323f354a4cb6343a4c4466e3cabdcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bafc4a4e98f7b7537b710cf0a7856eaf') in 0.0196593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Door.prefab
+  artifactKey: Guid(9175d08a6bdddeb48afa15d1b714d918) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Door.prefab using Guid(9175d08a6bdddeb48afa15d1b714d918) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85faa01bb94f384f5e32698b31b6bf06') in 0.020419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Floor.prefab
+  artifactKey: Guid(e348e7143b6247b488737e4be26fb038) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Floor.prefab using Guid(e348e7143b6247b488737e4be26fb038) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b20dcef64be63095536e4872879fe75f') in 0.0233685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/BuildingTorch.001.fbx
+  artifactKey: Guid(1901737140ea3604a85ab9299f0f1464) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/BuildingTorch.001.fbx using Guid(1901737140ea3604a85ab9299f0f1464) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66224104acc7b2d4bed04b1a58161522') in 0.0213143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Book.001.fbx
+  artifactKey: Guid(1937a6a2dbb95e042bb833e1c0cf08ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Book.001.fbx using Guid(1937a6a2dbb95e042bb833e1c0cf08ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d6445acb2531db47e1abfcdf3141a64') in 0.0250702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Bottle.008.fbx
+  artifactKey: Guid(a5a0ae1d69af5a149bf9d3c0e4e5f148) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Bottle.008.fbx using Guid(a5a0ae1d69af5a149bf9d3c0e4e5f148) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '693b30d834fe40289f1c6264f3bc939c') in 0.022996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Broadsword.001.fbx
+  artifactKey: Guid(026968836227030408e167b3f3812b30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Broadsword.001.fbx using Guid(026968836227030408e167b3f3812b30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c03dd6f422475d50c90f5d024159336e') in 0.0272775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.728920 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/CauldronString.fbx
+  artifactKey: Guid(1d49aa9832a846a419acf7b4ce2b5b80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/CauldronString.fbx using Guid(1d49aa9832a846a419acf7b4ce2b5b80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '958ccf5b4d243b16ef97571020818eef') in 0.02666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Fence.001.fbx
+  artifactKey: Guid(6f4e47ea43801cb47884a1ae95d33378) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Fence.001.fbx using Guid(6f4e47ea43801cb47884a1ae95d33378) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2956da3881bdec04457358caa6ec414') in 0.0351836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Oven.fbx
+  artifactKey: Guid(066cfcd63055cad4fa58f529a6dd1981) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Oven.fbx using Guid(066cfcd63055cad4fa58f529a6dd1981) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '805cef58b9eb21c3ab8a5af9fb75814a') in 0.0245889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/IronShield.006.fbx
+  artifactKey: Guid(65367d32d15535d4eb13c671cfb64c22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/IronShield.006.fbx using Guid(65367d32d15535d4eb13c671cfb64c22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccca63c200b99d2dbd82facb78054305') in 0.0266824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Hoe.fbx
+  artifactKey: Guid(1a03b27098206a049b35542f95896a2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Hoe.fbx using Guid(1a03b27098206a049b35542f95896a2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b27f172cdf0ee6d68fa42193df18258e') in 0.0254559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/LampProp.fbx
+  artifactKey: Guid(84cdca8e1a1e95948b147539824b23a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/LampProp.fbx using Guid(84cdca8e1a1e95948b147539824b23a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b715d3775b85df71341848511be0b9ed') in 0.0276358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/IronShieldRed.002.fbx
+  artifactKey: Guid(f81fa2b29b321114bba51779f01eff96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/IronShieldRed.002.fbx using Guid(f81fa2b29b321114bba51779f01eff96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9629668781b8265015baceda50418f83') in 0.0252144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Rock.009.fbx
+  artifactKey: Guid(b8bb72f0fe2568f4a930b41ca29d6874) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Rock.009.fbx using Guid(b8bb72f0fe2568f4a930b41ca29d6874) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26c41454ec3cddd54932d139bf885fef') in 0.0300428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/HammerLong.002.fbx
+  artifactKey: Guid(a8eadd42d32364f4fa7162e3dfdaf492) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/HammerLong.002.fbx using Guid(a8eadd42d32364f4fa7162e3dfdaf492) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0573c5e9bc7e62da1157e454edb8ee43') in 0.0253243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/HammerSmall.004.fbx
+  artifactKey: Guid(4051f3a8289df5740bc90a9d49cd1607) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/HammerSmall.004.fbx using Guid(4051f3a8289df5740bc90a9d49cd1607) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82894d046faeb697e5687db9274f8a83') in 0.0257359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/PolybrushMesh26394.asset
+  artifactKey: Guid(df09a8efd32072346b139c03530316b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/PolybrushMesh26394.asset using Guid(df09a8efd32072346b139c03530316b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd02f181a366f889e4c8aba5e62c8431d') in 0.0803276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.232590 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Scroll.001.fbx
+  artifactKey: Guid(c85cf70afd46067429d6f4e4ab6dcc1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Scroll.001.fbx using Guid(c85cf70afd46067429d6f4e4ab6dcc1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4116f593b8667befde73c7e1339e4f80') in 0.0296415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Forest Pack/Models/Plants/Plant009.fbx
+  artifactKey: Guid(01f375bf0f8d4bc4084f0a2663970961) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Models/Plants/Plant009.fbx using Guid(01f375bf0f8d4bc4084f0a2663970961) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b37ea4039600bc7f5860273ad9884c4f') in 0.0351356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material.00_Bed01.dds_albedo.jpeg
+  artifactKey: Guid(aed9bfe1369662743a6ccc234c0dc334) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material.00_Bed01.dds_albedo.jpeg using Guid(aed9bfe1369662743a6ccc234c0dc334) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ba64483773078133750c9ba19ec9e03') in 0.0298223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Forest Pack/Models/Plants/Plant005.fbx
+  artifactKey: Guid(22fe43f550e578d418714dec18230cec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Models/Plants/Plant005.fbx using Guid(22fe43f550e578d418714dec18230cec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbaba5a89863b5ef783076575340d139') in 0.027853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Forest Pack/Models/Plants/Plant004.fbx
+  artifactKey: Guid(c15a81ef6f0f52a42bb81223447a6526) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Models/Plants/Plant004.fbx using Guid(c15a81ef6f0f52a42bb81223447a6526) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd06276d4144720b1afd38062bb9d475a') in 0.0276981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material.00.00_bed05.dds_AO.jpeg
+  artifactKey: Guid(425c8431ffd77ba4695895b86c581385) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material.00.00_bed05.dds_AO.jpeg using Guid(425c8431ffd77ba4695895b86c581385) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d551e81ab701728fe0ecb1272611c28') in 0.0280402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Torch.fbx
+  artifactKey: Guid(ff3df089729c57c478be96ab55d3623f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Torch.fbx using Guid(ff3df089729c57c478be96ab55d3623f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ae5d008d93668ae05df9a202f542f3c') in 0.0234976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Forest Pack/Models/Plants/Plant008.fbx
+  artifactKey: Guid(4dc8928c21c3ed1488bd372a8af3a443) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Models/Plants/Plant008.fbx using Guid(4dc8928c21c3ed1488bd372a8af3a443) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c17e83c3ba12e55f55f54ec50c430a21') in 0.0305591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Vase.002.fbx
+  artifactKey: Guid(a8c57f51299001f4297615ad45446be8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Vase.002.fbx using Guid(a8c57f51299001f4297615ad45446be8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8644c8d8b42ceaa2a317ad66a916d77') in 0.0265316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Forest Pack/Models/Plants/Plant003_V2.fbx
+  artifactKey: Guid(e6e3d509d81af414ba31dbf9d8898674) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Models/Plants/Plant003_V2.fbx using Guid(e6e3d509d81af414ba31dbf9d8898674) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87b7dcdeb9e3702eee2ced00e6be331a') in 0.043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Forest Pack/Models/Stones/Stone007.fbx
+  artifactKey: Guid(f672d0b4612d1f048852522ebde55078) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Models/Stones/Stone007.fbx using Guid(f672d0b4612d1f048852522ebde55078) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cea69cf45305fe943f388bc8fd8b6339') in 0.0270934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material.00.00_bed05.dds_normal.png
+  artifactKey: Guid(e33e90854cde698439fa9eb921973171) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material.00.00_bed05.dds_normal.png using Guid(e33e90854cde698439fa9eb921973171) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efd00195d0f88714b94b6b4318bc5d3a') in 0.0269802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Props/chandelier (1)/textures/chandleir_albedo.jpeg
+  artifactKey: Guid(2bd37745329e70a4c8639b8a455df197) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/chandelier (1)/textures/chandleir_albedo.jpeg using Guid(2bd37745329e70a4c8639b8a455df197) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ef6fb0ad6f222578278287f06573a50') in 0.0286204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Wagon.fbx
+  artifactKey: Guid(f2188007460e85e439d9bd0c71e8f855) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Wagon.fbx using Guid(f2188007460e85e439d9bd0c71e8f855) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4326892cb1e96f97c80f91df6b2a5d4e') in 0.0266815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Cupboard_mat.mat
+  artifactKey: Guid(48dae0b8ff7eb5f44add2543a51ebf63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Cupboard_mat.mat using Guid(48dae0b8ff7eb5f44add2543a51ebf63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '228c6ccfd7417e8b9661a831e96b2f59') in 0.0468967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.002.prefab
+  artifactKey: Guid(d42cb37554ccc214885b52b3e01dbafe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.002.prefab using Guid(d42cb37554ccc214885b52b3e01dbafe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07221a298ca361de7adbd45fcddd9d7b') in 0.0273943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
   path: Assets/Props/set-of-stylized-beds/textures/Material_Bed02.dds_normal.png
-  artifactKey: Guid(d6ec5155ec27c09428dd9a912c42901b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/set-of-stylized-beds/textures/Material_Bed02.dds_normal.png using Guid(d6ec5155ec27c09428dd9a912c42901b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baa834d886d3dbba2457c91f55c1be9d') in 0.0317415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  artifactKey: Guid(d6ec5155ec27c09428dd9a912c42901b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material_Bed02.dds_normal.png using Guid(d6ec5155ec27c09428dd9a912c42901b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40cb3728c8e29ff4305bb59b862ca6a6') in 0.0279519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material__3.02_chest02.dds_metallic.jpeg
+  artifactKey: Guid(fbfe38d4073055444b57ebb1c8fb214f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.02_chest02.dds_metallic.jpeg using Guid(fbfe38d4073055444b57ebb1c8fb214f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '771a742843df768d4b6d173060639626') in 0.025249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Props/modular-fantasy-assets/textures/Textures/Table_Roughness.png
+  artifactKey: Guid(28d827b78b2c6cd43abeb5ead89374c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/modular-fantasy-assets/textures/Textures/Table_Roughness.png using Guid(28d827b78b2c6cd43abeb5ead89374c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '316fd5e2903522d67bf320b1cb88346a') in 0.0361922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Props/stylized-wood-pbr-material/textures/StylizedWood1_Specular.png
+  artifactKey: Guid(9005ce25f1fd20e4ba118de99e844554) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/stylized-wood-pbr-material/textures/StylizedWood1_Specular.png using Guid(9005ce25f1fd20e4ba118de99e844554) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e95f93cdac24782945070ca61a533f0') in 0.0297559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material__3_Bed04.dds_roughness.jpeg
+  artifactKey: Guid(f798b1236ef648440b14c90389332188) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material__3_Bed04.dds_roughness.jpeg using Guid(f798b1236ef648440b14c90389332188) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a4b416277603f2fed837d04a43eeaf1') in 0.0312161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material__3.00_Bed03.dds_roughness.jpeg
+  artifactKey: Guid(93920d33e74bd5b4c831318bbd03789e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.00_Bed03.dds_roughness.jpeg using Guid(93920d33e74bd5b4c831318bbd03789e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b2d9db553ce1dbff65ff11cb98cd73c') in 0.0325671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Bitgem/StylisedWater/URP/Meshes/example-scene-01.fbx
+  artifactKey: Guid(55638e09f83bd764b9c7be381da6e240) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Bitgem/StylisedWater/URP/Meshes/example-scene-01.fbx using Guid(55638e09f83bd764b9c7be381da6e240) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac03bde743eda1bf72f4007f8e320e7f') in 0.0261652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Shelf1_mat.mat
+  artifactKey: Guid(4ce037f888216464ba939bef72eaa599) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Shelf1_mat.mat using Guid(4ce037f888216464ba939bef72eaa599) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '367016d47d6071267463f95848cf4354') in 0.0306761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b9db3cc0abab4f17d49762542593130') in 0.0221913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3_desk02.dds_metallic.jpeg
+  artifactKey: Guid(c372cb7c6d93d5545be0cecaaaa4d388) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3_desk02.dds_metallic.jpeg using Guid(c372cb7c6d93d5545be0cecaaaa4d388) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33cfac4c87e05db78fe021d4b1fa9c11') in 0.0330502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Textures/Material__3618.30_cupboard00.dds_metallic.jpeg
+  artifactKey: Guid(25ccb8629f48d2a41a40849533ebd05f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Textures/Material__3618.30_cupboard00.dds_metallic.jpeg using Guid(25ccb8629f48d2a41a40849533ebd05f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f624ce3c5180c0f9a91b6eb348e16a6') in 0.02993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.00_shelf01.dds_normal.png
+  artifactKey: Guid(54534b94cb61a3e438ea62e1f8992a7d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.00_shelf01.dds_normal.png using Guid(54534b94cb61a3e438ea62e1f8992a7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f2f896237ac93d8eecb6246501ac01d') in 0.0273916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3.00_shelves01.dds_albedo.jpeg
+  artifactKey: Guid(b30b99769ccd15242acb2088ae6b40c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3.00_shelves01.dds_albedo.jpeg using Guid(b30b99769ccd15242acb2088ae6b40c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0532c2ffecad4cd7e75495e972c50039') in 0.0277667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material_desk02.dds.001_AO.jpeg
+  artifactKey: Guid(a63316be1849dc84a947cd7514b0a7e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material_desk02.dds.001_AO.jpeg using Guid(a63316be1849dc84a947cd7514b0a7e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7ae5d22f666d88ef4101da47cbe656e') in 0.0283771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(9ce2a53ec0650564cb41c97217705c32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene/Lightmap-0_comp_light.exr using Guid(9ce2a53ec0650564cb41c97217705c32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b8ce6e0b8afe56c651d6bd6028acede') in 0.0390994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Props/stylized-wood-pbr-material/source/StylizedWood/StylizedWood1_Roughness.png
+  artifactKey: Guid(49f0e467a94de754e89a534258941d82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/stylized-wood-pbr-material/source/StylizedWood/StylizedWood1_Roughness.png using Guid(49f0e467a94de754e89a534258941d82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9e3c602456ed2a6ec1e605ad177f896') in 0.0290284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.23.00_drawers02.dds_normal.png
+  artifactKey: Guid(c62b4b7a537b2fb419271ea440e7c45b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.23.00_drawers02.dds_normal.png using Guid(c62b4b7a537b2fb419271ea440e7c45b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dea606521eaf2d2bae176bf761167a9') in 0.0326649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Textures/Material__3.14.01_cupboard03.dds.001_metallic.jpeg
+  artifactKey: Guid(68b58dde637aeb04b91f11f1e6ceb500) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Textures/Material__3.14.01_cupboard03.dds.001_metallic.jpeg using Guid(68b58dde637aeb04b91f11f1e6ceb500) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02b5132c68c90d06274a5979185d9239') in 0.027902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Coin and Bag/MoneyBag.prefab
+  artifactKey: Guid(56a9dad37dfe00646a8b38bf1b49dfbc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Coin and Bag/MoneyBag.prefab using Guid(56a9dad37dfe00646a8b38bf1b49dfbc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a537a4e11473b1555e8f1f8b77c751a') in 0.0246136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.009.prefab
+  artifactKey: Guid(916ddf15d3bcc6a418c71460bf3ff8e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.009.prefab using Guid(916ddf15d3bcc6a418c71460bf3ff8e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd019b529225268828e5f4493f4d12b9') in 0.0266585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Cauldron and Campfire/CauldronString.prefab
+  artifactKey: Guid(b60842f671e7f19448d4458b666a8a3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Cauldron and Campfire/CauldronString.prefab using Guid(b60842f671e7f19448d4458b666a8a3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '638291919508d29d56d5a36eff40865b') in 0.0200685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.003.prefab
+  artifactKey: Guid(acdcf35e932abff469acc32d833e8381) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.003.prefab using Guid(acdcf35e932abff469acc32d833e8381) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43bd691dfd02efee18f1a914a7e1c060') in 0.0240056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bucket/Bucket.001 1.prefab
+  artifactKey: Guid(081227bed775bbe43b47fcce3473b4a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bucket/Bucket.001 1.prefab using Guid(081227bed775bbe43b47fcce3473b4a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd0b05524640e64569d93333f9fcbec2') in 0.0266442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Books/Book.003.prefab
+  artifactKey: Guid(258d50e3182ee4242b58288085cb26a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Books/Book.003.prefab using Guid(258d50e3182ee4242b58288085cb26a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06a623dddb8adff59a6d08a1e0841e10') in 0.0247616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Box/Box.001 1.prefab
+  artifactKey: Guid(db8e825d1ca7e264693b9462abeaebb0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Box/Box.001 1.prefab using Guid(db8e825d1ca7e264693b9462abeaebb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f2abd769b168209a8ef6339910dbb18') in 0.0242313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Scroll/Scroll.003.prefab
+  artifactKey: Guid(bd2632d3957a3fd49a42eb6c379fea04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Scroll/Scroll.003.prefab using Guid(bd2632d3957a3fd49a42eb6c379fea04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e824ddfa56789040a12e75b517e7aa86') in 0.0221857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Forest Pack/Models/Stones/Stone001.fbx
+  artifactKey: Guid(90b7ea9fd67e9f34097c78dc03203784) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Models/Stones/Stone001.fbx using Guid(90b7ea9fd67e9f34097c78dc03203784) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e50861c4063e953af8bbb2ec27ad44c4') in 0.0324262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/modular-fantasy-assets/textures/Textures/Wood_Height.png
+  artifactKey: Guid(bebc2353d57072842865b0de87ed52aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/modular-fantasy-assets/textures/Textures/Wood_Height.png using Guid(bebc2353d57072842865b0de87ed52aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5e45b3a3f90ccf3c00a639ef147ad8d') in 0.0227069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Axes/Axe.002.prefab
+  artifactKey: Guid(31fbd9db5fc6a494ba0fb0204421acfe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Axes/Axe.002.prefab using Guid(31fbd9db5fc6a494ba0fb0204421acfe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fa970913d21e61d7d0326383d88f619') in 0.0233233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Axes/Axe.001.prefab
+  artifactKey: Guid(01e1aed270e0c4642829f130fbbc77ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Axes/Axe.001.prefab using Guid(01e1aed270e0c4642829f130fbbc77ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2fba6520bff5ef2d5dcb3982b47f0278') in 0.0226398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Axes/Axe.007.prefab
+  artifactKey: Guid(1f44a0931b6c48b45bfc04d6b9d82350) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Axes/Axe.007.prefab using Guid(1f44a0931b6c48b45bfc04d6b9d82350) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c731ad9dc7d87b4f94352b4af446531') in 0.025956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Wooden Logs/WoodenLog.001.prefab
+  artifactKey: Guid(b5e0a947c5c70484eb43f91da7ec298f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Wooden Logs/WoodenLog.001.prefab using Guid(b5e0a947c5c70484eb43f91da7ec298f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5935d260c9b01344b38f7cd9870b4534') in 0.0209265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Arrows and Bow/ArrowBag.001.prefab
+  artifactKey: Guid(44816feee33e7b04ab8bc6936aea593a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Arrows and Bow/ArrowBag.001.prefab using Guid(44816feee33e7b04ab8bc6936aea593a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39b6eb6cff94dd86ae2ccb8719bdde9b') in 0.0257453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Arrows and Bow/ArrowBag.002.prefab
+  artifactKey: Guid(52163c9d21cd2b44aaa8ed77d22e5054) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Arrows and Bow/ArrowBag.002.prefab using Guid(52163c9d21cd2b44aaa8ed77d22e5054) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '864ad499c49e05645085b6e4423fa4cf') in 0.020774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props/Cat Ears/Cat_Ears_White.prefab
+  artifactKey: Guid(26c76b121b680b245a548053a5c94222) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props/Cat Ears/Cat_Ears_White.prefab using Guid(26c76b121b680b245a548053a5c94222) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d4abde522da800b610796d0c7610cb1') in 0.0189157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.022.prefab
+  artifactKey: Guid(aab609124529e2e41a02fea0d45b0daa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.022.prefab using Guid(aab609124529e2e41a02fea0d45b0daa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4aa04b49b67f5f2aeb3870ccddd2b8ca') in 0.0209426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Axes/Axe.004.prefab
+  artifactKey: Guid(a15a017318fb99e46b9ccf5f11daae1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Axes/Axe.004.prefab using Guid(a15a017318fb99e46b9ccf5f11daae1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa907d39db49e5ad2cd3337820c731ca') in 0.0247671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Props/modular-fantasy-assets/textures/Textures/Wood_Normal.png
+  artifactKey: Guid(329aff58336ef9a4cb67920fc6db0959) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/modular-fantasy-assets/textures/Textures/Wood_Normal.png using Guid(329aff58336ef9a4cb67920fc6db0959) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3719161ed2b43bacb4cc9130728f10c') in 0.0298242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rocks/Rock.003.prefab
+  artifactKey: Guid(2eb1b1876581a2746a96ad8a3b234fa5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rocks/Rock.003.prefab using Guid(2eb1b1876581a2746a96ad8a3b234fa5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '895ddffe17ae69d01ea23b2da7cc625d') in 0.0223428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Shields/Wooden Shields/WoodenShield.007.prefab
+  artifactKey: Guid(dc616fb2d2c54dd43a6cc167cc31dd4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Shields/Wooden Shields/WoodenShield.007.prefab using Guid(dc616fb2d2c54dd43a6cc167cc31dd4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ed65f09439d43da05251b7df12250b1') in 0.0214755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rocks/Rock.019.prefab
+  artifactKey: Guid(68d896acaf4c3254caaa5aa17b189395) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rocks/Rock.019.prefab using Guid(68d896acaf4c3254caaa5aa17b189395) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31099d8ddd022b6fad73fdbd87dd7012') in 0.0247675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Chest/Chest Parts/ChestL.001.prefab
+  artifactKey: Guid(d8a908c32a1045148ad6e133177b368d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Chest/Chest Parts/ChestL.001.prefab using Guid(d8a908c32a1045148ad6e133177b368d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fa3b5d81d367c978bcb83ec1e82975d') in 0.0193296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props/Pistol/Individual Parts/Pistol.prefab
+  artifactKey: Guid(3b5c28248470efb4086e88c4bd3623a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props/Pistol/Individual Parts/Pistol.prefab using Guid(3b5c28248470efb4086e88c4bd3623a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a6baddc3e87312316b622956175bad6') in 0.0223164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Shields/Iron Shields/IronShieldBlack.004.prefab
+  artifactKey: Guid(c96d918546fd43a42a7428d6ccceb3b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Shields/Iron Shields/IronShieldBlack.004.prefab using Guid(c96d918546fd43a42a7428d6ccceb3b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14601b31cf18d12809408670b44d545b') in 0.0253048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Shields/Iron Shields/IronShield.007.prefab
+  artifactKey: Guid(740e4f6c660a98c42a57a02823e26f77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Shields/Iron Shields/IronShield.007.prefab using Guid(740e4f6c660a98c42a57a02823e26f77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38f947e2d46aab5aaac11d0f02c7a1d9') in 0.0262378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rocks/Rock.004.prefab
+  artifactKey: Guid(3fa5cb51075276949a259a580d4a2952) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rocks/Rock.004.prefab using Guid(3fa5cb51075276949a259a580d4a2952) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24c3e3d30b2c26da2a7b78bc5941abf7') in 0.0243946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bucket/Bucket Parts/Bucket.001.prefab
+  artifactKey: Guid(6df642c35d135f944bda364b264de20c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bucket/Bucket Parts/Bucket.001.prefab using Guid(6df642c35d135f944bda364b264de20c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c64ee19208f805d186064b0a538f5316') in 0.028598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props/Pistol/Pistol 1.prefab
+  artifactKey: Guid(31bf26a1fcfc899429efa005f323539c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props/Pistol/Pistol 1.prefab using Guid(31bf26a1fcfc899429efa005f323539c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ce86c7745197cb13ccb5d77a0adb3fa') in 0.0247869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeBase.cs
+  artifactKey: Guid(1912f68a566bec4429513ef3d402aaeb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeBase.cs using Guid(1912f68a566bec4429513ef3d402aaeb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69a5b57789aa33c1e336e40ba517fac4') in 0.0178053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/textures/Material__3618.30_cupboard00.dds_normal.png
+  artifactKey: Guid(8b1ae8613c0428244b772f16d37cab3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/textures/Material__3618.30_cupboard00.dds_normal.png using Guid(8b1ae8613c0428244b772f16d37cab3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '152a63f43c40f01da3c4cefb5338c56f') in 0.0260805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3_desk02.dds_metallic.jpg
+  artifactKey: Guid(a94de6848db364043a8de2ac3f10c91f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3_desk02.dds_metallic.jpg using Guid(a94de6848db364043a8de2ac3f10c91f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e09b5768c9b2f1cfaa394e67ff4c6255') in 0.0263941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material.00.00_bed05.dds_roughness.jpg
+  artifactKey: Guid(4a6c9c7d3479d204fbd38c5e12bde471) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material.00.00_bed05.dds_roughness.jpg using Guid(4a6c9c7d3479d204fbd38c5e12bde471) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '420842d2ae6cb7bd04c9892b955b9cf8') in 0.0312742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3618.23.00_drawers02.dds_metallic.jpg
+  artifactKey: Guid(98dfaa00cebacee4db2ccc6e364fbb4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3618.23.00_drawers02.dds_metallic.jpg using Guid(98dfaa00cebacee4db2ccc6e364fbb4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97ea2201c2e6398dfb030e741453f41c') in 0.0280204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/textures/Material_cupboard01.dds_AO.jpg
+  artifactKey: Guid(6d1dbfd543e867e4db5f733f23534d16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/textures/Material_cupboard01.dds_AO.jpg using Guid(6d1dbfd543e867e4db5f733f23534d16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9805e68159167eac0dc20c29d250418a') in 0.0252747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3_desk02.dds_AO.jpg
+  artifactKey: Guid(0e7d4cad0f46ab64dbdfe736c770e443) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3_desk02.dds_AO.jpg using Guid(0e7d4cad0f46ab64dbdfe736c770e443) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b900dc161b72705cc12fcfaae83dbb9') in 0.0264734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeHelper.cs
+  artifactKey: Guid(cf39edffa406b4d4c8db438c744f592a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeHelper.cs using Guid(cf39edffa406b4d4c8db438c744f592a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bd0cdc46e2a6bf21a30f0c9f67dd775') in 0.0191777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3.00_shelves01.dds_roughness.jpg
+  artifactKey: Guid(d623f3e90e86c5e47bcc8fb3f55edd0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3.00_shelves01.dds_roughness.jpg using Guid(d623f3e90e86c5e47bcc8fb3f55edd0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0cc94d5bea28fd9e20b173396b47e31') in 0.0277585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3.00_shelves01.dds_AO.jpg
+  artifactKey: Guid(3c125ee5129efed43baee0b2e0619bbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3.00_shelves01.dds_AO.jpg using Guid(3c125ee5129efed43baee0b2e0619bbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f035a605b1a6f96a04d8a8fe990f4da') in 0.0253507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/textures/Material__3.14.01_cupboard03.dds.001_metallic.jpg
+  artifactKey: Guid(e1e9d2ccf532dcf469686f36fe010c01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/textures/Material__3.14.01_cupboard03.dds.001_metallic.jpg using Guid(e1e9d2ccf532dcf469686f36fe010c01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c3db1bbd4c6bd0acf21a709f9638a6a') in 0.0300712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Forest Pack/Models/Stones/Stone003.fbx
+  artifactKey: Guid(75aaa7a409827f041be6545932d50b1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Models/Stones/Stone003.fbx using Guid(75aaa7a409827f041be6545932d50b1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '363b6c0cbb046b606719349d8503920f') in 0.0251997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.020.prefab
+  artifactKey: Guid(b7ef65ac36f3c554cad287dde48ce402) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.020.prefab using Guid(b7ef65ac36f3c554cad287dde48ce402) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6c1a56036220d7f93031be755098f5b') in 0.0222194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Props/chandelier (1)/textures/chandleir_AO.jpeg
+  artifactKey: Guid(fbed4f4363ee5364d998d569d3f8d075) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/chandelier (1)/textures/chandleir_AO.jpeg using Guid(fbed4f4363ee5364d998d569d3f8d075) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43d801972ef2e8b851763c35378dde85') in 0.0240417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Props/set-of-stylized-beds/textures/Material.00.00_bed05.dds_albedo.jpeg
+  artifactKey: Guid(aa319c59d912ec349876d45d33af07f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-beds/textures/Material.00.00_bed05.dds_albedo.jpeg using Guid(aa319c59d912ec349876d45d33af07f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '114a053e2e912ed40b6faea4c7988c61') in 0.0209292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Forest Pack/Models/Plants/Mushroom005.fbx
+  artifactKey: Guid(8fb43deb9daaca14b8f06644105788a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Forest Pack/Models/Plants/Mushroom005.fbx using Guid(8fb43deb9daaca14b8f06644105788a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c36ff539e2fbae57622e32d987e83cc3') in 0.0382264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Drawers2_mat.mat
+  artifactKey: Guid(50f2abdc6e7f54b4186a6834deb5da8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Drawers2_mat.mat using Guid(50f2abdc6e7f54b4186a6834deb5da8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7faafa99dad69e5f77babb51e4e76c9c') in 0.0356198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JC_StylizedNature_Lite/Textures/Tree_01/T_Tree_01_Normal.png
+  artifactKey: Guid(744419420b06ef74b8bb8214462b65e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JC_StylizedNature_Lite/Textures/Tree_01/T_Tree_01_Normal.png using Guid(744419420b06ef74b8bb8214462b65e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50a44a8e6ec2c2ffcbf7b940e0ac579c') in 0.0266121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Props/set-of-stylized-cupboards/textures/Textures/Material__3618.30_cupboard00.dds_normal.png
+  artifactKey: Guid(902fbba6d96736f408749f5b9207f41b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-cupboards/textures/Textures/Material__3618.30_cupboard00.dds_normal.png using Guid(902fbba6d96736f408749f5b9207f41b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddb83fa6ef36da3fa6293830644ab655') in 0.0241329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.388338 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material__3.00_Bed03.dds_roughness.jpg
+  artifactKey: Guid(efcfd5c7a7d48dc4f83d57a83765939c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material__3.00_Bed03.dds_roughness.jpg using Guid(efcfd5c7a7d48dc4f83d57a83765939c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '20efea814723784630af0587c11cb57b') in 0.0470504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material__3.01_chest01.dds_normal.png
+  artifactKey: Guid(9981ff165ba080e42bebf793b9d3f627) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material__3.01_chest01.dds_normal.png using Guid(9981ff165ba080e42bebf793b9d3f627) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b03a9a576382548a4322949a461d6cf') in 0.0293617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

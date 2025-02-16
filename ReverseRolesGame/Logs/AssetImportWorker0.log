@@ -15,7 +15,7 @@ C:/Users/kprof/OneDrive/Desktop/NewMediaProject/ReverseRolesGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52893
+54915
 -job-worker-count
 15
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/kprof/OneDrive/Desktop/NewMediaProject/ReverseRolesGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24352]  Target information:
+Player connection [11352]  Target information:
 
-Player connection [24352]  * "[IP] 10.1.18.71 [Port] 0 [Flags] 2 [Guid] 969349380 [EditorId] 969349380 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11352]  * "[IP] 10.1.18.71 [Port] 0 [Flags] 2 [Guid] 1858216127 [EditorId] 1858216127 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24352] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24352] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11352] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11352] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -91,46 +91,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004196 seconds.
-- Loaded All Assemblies, in  0.395 seconds
+Registered in 0.002253 seconds.
+- Loaded All Assemblies, in  0.271 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.465 seconds
-Domain Reload Profiling: 859ms
-	BeginReloadAssembly (150ms)
+- Finished resetting the current domain, in  0.262 seconds
+Domain Reload Profiling: 533ms
+	BeginReloadAssembly (94ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (148ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (92ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (128ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (95ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (466ms)
+	FinalizeReload (263ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (413ms)
+		SetupLoadedEditorAssemblies (232ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (267ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -138,1134 +138,1622 @@ Domain Reload Profiling: 859ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.100 seconds
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.730 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.086 seconds
-Domain Reload Profiling: 2183ms
-	BeginReloadAssembly (408ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (597ms)
-		LoadAssemblies (400ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (302ms)
-			TypeCache.Refresh (204ms)
-				TypeCache.ScanAssembly (185ms)
-			BuildScriptInfoCaches (85ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1087ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (813ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (631ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5917 unused Assets / (3.9 MB). Loaded Objects now: 6689.
-Memory consumption went from 192.8 MB to 188.9 MB.
-Total: 12.237300 ms (FindLiveObjects: 0.688300 ms CreateObjectMapping: 0.698400 ms MarkObjects: 8.084600 ms  DeleteObjects: 2.762000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 252568.896978 seconds.
-  path: Assets/Forest Pack/Prefabs/Mushroom002.prefab
-  artifactKey: Guid(05fa327bdf33373498c93de573b83f1f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Forest Pack/Prefabs/Mushroom002.prefab using Guid(05fa327bdf33373498c93de573b83f1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5eb89e6978324d9a2f47c368d6798325') in 0.3290532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Forest Pack/Materials/Color009.mat
-  artifactKey: Guid(2f7ac34b80241f4408cda3b5c4173a84) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Forest Pack/Materials/Color009.mat using Guid(2f7ac34b80241f4408cda3b5c4173a84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23e2fb18f4775cc9a831321fe137ec81') in 0.0428046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Forest Pack/Materials/Color0022.mat
-  artifactKey: Guid(9fda04592a517b045ab31e4069ab9124) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Forest Pack/Materials/Color0022.mat using Guid(9fda04592a517b045ab31e4069ab9124) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0974a9f10c790f3113bbcd57bebf0bbf') in 0.021437 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Settings/Mobile_Renderer.asset
-  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'effd06ca32d843c726b6d6aae3eca0e9') in 0.0820953 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Forest Pack/Materials/Color0028.mat
-  artifactKey: Guid(c0477bbd7e9ccd041bc750753b1339bb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Forest Pack/Materials/Color0028.mat using Guid(c0477bbd7e9ccd041bc750753b1339bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afdb05fe52a7f898386d17959969214f') in 0.0218354 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Forest Pack/Prefabs/Stone011.prefab
-  artifactKey: Guid(728c2607817d48b4fb3ec7c79844b1d4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Forest Pack/Prefabs/Stone011.prefab using Guid(728c2607817d48b4fb3ec7c79844b1d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a55c004d625674901f3dfde6f58bca5a') in 0.0326273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Forest Pack/Prefabs/Tree004_V1.prefab
-  artifactKey: Guid(0f7d185dda1db97408d14da9c1208120) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Forest Pack/Prefabs/Tree004_V1.prefab using Guid(0f7d185dda1db97408d14da9c1208120) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6f515536306064777a7fa13c4b21632') in 0.0252861 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TutorialInfo/Layout.wlt
-  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd08463428f063e42504fde50ce73db3b') in 0.0208453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Forest Pack/Prefabs/Plant009.prefab
-  artifactKey: Guid(9cb10458ad3690a4ca938b5414460389) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Forest Pack/Prefabs/Plant009.prefab using Guid(9cb10458ad3690a4ca938b5414460389) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2cfffba4cc47db11b6de4dc1a2d3c6a0') in 0.0201427 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd744672b871eb51b01de808f7a715f97') in 0.0487938 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Forest Pack/Prefabs/Stone008.prefab
-  artifactKey: Guid(87403a588a66b964784aa4dee4484166) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Forest Pack/Prefabs/Stone008.prefab using Guid(87403a588a66b964784aa4dee4484166) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f90f6f2e27866f709c9aa0d57f0733be') in 0.023666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Forest Pack/Materials/Color008.mat
-  artifactKey: Guid(7d97b2b2530339a4c9bafbf452ac2185) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Forest Pack/Materials/Color008.mat using Guid(7d97b2b2530339a4c9bafbf452ac2185) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab667f41f3b1fe95ff2bc96be8ecd493') in 0.0213784 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029820 seconds.
-  path: Assets/JC_StylizedNature_Lite/Models/SM_Mushroom_01.fbx
-  artifactKey: Guid(055dab0cd6b6e294f81af3f35b9f0283) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/JC_StylizedNature_Lite/Models/SM_Mushroom_01.fbx using Guid(055dab0cd6b6e294f81af3f35b9f0283) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66cdbaf7d10a194192f8a502456a52c2') in 0.0530224 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Axe2.007.fbx
-  artifactKey: Guid(942048a19b813dc43a232391f3529b01) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Axe2.007.fbx using Guid(942048a19b813dc43a232391f3529b01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f9c4b758110ca734c3adc221155f6bc') in 0.0313871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/ArrowBag.002.fbx
-  artifactKey: Guid(cfb82747f3432bd4b873236a82c4eb0b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/ArrowBag.002.fbx using Guid(cfb82747f3432bd4b873236a82c4eb0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9624253c4405c1239ce62dfec881c41c') in 0.0239921 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Box.002.fbx
-  artifactKey: Guid(61b0f17c4278ef64ab38a8f89863ef22) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Box.002.fbx using Guid(61b0f17c4278ef64ab38a8f89863ef22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2283289383ff5a3387c009cdff127351') in 0.0315998 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall_Entrance.fbx
-  artifactKey: Guid(ce8cc834ba277844da67143cfc370fa8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall_Entrance.fbx using Guid(ce8cc834ba277844da67143cfc370fa8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca7d8118309fd8ad5d937d20b7439e94') in 0.0204484 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Bottle.002.fbx
-  artifactKey: Guid(9bfe6f26cf843474aa7cdb11fb33c873) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Bottle.002.fbx using Guid(9bfe6f26cf843474aa7cdb11fb33c873) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0067f7d389eddcb5ac4f197b0b12bea5') in 0.0245137 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Axe.001.fbx
-  artifactKey: Guid(acc9ed4befc1235439321b2fef222fb1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Axe.001.fbx using Guid(acc9ed4befc1235439321b2fef222fb1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a9c6e1ce76bedece28eaebd98b3330c') in 0.0266173 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/BuildingAttachable.008.fbx
-  artifactKey: Guid(bae516e682830db49b69c7c82fa3c23f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/BuildingAttachable.008.fbx using Guid(bae516e682830db49b69c7c82fa3c23f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '255139d1f377226f06b8885cc83ee2d8') in 0.0234266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Bottle.001.fbx
-  artifactKey: Guid(1f0d3e17e7013704591ee0938779a8ab) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Bottle.001.fbx using Guid(1f0d3e17e7013704591ee0938779a8ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8dabee647489320a7ee4e28fc3629bfd') in 0.0202 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Pillar.prefab
-  artifactKey: Guid(7c7baabdbc078cb4098d5880fc72c0f3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Pillar.prefab using Guid(7c7baabdbc078cb4098d5880fc72c0f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6003711873b396b2533f7afdeee258ce') in 0.0193319 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Bottle.004.fbx
-  artifactKey: Guid(09013254ceed0654ba09428dc15586cf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Bottle.004.fbx using Guid(09013254ceed0654ba09428dc15586cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7de4f23c40de8e44af9ba8775fdb9312') in 0.0269923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Axe.005.fbx
-  artifactKey: Guid(93f4eceec7e4e5040968c2ed86655da8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Axe.005.fbx using Guid(93f4eceec7e4e5040968c2ed86655da8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42d2334cdefcf42088b2a06e4bb4462d') in 0.0216575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Emission.tga
-  artifactKey: Guid(1084372875829164882c05b7f7f0714f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Emission.tga using Guid(1084372875829164882c05b7f7f0714f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18bc722968e576c6df94355ff5f81393') in 0.0378135 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.689676 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/CampfireCauldronBase.001.fbx
-  artifactKey: Guid(595f1e56bb30952498a631f0b4c891f0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/CampfireCauldronBase.001.fbx using Guid(595f1e56bb30952498a631f0b4c891f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7c9cb9399de33fd039811281f6f0e45') in 0.0297638 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Fence.003.fbx
-  artifactKey: Guid(e4e7fe9e21f06634898cf43426b31f34) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Fence.003.fbx using Guid(e4e7fe9e21f06634898cf43426b31f34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76d19768048e9b1234249dcb1c7667a7') in 0.0287821 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/HammerShort.001.fbx
-  artifactKey: Guid(0d91799cfb7e26b44b80cd939438e711) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/HammerShort.001.fbx using Guid(0d91799cfb7e26b44b80cd939438e711) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8153bbb1ef348d508916b5f92a01d8bb') in 0.0271376 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Lamp.001.fbx
-  artifactKey: Guid(bc469e3cea6c9484f862f5ef582dc09f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Lamp.001.fbx using Guid(bc469e3cea6c9484f862f5ef582dc09f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14f96267b85d429491b45a7d517f74ed') in 0.0280632 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/MoneyBag.fbx
-  artifactKey: Guid(eab786f2f85607a42a0da56f0034ee93) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/MoneyBag.fbx using Guid(eab786f2f85607a42a0da56f0034ee93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7dd63de22c3a64942c7352ff095db39') in 0.0265019 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/CombatDummy.001.fbx
-  artifactKey: Guid(d0ea7f076cbb6e748841f85394b4e9a4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/CombatDummy.001.fbx using Guid(d0ea7f076cbb6e748841f85394b4e9a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc4f08cd9138a575d29242e9e29f92c2') in 0.0261177 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/IronShieldBlack.001.fbx
-  artifactKey: Guid(9a9228bfcb8aead45890316f1cc0dfbb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/IronShieldBlack.001.fbx using Guid(9a9228bfcb8aead45890316f1cc0dfbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18085fd0539c8d17bce59ca99229c0ac') in 0.0245625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Rock.002.fbx
-  artifactKey: Guid(7e2df715612685a4f8dfc8cf0c12b077) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Rock.002.fbx using Guid(7e2df715612685a4f8dfc8cf0c12b077) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'feaaa4d586da711ef548b9f782427380') in 0.0267563 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/IronShieldBlack.002.fbx
-  artifactKey: Guid(ab5236bab1db93e418435a667b53f119) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/IronShieldBlack.002.fbx using Guid(ab5236bab1db93e418435a667b53f119) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85f7f4baba1b9a3516f29e4bf217caa7') in 0.0282497 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/EntranceArch.fbx
-  artifactKey: Guid(5026171b534e80c499a8babae4067d89) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/EntranceArch.fbx using Guid(5026171b534e80c499a8babae4067d89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca89fd01e4c27f9314173a994d84351f') in 0.0220129 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Rock.012.fbx
-  artifactKey: Guid(643b10e6cf94bcf46acb19d2c0b220df) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Rock.012.fbx using Guid(643b10e6cf94bcf46acb19d2c0b220df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7acc784891603148e2355d54df3469a8') in 0.0252465 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/IronShieldPurple.001.fbx
-  artifactKey: Guid(d86fd3593093d264caff671766cf8cfe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/IronShieldPurple.001.fbx using Guid(d86fd3593093d264caff671766cf8cfe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e78a4541108dbdaa1d14c6df25323e5e') in 0.0313293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.227710 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/RockMoss.002.fbx
-  artifactKey: Guid(5446c24b3119e05459ef463e78115f9f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/RockMoss.002.fbx using Guid(5446c24b3119e05459ef463e78115f9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '279142960671f183b32dfe8379613fa1') in 0.0317377 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/WagonWheel.fbx
-  artifactKey: Guid(d53cc140e0e4941469ef671223892754) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/WagonWheel.fbx using Guid(d53cc140e0e4941469ef671223892754) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94586769267a6873d6f4b2d2eb3b3dbf') in 0.025226 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/JC_StylizedNature_Lite/Scenes/Terrain/JC_NatureLite_Terrain_Overview.asset
-  artifactKey: Guid(136f5722eb0982e43aec9d194fd22bd9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/JC_StylizedNature_Lite/Scenes/Terrain/JC_NatureLite_Terrain_Overview.asset using Guid(136f5722eb0982e43aec9d194fd22bd9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '146c6dc41393938c583a2ef36a2b9e66') in 0.0339656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Forest Pack/Models/Plants/Plant001.fbx
-  artifactKey: Guid(3293459c5866c4549a95a8cdc0ae8ed3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Forest Pack/Models/Plants/Plant001.fbx using Guid(3293459c5866c4549a95a8cdc0ae8ed3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b25e5364e1ea57b6886f35991e82c93') in 0.0318772 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Forest Pack/Models/Stones/Stone004.fbx
-  artifactKey: Guid(ac91f6699edff5449b2523f267198223) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Forest Pack/Models/Stones/Stone004.fbx using Guid(ac91f6699edff5449b2523f267198223) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05acd1adf2c5882bd440c780c2c4b17c') in 0.0242026 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/WoodenShield.009.fbx
-  artifactKey: Guid(5521114e7c5305041b8e1062c32c8e56) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/WoodenShield.009.fbx using Guid(5521114e7c5305041b8e1062c32c8e56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0320bbba047835000b4c0ce5ce141597') in 0.0218819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Vase.014.fbx
-  artifactKey: Guid(9a1009e43c0cf9046a276bf61bf825ff) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Vase.014.fbx using Guid(9a1009e43c0cf9046a276bf61bf825ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28d411f07f69c0ca79ee9803ea91d76f') in 0.0236325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/String.fbx
-  artifactKey: Guid(d97cbcddc0c117f4f9a661fee49a9325) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/String.fbx using Guid(d97cbcddc0c117f4f9a661fee49a9325) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e50d496bf5ca94d336018904822a34c') in 0.0311756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/GLOW BLUE.mat
-  artifactKey: Guid(40dfe4f29afe7dc4aa67d806dd271f25) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/GLOW BLUE.mat using Guid(40dfe4f29afe7dc4aa67d806dd271f25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '341ee6f36c1ebd5da669f3a716e0cb63') in 0.0207619 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Props/set-of-stylized-beds/textures/Material.00_Bed01.dds_AO.jpeg
-  artifactKey: Guid(a0f4041f29fb93745bc7346867ce99b5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-beds/textures/Material.00_Bed01.dds_AO.jpeg using Guid(a0f4041f29fb93745bc7346867ce99b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71ed0662fe453886e9702277f0891153') in 0.0277614 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Sword.003.fbx
-  artifactKey: Guid(6b25405ed64adfc4aa28bfa064ebddd4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Sword.003.fbx using Guid(6b25405ed64adfc4aa28bfa064ebddd4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f59747f401dfa01a19dcc5c4b819a2e2') in 0.0259692 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/WoodenLog.001.fbx
-  artifactKey: Guid(d97bc65f53974784689a19c7df43c53f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/WoodenLog.001.fbx using Guid(d97bc65f53974784689a19c7df43c53f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7be97246ed78fc2e91fd19a5cfe302b') in 0.0320169 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/JC_StylizedNature_Lite/Scenes/Terrain/JC_NatureLite_Terrain_Demo.asset
-  artifactKey: Guid(8de98c0b532a2ae418d1a43ab664fbe5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/JC_StylizedNature_Lite/Scenes/Terrain/JC_NatureLite_Terrain_Demo.asset using Guid(8de98c0b532a2ae418d1a43ab664fbe5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '018609d70191596fdfdb8ff3d5092ce0') in 0.0315358 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/WoodenShield.008.fbx
-  artifactKey: Guid(a565b88632c38a34ebdd134b20f6feaf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/WoodenShield.008.fbx using Guid(a565b88632c38a34ebdd134b20f6feaf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab026607453f75c6deccbbecfe392843') in 0.033484 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Props/set-of-stylized-beds/textures/Material__3.02_chest02.dds_albedo.jpeg
-  artifactKey: Guid(2493e436ab7a9844198162d104c5c71d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.02_chest02.dds_albedo.jpeg using Guid(2493e436ab7a9844198162d104c5c71d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3b49dbf8f1baab420262b37d6091e75') in 0.0278446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Props/set-of-stylized-beds/textures/Material__3.01_chest01.dds_normal.png
-  artifactKey: Guid(7381a6c373c96774289946dd8a37b7b6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.01_chest01.dds_normal.png using Guid(7381a6c373c96774289946dd8a37b7b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5116d7dd24acd8dcebbdee19d227b8b') in 0.0288206 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Props/set-of-stylized-beds/textures/Material__3.00_Bed03.dds_AO.jpeg
-  artifactKey: Guid(5302eb916e596784baddbacb60680135) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.00_Bed03.dds_AO.jpeg using Guid(5302eb916e596784baddbacb60680135) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ce015bbbabcce2f6d43881bc6fef97d') in 0.0344232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Leona - Props/Demon_Horns.fbx
-  artifactKey: Guid(d10eafea000334f47b4c6b0491835f96) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Leona - Props/Demon_Horns.fbx using Guid(d10eafea000334f47b4c6b0491835f96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0411b8a6ffd3d5cc180e8b363d9980ef') in 0.0258454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Props/set-of-stylized-beds/textures/Material__3_Bed04.dds_metallic.jpeg
-  artifactKey: Guid(f0f68a85b66917549b86d127db3b802c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-beds/textures/Material__3_Bed04.dds_metallic.jpeg using Guid(f0f68a85b66917549b86d127db3b802c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7183ce8580917ca9bf8bc494d06068bc') in 0.0296562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Props/set-of-stylized-cupboards/textures/Textures/Material_cupboard01.dds_metallic.jpeg
-  artifactKey: Guid(66c211d43fd7c014c97872f55f22deb4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-cupboards/textures/Textures/Material_cupboard01.dds_metallic.jpeg using Guid(66c211d43fd7c014c97872f55f22deb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01284fdc00a1017c3886cb5ecfc45a42') in 0.0280795 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Props/modular-fantasy-assets/textures/Textures/standardSurface1_Normal_OpenGL.png
-  artifactKey: Guid(1a8629031e7421645a13c05ee835d3c7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/modular-fantasy-assets/textures/Textures/standardSurface1_Normal_OpenGL.png using Guid(1a8629031e7421645a13c05ee835d3c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cf833391e11648f4af7d4d20f56acbe') in 0.0303236 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Props/stylized-wood-pbr-material/textures/StylizedWood1_Roughness.png
-  artifactKey: Guid(97157d85ff573294da085ea1f4ac157c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/stylized-wood-pbr-material/textures/StylizedWood1_Roughness.png using Guid(97157d85ff573294da085ea1f4ac157c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c77d62cda1b15bd8b200fd121ea48413') in 0.0290884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Hetalia - Props/Pistol_Trigger_1.fbx
-  artifactKey: Guid(7f5966777b29c474fa44e7d233c2181d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/FBX/Hetalia - Props/Pistol_Trigger_1.fbx using Guid(7f5966777b29c474fa44e7d233c2181d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcc53b1f471128dcee724e7b45c104ff') in 0.023261 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Props/set-of-stylized-beds/textures/Material__3.00_Bed03.dds_normal.png
-  artifactKey: Guid(3df756c0f17da1b4abb1c58bd1b7e9fc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-beds/textures/Material__3.00_Bed03.dds_normal.png using Guid(3df756c0f17da1b4abb1c58bd1b7e9fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0acf7dc478e3c4d8911dd915a5154efe') in 0.0292993 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.001.prefab
-  artifactKey: Guid(8ba564e377e2c614490759b11f4c6c6e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/WeaponRack.001.prefab using Guid(8ba564e377e2c614490759b11f4c6c6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a33b265598d4d69918a2975c3083d725') in 0.0237964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.23.00_drawers02.dds_roughness.jpeg
-  artifactKey: Guid(c2672c0dbebb40647836449d0f6f902b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.23.00_drawers02.dds_roughness.jpeg using Guid(c2672c0dbebb40647836449d0f6f902b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c91f8cdc6abd9c51a547dab8912d6a2') in 0.0323844 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.23.01_drawers01.dds_metallic.jpeg
-  artifactKey: Guid(b0c0230e7d3f9bc47b94ad8ef44ea830) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.23.01_drawers01.dds_metallic.jpeg using Guid(b0c0230e7d3f9bc47b94ad8ef44ea830) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6a8f3cbc7d9e3b7b9cd1767ddda79ab') in 0.0296023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.23.01_drawers01.dds_roughness.jpeg
-  artifactKey: Guid(7a465d69d0d356647b73c15da2971ae8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.23.01_drawers01.dds_roughness.jpeg using Guid(7a465d69d0d356647b73c15da2971ae8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4be782f11e3d37356946d885c30c9b9') in 0.0276791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.00_shelf01.dds_AO.jpeg
-  artifactKey: Guid(99372cd602c79fb4199425206cc53b32) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.00_shelf01.dds_AO.jpeg using Guid(99372cd602c79fb4199425206cc53b32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e10f5d0e4e5d024fb2e35629ba4a015') in 0.0260248 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Props/set-of-stylized-cupboards/textures/Textures/Material_cupboard01.dds_normal.png
-  artifactKey: Guid(823e72dc01a66ea45bb1fd5dca05f6ba) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-cupboards/textures/Textures/Material_cupboard01.dds_normal.png using Guid(823e72dc01a66ea45bb1fd5dca05f6ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dce470f1051ced4784ddf0a42c3d3fb7') in 0.0275478 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Anvil and Airblower/Anvil.prefab
-  artifactKey: Guid(ed0eb035b89aaef45b287b59e62bec9c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Anvil and Airblower/Anvil.prefab using Guid(ed0eb035b89aaef45b287b59e62bec9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b5879d32bb33c45b7914955d416bc6e') in 0.0268268 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.23.01_drawers01.dds_normal.png
-  artifactKey: Guid(2c05ec4f665d88e4e82bcb0373e8f0b1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3618.23.01_drawers01.dds_normal.png using Guid(2c05ec4f665d88e4e82bcb0373e8f0b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8fa1ef5ec3243b9f71e0ff87eb1f192') in 0.0275903 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Props/set-of-stylized-cupboards/textures/Textures/Material__3618.14.00_cupboard02.dds_albedo.jpeg
-  artifactKey: Guid(fac045e653679f4458c1d891633b0311) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-cupboards/textures/Textures/Material__3618.14.00_cupboard02.dds_albedo.jpeg using Guid(fac045e653679f4458c1d891633b0311) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7f42143d2feb3ed6d6d08e6d73599ed') in 0.0283665 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Scenes/SampleScene_2_Profiles/Global Volume_2.asset
-  artifactKey: Guid(8f8968b9c795d824f93c0d5db2314360) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Scenes/SampleScene_2_Profiles/Global Volume_2.asset using Guid(8f8968b9c795d824f93c0d5db2314360) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e633eeaa78dbcdefd4b42e4ae538c6e') in 0.0189549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Props/modular-fantasy-assets/textures/Textures/Wood_Base_color.png
-  artifactKey: Guid(5383b8f66cc2da24090a228d81b8ea29) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/modular-fantasy-assets/textures/Textures/Wood_Base_color.png using Guid(5383b8f66cc2da24090a228d81b8ea29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80151ae729d0a05ead76454691ab6830') in 0.0314528 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.015.prefab
-  artifactKey: Guid(a6becfce4ef909b4590b6b72c46b5ee0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.015.prefab using Guid(a6becfce4ef909b4590b6b72c46b5ee0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b1d680a2037bbb6ec4aba805f4cf801') in 0.0218106 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Inkwell and Feather/Inkwell.001.prefab
-  artifactKey: Guid(6980e5ebc519b104ebd3f3a295700684) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Inkwell and Feather/Inkwell.001.prefab using Guid(6980e5ebc519b104ebd3f3a295700684) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9708ba5e5e43555622d3081562600ee') in 0.0250933 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.010.prefab
-  artifactKey: Guid(2c24272525fe3f24a859659859a29a40) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.010.prefab using Guid(2c24272525fe3f24a859659859a29a40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b73a57b8f79bf6afd503b5c179d9e770') in 0.0232933 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Shelve/Shelve.002.prefab
-  artifactKey: Guid(c676625d9eb0a764caf7768024cbba54) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Shelve/Shelve.002.prefab using Guid(c676625d9eb0a764caf7768024cbba54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b800d86d30076ebfc32204d403dd7672') in 0.0233753 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Scroll/Scroll.002.prefab
-  artifactKey: Guid(d075061b18ccb264e8e00f5c3ceba7fb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Scroll/Scroll.002.prefab using Guid(d075061b18ccb264e8e00f5c3ceba7fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ad12d3b2fe65245f09ceb029532d261') in 0.0204434 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Shelve/Shelve.001.prefab
-  artifactKey: Guid(47b6443892d32ae499c2808538dd737b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Shelve/Shelve.001.prefab using Guid(47b6443892d32ae499c2808538dd737b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f038d65f6e83b9f46762bb6ea4e6142') in 0.0280562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Helmet/Helmet.002.prefab
-  artifactKey: Guid(12fb8fa2ecd52304ca0798fd4b8f272b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Helmet/Helmet.002.prefab using Guid(12fb8fa2ecd52304ca0798fd4b8f272b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bc8a1ec511f6958555a17a4de644eb4') in 0.0210449 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.016.prefab
-  artifactKey: Guid(6349c7fc2fa7da540b954a895162be0a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.016.prefab using Guid(6349c7fc2fa7da540b954a895162be0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52ecd84cae7c6ce97a9775295f12228a') in 0.0204283 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Forest Pack/Models/Stones/Stone008.fbx
-  artifactKey: Guid(6187c2c7d947dbf41a2abd1a5e81ad74) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Forest Pack/Models/Stones/Stone008.fbx using Guid(6187c2c7d947dbf41a2abd1a5e81ad74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '370d24800be91fcebc3da1b69574f850') in 0.0311637 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Cauldron and Campfire/Campfire.prefab
-  artifactKey: Guid(2b84d402328bd364d9e4d349fe72a9e4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Cauldron and Campfire/Campfire.prefab using Guid(2b84d402328bd364d9e4d349fe72a9e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6cbc76ec8493f9a9d850baa6c18de0ae') in 0.018375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Hammers/HammerSmall.001.prefab
-  artifactKey: Guid(356362aca530bed4ba9c1b404c06f226) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Hammers/HammerSmall.001.prefab using Guid(356362aca530bed4ba9c1b404c06f226) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34ea8fc4b264897ec1e9c8dc317aefa9') in 0.0221636 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Hammers/HammerSmall.004.prefab
-  artifactKey: Guid(2f8f212686110674ba17c0ba23a31524) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Hammers/HammerSmall.004.prefab using Guid(2f8f212686110674ba17c0ba23a31524) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eaa2a7413a70c43abccb6d9e3320f166') in 0.0224485 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Axes/Axe.005.prefab
-  artifactKey: Guid(5dd1d39983e684c459b66d40a7041bde) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Axes/Axe.005.prefab using Guid(5dd1d39983e684c459b66d40a7041bde) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5e5c43db3a4f88f72f51e3dd79e5555') in 0.023393 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.017.prefab
-  artifactKey: Guid(024b34d9024a65342881335da9a5d581) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.017.prefab using Guid(024b34d9024a65342881335da9a5d581) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec8dcc921ccdbc6ff4ace5d1f7716fd3') in 0.0250671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon/Wagon Parts/Wagon.prefab
-  artifactKey: Guid(ff67018af3e009047a8c5ef9eaada9a4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon/Wagon Parts/Wagon.prefab using Guid(ff67018af3e009047a8c5ef9eaada9a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59422cae94a8eb52cb13cc6f693c5b67') in 0.0255058 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props/Pistol/Pistol.prefab
-  artifactKey: Guid(48ce147f2b108f24282427d4cd649593) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props/Pistol/Pistol.prefab using Guid(48ce147f2b108f24282427d4cd649593) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31ff994c7f0387c3f4a20b1a227d5064') in 0.0233119 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Leona - Props/Demon Horns/Demon_Horns.prefab
-  artifactKey: Guid(ba63fd3831eb42d4ca73188d1c664e40) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Leona - Props/Demon Horns/Demon_Horns.prefab using Guid(ba63fd3831eb42d4ca73188d1c664e40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80cebcd713740b5ddbe86a3d06dd1320') in 0.0172825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.021.prefab
-  artifactKey: Guid(272225d63d6a6a34ca05cccd4249adba) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Vases/Vase.021.prefab using Guid(272225d63d6a6a34ca05cccd4249adba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc23fe8a5c8538e7db8b398a3c048008') in 0.0236893 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props/Cat Tails/Cat_Tail_White.prefab
-  artifactKey: Guid(eb1f2671753141d48aad721db69770d8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props/Cat Tails/Cat_Tail_White.prefab using Guid(eb1f2671753141d48aad721db69770d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01a69ff9253ad9be17cef05aaef6bbb0') in 0.0259551 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Entrance Arch/ArmoryBillboard.prefab
-  artifactKey: Guid(bfcb5c646115904419ddb6c750614261) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Entrance Arch/ArmoryBillboard.prefab using Guid(bfcb5c646115904419ddb6c750614261) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3af21753093331af1655a086dbd66c80') in 0.0223349 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bucket/Bucket Parts/Bucket.002.prefab
-  artifactKey: Guid(678cea20f44389f44839ea9775dcbb93) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bucket/Bucket Parts/Bucket.002.prefab using Guid(678cea20f44389f44839ea9775dcbb93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d8163eb02ab422464304530b2fbdc37') in 0.0226935 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rocks/Rock.011.prefab
-  artifactKey: Guid(e4c891c544342874797121323d63b6df) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rocks/Rock.011.prefab using Guid(e4c891c544342874797121323d63b6df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c07f7898f93700b95581492823a2410c') in 0.0233344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props/Pistol/Individual Parts/Pistol_Trigger_2.prefab
-  artifactKey: Guid(f910b6ae2af2135429d6039011815c64) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Fantasy Female Character Hetalia - Props/Pistol/Individual Parts/Pistol_Trigger_2.prefab using Guid(f910b6ae2af2135429d6039011815c64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4546f63c9d54f79aef19571eccf9964d') in 0.0213589 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/Core/FlagEnumAttribute.cs
-  artifactKey: Guid(41e19a4b75910c146a0b391bbc5f1ea8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/Core/FlagEnumAttribute.cs using Guid(41e19a4b75910c146a0b391bbc5f1ea8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83c1583d49d9bfb0511e96f842454cef') in 0.0159908 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Swords/Sword.001.prefab
-  artifactKey: Guid(645ec62e9afaadd4abb74bf74ae13308) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Swords/Sword.001.prefab using Guid(645ec62e9afaadd4abb74bf74ae13308) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4892b02331a96b22b2887752c3a1ad4') in 0.0214299 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Box/Box Attachable/BoxAttachable.prefab
-  artifactKey: Guid(7ab5ce2cbc0042a4e9ccc015f71f8d30) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Box/Box Attachable/BoxAttachable.prefab using Guid(7ab5ce2cbc0042a4e9ccc015f71f8d30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec4fef6792ebc9bce69d5c7aeb503bcd') in 0.0237466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/model.dae
-  artifactKey: Guid(3021c9a0e9269084087b615acb845371) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/model.dae using Guid(3021c9a0e9269084087b615acb845371) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64fc27a14c24a31c780d4804fff9c526') in 0.0299291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Shields/Iron Shields/IronShieldRed.002.prefab
-  artifactKey: Guid(d6ea4ba926edaa64d817f7f5e9534b46) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Shields/Iron Shields/IronShieldRed.002.prefab using Guid(d6ea4ba926edaa64d817f7f5e9534b46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '155e31e44d947f82fb41af8b7a38a8b7') in 0.0259431 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Oven/Oven Parts/OvenDoor.prefab
-  artifactKey: Guid(389aaefada770a4409e7e90296ca7a88) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Oven/Oven Parts/OvenDoor.prefab using Guid(389aaefada770a4409e7e90296ca7a88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8368cd8649de85d54b30078f0cc9385') in 0.0214038 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Shields/Wooden Shields/WoodenShield.002.prefab
-  artifactKey: Guid(f9d383d736e6ef34c8e7ca201c6a70ff) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Shields/Wooden Shields/WoodenShield.002.prefab using Guid(f9d383d736e6ef34c8e7ca201c6a70ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a296a11e4fd35bb3077dd7bece3470f1') in 0.0213532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3_desk02.dds_normal.png
-  artifactKey: Guid(00f2313b9d9c02b44bbc4f11aa305535) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-shelves-and-desks/textures/Textures/Material__3_desk02.dds_normal.png using Guid(00f2313b9d9c02b44bbc4f11aa305535) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fe00d3dd4783db4a7ccbe0331139341') in 0.0360711 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/textures/Material__3618.14.00_cupboard02.dds_roughness.jpg
-  artifactKey: Guid(a827cebe8983a344e91499bc870b988e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/textures/Material__3618.14.00_cupboard02.dds_roughness.jpg using Guid(a827cebe8983a344e91499bc870b988e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58c2f9717d4a69948084f604ddebbd09') in 0.0344208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material_desk02.dds.001_roughness.jpg
-  artifactKey: Guid(53c203be73187314a9c7744aa80d7c02) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material_desk02.dds.001_roughness.jpg using Guid(53c203be73187314a9c7744aa80d7c02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2a69df0c3bd062c4a024bd0cbe6f862') in 0.0247533 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material.00_Bed01.dds_albedo.jpg
-  artifactKey: Guid(6d771b3d256fb284ebab66541b498531) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material.00_Bed01.dds_albedo.jpg using Guid(6d771b3d256fb284ebab66541b498531) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd31ab11aee2b835a5f2d13821eb86cb') in 0.0256455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs
-  artifactKey: Guid(36aa02d38bb10b548bc7b8879596b15c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs using Guid(36aa02d38bb10b548bc7b8879596b15c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfe6b36a46e97aa0b1294f5d2b7ebdd4') in 0.0201368 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3618.00_shelf01.dds_AO.jpg
-  artifactKey: Guid(ff2a5b81900a2a043abffed98714c773) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3618.00_shelf01.dds_AO.jpg using Guid(ff2a5b81900a2a043abffed98714c773) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '070f78de738d2767b3a090e026903448') in 0.0285591 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/textures/Material__3618.14.00_cupboard02.dds_normal.png
-  artifactKey: Guid(b1aa0d629c567414492ab100a32055fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-cupboards/source/Cupboards/model/textures/Material__3618.14.00_cupboard02.dds_normal.png using Guid(b1aa0d629c567414492ab100a32055fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f89d77c7ea45c0aa7209c68f38d5c24') in 0.0267306 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3.00_shelves01.dds_albedo.jpg
-  artifactKey: Guid(71fd4acceacab414597e3ee976177648) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-shelves-and-desks/source/Shelves/model/textures/Material__3.00_shelves01.dds_albedo.jpg using Guid(71fd4acceacab414597e3ee976177648) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '297cc276f315a73d9b278bca3ae0ad0d') in 0.0337796 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Bed1_mat.mat
-  artifactKey: Guid(82dd020dc015c47429f9e25100dae3f6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Bed1_mat.mat using Guid(82dd020dc015c47429f9e25100dae3f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7daf8057a505c840a5f4b3de78e79f41') in 0.0293919 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Bed5_mat.mat
-  artifactKey: Guid(eb8ed2f3e1362354092079d5dee8e7d6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Bed5_mat.mat using Guid(eb8ed2f3e1362354092079d5dee8e7d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad00e2a39bc5fe370acf3a5fb5300326') in 0.0280576 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeTransforms.cs
-  artifactKey: Guid(6d1bc949ada500e40a47e0e6f07b2d86) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeTransforms.cs using Guid(6d1bc949ada500e40a47e0e6f07b2d86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe7c34b8bdcd085605e247381fd8564e') in 0.0203185 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e716c966493885a86adc2d1ac09fe90a') in 0.275129 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/PLANE MATERIAL.mat
-  artifactKey: Guid(d3878f220d800344497382609e25c5ca) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/PLANE MATERIAL.mat using Guid(d3878f220d800344497382609e25c5ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e64eec71bdea62545f224690d86416e6') in 0.0236333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Props/modular-fantasy-assets/textures/Rug_mat.mat
-  artifactKey: Guid(9b6820cfa97524d45811a2ba23a94bdc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/modular-fantasy-assets/textures/Rug_mat.mat using Guid(9b6820cfa97524d45811a2ba23a94bdc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89948bf0d6ba49ed4cdfa2df5bc40dd6') in 0.0285694 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.385690 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material__3.00_Bed03.dds_AO.jpg
-  artifactKey: Guid(3cba7ca5004fffb4ea5b97668fc8e82c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material__3.00_Bed03.dds_AO.jpg using Guid(3cba7ca5004fffb4ea5b97668fc8e82c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8c59ac70697e731839cb0100aad5a52') in 0.0446667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material__3_Bed04.dds_roughness.jpg
-  artifactKey: Guid(9870f576c0f032b4ca5a22328383b630) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material__3_Bed04.dds_roughness.jpg using Guid(9870f576c0f032b4ca5a22328383b630) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfb7a894769d3e35d028c5daa8eb3830') in 0.0266161 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material__3.02_chest02.dds_normal.png
-  artifactKey: Guid(1265dc264ded29c47b920f1606681528) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Props/set-of-stylized-beds/source/Beds/model/textures/Textures/Material__3.02_chest02.dds_normal.png using Guid(1265dc264ded29c47b920f1606681528) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '910a43a6d22f6cb20aef895d35207bed') in 0.0256854 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.581 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.640 seconds
-Domain Reload Profiling: 1221ms
-	BeginReloadAssembly (181ms)
+- Finished resetting the current domain, in  0.569 seconds
+Domain Reload Profiling: 1296ms
+	BeginReloadAssembly (280ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (337ms)
-		LoadAssemblies (283ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (261ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (147ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (126ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (112ms)
+			BuildScriptInfoCaches (55ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (640ms)
+	FinalizeReload (569ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (433ms)
+		SetupLoadedEditorAssemblies (406ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
+			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (329ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (310ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 4.24 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5958 unused Assets / (4.1 MB). Loaded Objects now: 6730.
+Memory consumption went from 200.6 MB to 196.5 MB.
+Total: 7.375600 ms (FindLiveObjects: 1.027800 ms CreateObjectMapping: 0.246700 ms MarkObjects: 4.339500 ms  DeleteObjects: 1.758400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 259665.502798 seconds.
+  path: Assets/CameraController.cs
+  artifactKey: Guid(9e50c08d0863d6c4bbe67665f8e2580a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CameraController.cs using Guid(9e50c08d0863d6c4bbe67665f8e2580a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a38afb03eff23944b2421ad65e64fdd') in 0.0046976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.525 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.699 seconds
+Domain Reload Profiling: 1224ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (699ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (483ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5953 unused Assets / (3.4 MB). Loaded Objects now: 6745.
-Memory consumption went from 187.8 MB to 184.4 MB.
-Total: 21.889500 ms (FindLiveObjects: 1.530000 ms CreateObjectMapping: 0.608800 ms MarkObjects: 15.007500 ms  DeleteObjects: 4.740100 ms)
+Unloading 5954 unused Assets / (3.6 MB). Loaded Objects now: 6747.
+Memory consumption went from 182.6 MB to 179.0 MB.
+Total: 8.452500 ms (FindLiveObjects: 0.921100 ms CreateObjectMapping: 0.480900 ms MarkObjects: 5.427000 ms  DeleteObjects: 1.621300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 710.997428 seconds.
-  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_atack_02.png
-  artifactKey: Guid(0dda9efeece02c3488735399dbffb0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_atack_02.png using Guid(0dda9efeece02c3488735399dbffb0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dee8a4c69b055c6e16b6167603807754') in 0.1084351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 97.675050 seconds.
+  path: Assets/CameraController.cs
+  artifactKey: Guid(9e50c08d0863d6c4bbe67665f8e2580a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CameraController.cs using Guid(9e50c08d0863d6c4bbe67665f8e2580a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d4c210f3a64533d6ef69d44290c592a') in 0.0075836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_01.png
-  artifactKey: Guid(901639f1dddd7b04aa3c943786d274d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_01.png using Guid(901639f1dddd7b04aa3c943786d274d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83db3c1d1e8291606fbd36070fd72be4') in 0.0218707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.504 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.585 seconds
+Domain Reload Profiling: 1086ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (585ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (399ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (310ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.7 MB). Loaded Objects now: 6749.
+Memory consumption went from 180.9 MB to 177.2 MB.
+Total: 8.861100 ms (FindLiveObjects: 0.629800 ms CreateObjectMapping: 0.178000 ms MarkObjects: 5.995900 ms  DeleteObjects: 2.055000 ms)
 
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.485 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.611 seconds
+Domain Reload Profiling: 1096ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (612ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (394ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.7 MB). Loaded Objects now: 6751.
+Memory consumption went from 180.9 MB to 177.2 MB.
+Total: 7.879700 ms (FindLiveObjects: 0.549600 ms CreateObjectMapping: 0.420700 ms MarkObjects: 4.952900 ms  DeleteObjects: 1.955300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.477 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.596 seconds
+Domain Reload Profiling: 1074ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (597ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (383ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (297ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.7 MB). Loaded Objects now: 6753.
+Memory consumption went from 182.8 MB to 179.1 MB.
+Total: 8.278700 ms (FindLiveObjects: 0.900800 ms CreateObjectMapping: 0.362400 ms MarkObjects: 5.378100 ms  DeleteObjects: 1.636100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.537 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.541 seconds
+Domain Reload Profiling: 1079ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (142ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (542ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.3 MB). Loaded Objects now: 6755.
+Memory consumption went from 188.6 MB to 185.3 MB.
+Total: 6.350900 ms (FindLiveObjects: 0.718300 ms CreateObjectMapping: 0.341900 ms MarkObjects: 3.847600 ms  DeleteObjects: 1.441600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.476 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 1064ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (391ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.6 MB). Loaded Objects now: 6757.
+Memory consumption went from 188.6 MB to 185.0 MB.
+Total: 7.826000 ms (FindLiveObjects: 0.504200 ms CreateObjectMapping: 0.279200 ms MarkObjects: 5.355500 ms  DeleteObjects: 1.685700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 1078ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (302ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (598ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (4.0 MB). Loaded Objects now: 6759.
+Memory consumption went from 188.6 MB to 184.6 MB.
+Total: 7.476200 ms (FindLiveObjects: 0.502700 ms CreateObjectMapping: 0.291600 ms MarkObjects: 4.829300 ms  DeleteObjects: 1.851400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.475 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.599 seconds
+Domain Reload Profiling: 1074ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (600ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (394ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.9 MB). Loaded Objects now: 6761.
+Memory consumption went from 188.6 MB to 184.7 MB.
+Total: 7.157500 ms (FindLiveObjects: 0.438000 ms CreateObjectMapping: 0.520800 ms MarkObjects: 4.630400 ms  DeleteObjects: 1.566900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.482 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.687 seconds
+Domain Reload Profiling: 1169ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (302ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (687ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (460ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.8 MB). Loaded Objects now: 6763.
+Memory consumption went from 188.6 MB to 184.8 MB.
+Total: 7.474500 ms (FindLiveObjects: 0.514100 ms CreateObjectMapping: 0.640200 ms MarkObjects: 4.649100 ms  DeleteObjects: 1.669800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.471 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.607 seconds
+Domain Reload Profiling: 1079ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (409ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.9 MB). Loaded Objects now: 6765.
+Memory consumption went from 188.6 MB to 184.7 MB.
+Total: 8.483200 ms (FindLiveObjects: 0.511700 ms CreateObjectMapping: 0.252500 ms MarkObjects: 5.556600 ms  DeleteObjects: 2.160100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.477 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.570 seconds
+Domain Reload Profiling: 1047ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (299ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (384ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.8 MB). Loaded Objects now: 6767.
+Memory consumption went from 188.6 MB to 184.8 MB.
+Total: 8.303000 ms (FindLiveObjects: 0.482900 ms CreateObjectMapping: 0.436300 ms MarkObjects: 5.810200 ms  DeleteObjects: 1.572700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5947 unused Assets / (3.2 MB). Loaded Objects now: 6767.
+Memory consumption went from 188.8 MB to 185.6 MB.
+Total: 9.854500 ms (FindLiveObjects: 0.807000 ms CreateObjectMapping: 0.507200 ms MarkObjects: 6.712700 ms  DeleteObjects: 1.826300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.498 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.548 seconds
+Domain Reload Profiling: 1046ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (548ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (366ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.8 MB). Loaded Objects now: 6769.
+Memory consumption went from 188.6 MB to 184.8 MB.
+Total: 7.178400 ms (FindLiveObjects: 0.413900 ms CreateObjectMapping: 0.245500 ms MarkObjects: 4.541600 ms  DeleteObjects: 1.975500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.479 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.714 seconds
+Domain Reload Profiling: 1192ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (714ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.8 MB). Loaded Objects now: 6771.
+Memory consumption went from 188.6 MB to 184.8 MB.
+Total: 7.842300 ms (FindLiveObjects: 0.481800 ms CreateObjectMapping: 0.288000 ms MarkObjects: 5.382700 ms  DeleteObjects: 1.688700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.485 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.570 seconds
+Domain Reload Profiling: 1055ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.3 MB). Loaded Objects now: 6773.
+Memory consumption went from 188.6 MB to 185.3 MB.
+Total: 7.772000 ms (FindLiveObjects: 0.491300 ms CreateObjectMapping: 0.382400 ms MarkObjects: 4.799200 ms  DeleteObjects: 2.096500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.474 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.616 seconds
+Domain Reload Profiling: 1090ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (617ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.6 MB). Loaded Objects now: 6775.
+Memory consumption went from 188.6 MB to 185.0 MB.
+Total: 7.811400 ms (FindLiveObjects: 0.504700 ms CreateObjectMapping: 0.339700 ms MarkObjects: 5.291100 ms  DeleteObjects: 1.674500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.481 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.609 seconds
+Domain Reload Profiling: 1091ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (609ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.9 MB). Loaded Objects now: 6777.
+Memory consumption went from 188.6 MB to 184.7 MB.
+Total: 8.340200 ms (FindLiveObjects: 0.708000 ms CreateObjectMapping: 0.366400 ms MarkObjects: 4.942300 ms  DeleteObjects: 2.322100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.469 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.693 seconds
+Domain Reload Profiling: 1162ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (694ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (367ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.8 MB). Loaded Objects now: 6779.
+Memory consumption went from 188.6 MB to 184.8 MB.
+Total: 7.542600 ms (FindLiveObjects: 0.674500 ms CreateObjectMapping: 0.330600 ms MarkObjects: 4.980000 ms  DeleteObjects: 1.556500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.476 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.614 seconds
+Domain Reload Profiling: 1090ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (614ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (425ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.1 MB). Loaded Objects now: 6781.
+Memory consumption went from 188.6 MB to 185.5 MB.
+Total: 6.498300 ms (FindLiveObjects: 0.763600 ms CreateObjectMapping: 0.286700 ms MarkObjects: 4.107400 ms  DeleteObjects: 1.339500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.475 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.594 seconds
+Domain Reload Profiling: 1070ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (222ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (594ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (4.0 MB). Loaded Objects now: 6783.
+Memory consumption went from 188.6 MB to 184.6 MB.
+Total: 8.388300 ms (FindLiveObjects: 0.566100 ms CreateObjectMapping: 0.264300 ms MarkObjects: 5.494500 ms  DeleteObjects: 2.061800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.568 seconds
+Domain Reload Profiling: 1048ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (302ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (568ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (379ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5954 unused Assets / (3.8 MB). Loaded Objects now: 6785.
+Memory consumption went from 188.6 MB to 184.9 MB.
+Total: 7.980100 ms (FindLiveObjects: 0.506900 ms CreateObjectMapping: 0.305100 ms MarkObjects: 5.253700 ms  DeleteObjects: 1.912900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5948 unused Assets / (4.3 MB). Loaded Objects now: 6786.
+Memory consumption went from 188.8 MB to 184.5 MB.
+Total: 7.650100 ms (FindLiveObjects: 0.471200 ms CreateObjectMapping: 0.269400 ms MarkObjects: 4.873000 ms  DeleteObjects: 2.034600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.486 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.541 seconds
+Domain Reload Profiling: 1027ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (230ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (541ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (360ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5955 unused Assets / (3.8 MB). Loaded Objects now: 6788.
+Memory consumption went from 188.6 MB to 184.8 MB.
+Total: 5.268000 ms (FindLiveObjects: 0.450500 ms CreateObjectMapping: 0.262900 ms MarkObjects: 3.313200 ms  DeleteObjects: 1.240600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_03.png
-  artifactKey: Guid(e9edcc163e6607941b40459039ff3ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_03.png using Guid(e9edcc163e6607941b40459039ff3ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4206b5ad49ad4d9962a49fe01bc05f47') in 0.0162098 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 1222.096761 seconds.
+  path: Assets/CameraMovement.cs
+  artifactKey: Guid(3f9e8de0379da04468e30be0e762e1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CameraMovement.cs using Guid(3f9e8de0379da04468e30be0e762e1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b60748adae49091cc75d7fe054a95252') in 0.1626001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_04.png
-  artifactKey: Guid(36ff8417f47c0564dac83ad12f13f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_04.png using Guid(36ff8417f47c0564dac83ad12f13f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fd1a04aaab305aaa6e968cac41fa423') in 0.028405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5948 unused Assets / (3.6 MB). Loaded Objects now: 6788.
+Memory consumption went from 188.8 MB to 185.2 MB.
+Total: 10.728300 ms (FindLiveObjects: 0.487800 ms CreateObjectMapping: 0.275900 ms MarkObjects: 6.773300 ms  DeleteObjects: 3.188500 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_05.png
-  artifactKey: Guid(46f53a456f6630c48939a8e43d1dd3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_05.png using Guid(46f53a456f6630c48939a8e43d1dd3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43c5072dfc6797dc0e8b22556add5dc4') in 0.0233776 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.507 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 1105ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (598ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (411ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5955 unused Assets / (3.8 MB). Loaded Objects now: 6790.
+Memory consumption went from 188.6 MB to 184.8 MB.
+Total: 7.735700 ms (FindLiveObjects: 0.840300 ms CreateObjectMapping: 0.510500 ms MarkObjects: 4.363700 ms  DeleteObjects: 2.019900 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_06.png
-  artifactKey: Guid(ffad18ba204bc7e4897c2b0c860d0c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_06.png using Guid(ffad18ba204bc7e4897c2b0c860d0c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62368bdbe3616c59649979d543c15d03') in 0.0242387 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.482 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.648 seconds
+Domain Reload Profiling: 1131ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (425ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5955 unused Assets / (3.7 MB). Loaded Objects now: 6792.
+Memory consumption went from 188.6 MB to 185.0 MB.
+Total: 7.881500 ms (FindLiveObjects: 0.485800 ms CreateObjectMapping: 0.506800 ms MarkObjects: 5.045100 ms  DeleteObjects: 1.842500 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_slide_03.png
-  artifactKey: Guid(5b812e93c05ea4345a5924253cee070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_slide_03.png using Guid(5b812e93c05ea4345a5924253cee070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ec53a6b14a18ecdb16efd2ac1362059') in 0.0244309 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.476 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 1099ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (622ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5955 unused Assets / (3.7 MB). Loaded Objects now: 6794.
+Memory consumption went from 188.6 MB to 185.0 MB.
+Total: 7.995900 ms (FindLiveObjects: 0.683700 ms CreateObjectMapping: 0.282400 ms MarkObjects: 5.472800 ms  DeleteObjects: 1.555700 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_01.png
-  artifactKey: Guid(dff6bb17b24945d428995c019750f524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_01.png using Guid(dff6bb17b24945d428995c019750f524) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebc4785cd8fda43e1925ab8b94d3757e') in 0.0117734 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.483 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.560 seconds
+Domain Reload Profiling: 1044ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (560ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (379ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5955 unused Assets / (3.2 MB). Loaded Objects now: 6796.
+Memory consumption went from 188.7 MB to 185.4 MB.
+Total: 5.728700 ms (FindLiveObjects: 0.431000 ms CreateObjectMapping: 0.244000 ms MarkObjects: 3.689100 ms  DeleteObjects: 1.363500 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_preslide_01.png
-  artifactKey: Guid(1b5f6e65e18ef0849bc5f9aa181467c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_preslide_01.png using Guid(1b5f6e65e18ef0849bc5f9aa181467c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbc3ea9a766a6de7d2976cb2071bfb06') in 0.0249727 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.464 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.568 seconds
+Domain Reload Profiling: 1033ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (568ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5955 unused Assets / (3.9 MB). Loaded Objects now: 6798.
+Memory consumption went from 188.7 MB to 184.8 MB.
+Total: 6.692900 ms (FindLiveObjects: 0.709100 ms CreateObjectMapping: 0.276600 ms MarkObjects: 4.177200 ms  DeleteObjects: 1.529100 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_02.png
-  artifactKey: Guid(bc773256dd1a7474a86a67f0fe38f4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_02.png using Guid(bc773256dd1a7474a86a67f0fe38f4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7490e5a965a0acbf7b433521ec83f8f2') in 0.0216055 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.477 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.584 seconds
+Domain Reload Profiling: 1061ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (585ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5955 unused Assets / (3.7 MB). Loaded Objects now: 6800.
+Memory consumption went from 188.7 MB to 184.9 MB.
+Total: 7.646100 ms (FindLiveObjects: 0.488200 ms CreateObjectMapping: 0.577600 ms MarkObjects: 4.986600 ms  DeleteObjects: 1.592500 ms)
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.474 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.573 seconds
+Domain Reload Profiling: 1048ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (573ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (385ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5955 unused Assets / (3.3 MB). Loaded Objects now: 6802.
+Memory consumption went from 188.7 MB to 185.3 MB.
+Total: 8.235900 ms (FindLiveObjects: 0.722300 ms CreateObjectMapping: 0.416000 ms MarkObjects: 5.291500 ms  DeleteObjects: 1.804600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.473 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.785 seconds
+Domain Reload Profiling: 1259ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (221ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (785ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (553ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (427ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5955 unused Assets / (4.0 MB). Loaded Objects now: 6804.
+Memory consumption went from 188.7 MB to 184.7 MB.
+Total: 8.049900 ms (FindLiveObjects: 0.539100 ms CreateObjectMapping: 0.314000 ms MarkObjects: 5.096600 ms  DeleteObjects: 2.098400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.494 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 1094ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (601ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (397ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5955 unused Assets / (3.8 MB). Loaded Objects now: 6806.
+Memory consumption went from 188.7 MB to 184.8 MB.
+Total: 8.247500 ms (FindLiveObjects: 0.528600 ms CreateObjectMapping: 0.515400 ms MarkObjects: 5.573600 ms  DeleteObjects: 1.628700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.673 seconds
+Domain Reload Profiling: 1153ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (673ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (446ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5955 unused Assets / (3.7 MB). Loaded Objects now: 6808.
+Memory consumption went from 188.7 MB to 184.9 MB.
+Total: 8.718200 ms (FindLiveObjects: 0.535000 ms CreateObjectMapping: 0.343000 ms MarkObjects: 5.853500 ms  DeleteObjects: 1.984700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
