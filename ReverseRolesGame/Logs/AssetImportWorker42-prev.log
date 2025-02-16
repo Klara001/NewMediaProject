@@ -1,0 +1,287 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.27f1 (27c554a2199c) revision 2606420'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32496 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker42
+-projectPath
+C:/Users/kprof/ReverseRolesGame
+-logFile
+Logs/AssetImportWorker42.log
+-srvPort
+63521
+-job-worker-count
+15
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/kprof/ReverseRolesGame
+C:/Users/kprof/ReverseRolesGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15976]  Target information:
+
+Player connection [15976]  * "[IP] 10.250.46.81 [Port] 0 [Flags] 2 [Guid] 2259899055 [EditorId] 2259899055 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15976] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15976] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.27f1 (27c554a2199c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kprof/ReverseRolesGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2820)
+    Vendor:   NVIDIA
+    VRAM:     7948 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001799 seconds.
+- Loaded All Assemblies, in  0.236 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.210 seconds
+Domain Reload Profiling: 445ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (95ms)
+		LoadAssemblies (80ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (83ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (210ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (182ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.612 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.546 seconds
+Domain Reload Profiling: 1157ms
+	BeginReloadAssembly (248ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (102ms)
+			BuildScriptInfoCaches (42ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (546ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (395ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5917 unused Assets / (3.8 MB). Loaded Objects now: 6689.
+Memory consumption went from 192.9 MB to 189.1 MB.
+Total: 5.880400 ms (FindLiveObjects: 0.488600 ms CreateObjectMapping: 0.357300 ms MarkObjects: 3.639600 ms  DeleteObjects: 1.393300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 235661.309066 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks
+  artifactKey: Guid(c8de4177f947360479af62b2116c142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks using Guid(c8de4177f947360479af62b2116c142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '504718d042b064cb1746d5dfe7a6147c') in 0.008192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.187166 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rock + Moss
+  artifactKey: Guid(b7514e31444f3da44956f87e57d423f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rock + Moss using Guid(b7514e31444f3da44956f87e57d423f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0b8da59980d34b79667de96e4bff2c1') in 0.0004186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058552 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rock + Moss/RockMoss.001.prefab
+  artifactKey: Guid(7533f29e53e570547b0b2c0491c5db29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rock + Moss/RockMoss.001.prefab using Guid(7533f29e53e570547b0b2c0491c5db29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fed62d953c4e7d662cb49fe5d4e77ce8') in 0.3352763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.661152 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rocks
+  artifactKey: Guid(4e3302d8d29d46440885f81dee3457a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Nature/Rocks/Rocks using Guid(4e3302d8d29d46440885f81dee3457a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a84f751865c5c8cc7802f9dda4bda6f') in 0.0006865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.514401 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Hoe
+  artifactKey: Guid(070c02abdef53924a9675371cadbeacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Hoe using Guid(070c02abdef53924a9675371cadbeacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a00c3d37a488f182899d57e01709b918') in 0.0048242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062535 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Hoe/Hoe.prefab
+  artifactKey: Guid(16fd498cd107d8b4a8f272099c4221fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Hoe/Hoe.prefab using Guid(16fd498cd107d8b4a8f272099c4221fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bdf7f52826d2e5e8d05587f728ac926') in 0.0326614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.340289 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Knives
+  artifactKey: Guid(361af63ef2b6aed4aaac809d2a62a7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Knives using Guid(361af63ef2b6aed4aaac809d2a62a7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bacc91d37d28317713e6aea442dd54f') in 0.0006318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048192 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Knives/Knife.001.prefab
+  artifactKey: Guid(f11c6956012374941970e45c7fb73afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Knives/Knife.001.prefab using Guid(f11c6956012374941970e45c7fb73afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80eaa23e462ea92a2661f64bec492285') in 0.0192811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.473284 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Arrows and Bow
+  artifactKey: Guid(21c123575aa2b88479017d3ca07d7366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Arrows and Bow using Guid(21c123575aa2b88479017d3ca07d7366) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05346309b34298311ad1c5c6cae95270') in 0.0006943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051074 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Arrows and Bow/Arrow.001.prefab
+  artifactKey: Guid(53dbf89b78aeea84395a28c6dffdc86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Arrows and Bow/Arrow.001.prefab using Guid(53dbf89b78aeea84395a28c6dffdc86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82968db8a5d8c004c4780fbbb8ff8835') in 0.0198096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Arrows and Bow/ArrowBag.001.prefab
+  artifactKey: Guid(44816feee33e7b04ab8bc6936aea593a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Arrows and Bow/ArrowBag.001.prefab using Guid(44816feee33e7b04ab8bc6936aea593a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '994e66fe5377f56874026aec5c143120') in 0.0312603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Arrows and Bow/ArrowBag.002.prefab
+  artifactKey: Guid(52163c9d21cd2b44aaa8ed77d22e5054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields/Arrows and Bow/ArrowBag.002.prefab using Guid(52163c9d21cd2b44aaa8ed77d22e5054) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4927e6da322505d08e51ca550f534c33') in 0.0363681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
