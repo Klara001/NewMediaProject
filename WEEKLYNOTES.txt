@@ -72,5 +72,11 @@ Got the character controller and the camera movement set up and working. There m
 	- Since the start of the game really only focuses on the female protagonist, I'll be prioritizing getting a rough draft of her character design finished before working on the male in distress character design
 
 To Do Tomorrow:
-- Get dialogue system and task list started
 - Write out draft of the letter that starts the quest
+- Make the letter pick-up able in game
+
+-- 2/16/25 --
+
+Worked on the visuals of the letter that starts the quest.
+- I was thinking about how this letter could further showcase the inverted gender roles. I ended up looking at different adjectives that would usually be labeled as feminine or masculine and reversed those as well in the letter.
+- One challenge I've come across is the font, trying to find balance between making the writing fit in with the setting and narration, but still making sure the font is legible for majority of people. I did end up sacrificing the 'fanciness' of the writing to make sure it'd be easy to read for players. I've also decided to go a more pixel/retro overall look for fonts and UI.
