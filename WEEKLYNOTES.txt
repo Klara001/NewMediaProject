@@ -83,3 +83,4 @@ Worked on the visuals of the letter that starts the quest.
 
 Started working on a rough objectives list so the player knows what needs to be collected in the game.
 - Added a backpack asset from SketchFab for this: Adventure Bag by Yury Misiyuk
+- Got the simple objectives done where the item vanishes from the task list once completed. Also added a dialogue pop-up when the character approaches the door, the text differing depending on if the tasks are done or not.
