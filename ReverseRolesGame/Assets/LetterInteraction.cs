@@ -6,6 +6,8 @@ public class LetterInteraction : MonoBehaviour
     public GameObject letter;
     public GameObject letterUI;
     public GameObject letterPickUpIcon;
+    public GameObject doorInteraction;
+    public GameObject objectivesUI;
     public GameObject player;
     public MonoBehaviour playerControllerScript;
 
@@ -13,6 +15,11 @@ public class LetterInteraction : MonoBehaviour
     private bool isUIOpen = false;
     private bool isLetterPickedUp = false;
     
+    private void Start()
+    {
+        doorInteraction.SetActive(false);
+    }
+
     private void Update()
     {
         if (isPlayerNear && Input.GetKeyDown(KeyCode.E) && !isLetterPickedUp)
@@ -70,6 +77,16 @@ public class LetterInteraction : MonoBehaviour
         if (playerControllerScript != null)
         {
             playerControllerScript.enabled = true;
+        }
+
+        if (objectivesUI != null)
+        {
+            objectivesUI.SetActive(true);
+        }
+
+        if (doorInteraction != null)
+        {
+            doorInteraction.SetActive(true);
         }
     }
 }
