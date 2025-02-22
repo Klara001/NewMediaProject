@@ -87,3 +87,6 @@ Started working on a rough objectives list so the player knows what needs to be 
 
 -- 2/18/25 --
 - Finalized documentation for class. Worked on Canva whiteboard.
+
+-- 2/22/25 --
+Switched to a different style for the trees, looks fuller and more appealing in my opinion. 
