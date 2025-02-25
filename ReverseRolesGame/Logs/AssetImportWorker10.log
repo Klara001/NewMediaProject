@@ -15,7 +15,7 @@ C:/Users/kprof/OneDrive/Desktop/NewMediaProject/ReverseRolesGame
 -logFile
 Logs/AssetImportWorker10.log
 -srvPort
-52475
+54693
 -job-worker-count
 15
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/kprof/OneDrive/Desktop/NewMediaProject/ReverseRolesGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27500]  Target information:
+Player connection [16748]  Target information:
 
-Player connection [27500]  * "[IP] 10.250.112.104 [Port] 0 [Flags] 2 [Guid] 753160956 [EditorId] 753160956 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16748]  * "[IP] 10.250.92.136 [Port] 0 [Flags] 2 [Guid] 2339059377 [EditorId] 2339059377 [Version] 1048832 [Id] WindowsEditor(7,WIN-K2P1ST5H3LU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27500] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [27500] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16748] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16748] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -91,46 +91,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002288 seconds.
-- Loaded All Assemblies, in  0.242 seconds
+Registered in 0.002403 seconds.
+- Loaded All Assemblies, in  0.277 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.207 seconds
-Domain Reload Profiling: 448ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.305 seconds
+Domain Reload Profiling: 581ms
+	BeginReloadAssembly (97ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (97ms)
-		LoadAssemblies (81ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (96ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (95ms)
-			TypeCache.Refresh (94ms)
-				TypeCache.ScanAssembly (84ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (97ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (207ms)
+	FinalizeReload (305ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (180ms)
+		SetupLoadedEditorAssemblies (273ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (18ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (118ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -138,115 +138,221 @@ Domain Reload Profiling: 448ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.635 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.761 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.549 seconds
-Domain Reload Profiling: 1182ms
-	BeginReloadAssembly (247ms)
+- Finished resetting the current domain, in  0.696 seconds
+Domain Reload Profiling: 1454ms
+	BeginReloadAssembly (278ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (332ms)
-		LoadAssemblies (222ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (284ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (173ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (100ms)
-			BuildScriptInfoCaches (50ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (549ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (120ms)
+			BuildScriptInfoCaches (57ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (696ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (385ms)
+		SetupLoadedEditorAssemblies (508ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (296ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (392ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 215 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5964 unused Assets / (4.0 MB). Loaded Objects now: 6764.
-Memory consumption went from 211.4 MB to 207.4 MB.
-Total: 5.117500 ms (FindLiveObjects: 0.374200 ms CreateObjectMapping: 0.256500 ms MarkObjects: 3.182100 ms  DeleteObjects: 1.298200 ms)
+Unloading 5964 unused Assets / (3.8 MB). Loaded Objects now: 6764.
+Memory consumption went from 211.2 MB to 207.4 MB.
+Total: 11.323300 ms (FindLiveObjects: 0.700200 ms CreateObjectMapping: 0.381100 ms MarkObjects: 8.013200 ms  DeleteObjects: 2.223000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1022134.604354 seconds.
-  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Village/OutBuilding/EA03_Village_OutBuilding_Shed_01a_PRE.prefab
-  artifactKey: Guid(7ee8d320528490b4c95b7e1173450eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Village/OutBuilding/EA03_Village_OutBuilding_Shed_01a_PRE.prefab using Guid(7ee8d320528490b4c95b7e1173450eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10666348fa58478d6f9a9fa7bb4dbcc2') in 0.3563005 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+  Time since last request: 1099602.540800 seconds.
+  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Town/Administrative/EA03_Town_Building_Administrative _01c_PRE.prefab
+  artifactKey: Guid(b01076a2a7faafc498b4d32915506ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Town/Administrative/EA03_Town_Building_Administrative _01c_PRE.prefab using Guid(b01076a2a7faafc498b4d32915506ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c140fa551017726aed78d50be882694d') in 0.5270066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 739
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.506 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.599 seconds
+Domain Reload Profiling: 1105ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (114ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (600ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (394ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5961 unused Assets / (4.1 MB). Loaded Objects now: 6812.
+Memory consumption went from 207.3 MB to 203.2 MB.
+Total: 14.322400 ms (FindLiveObjects: 0.650000 ms CreateObjectMapping: 0.372400 ms MarkObjects: 9.825500 ms  DeleteObjects: 3.471600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.486 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.582 seconds
+Domain Reload Profiling: 1068ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (299ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (582ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5960 unused Assets / (3.6 MB). Loaded Objects now: 6814.
+Memory consumption went from 205.4 MB to 201.8 MB.
+Total: 11.703600 ms (FindLiveObjects: 1.035700 ms CreateObjectMapping: 0.558300 ms MarkObjects: 7.957900 ms  DeleteObjects: 2.149600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1588.766760 seconds.
+  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_01b_PRE.prefab
+  artifactKey: Guid(7d7dfcc94f25fc1458866ecfee391099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_01b_PRE.prefab using Guid(7d7dfcc94f25fc1458866ecfee391099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c936faf84856594a61626698ddbf4ed2') in 0.4180248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.482819 seconds.
-  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Village/Building/Other/EA03_Village_OutBuilding_Convenience_01a_PRE.prefab
-  artifactKey: Guid(ea1570d0256864e4c8563689a8122aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Village/Building/Other/EA03_Village_OutBuilding_Convenience_01a_PRE.prefab using Guid(ea1570d0256864e4c8563689a8122aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a28d32aee30e36e2be58764db9c6ff10') in 0.0282319 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+  Time since last request: 0.000031 seconds.
+  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_02a_PRE.prefab
+  artifactKey: Guid(a03ab4b398d4be2419fb1eb53e6aef65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_02a_PRE.prefab using Guid(a03ab4b398d4be2419fb1eb53e6aef65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '464aeaee7eb2f4d0b08ca31558f9697d') in 0.0315206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_03c_PRE.prefab
+  artifactKey: Guid(9c3c50b49e2f6064aae0377ac612b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_03c_PRE.prefab using Guid(9c3c50b49e2f6064aae0377ac612b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bb20ff89a2c574b1d223e120fa8c6c6') in 0.0315609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Village/Building/Other/EA03_Village_Tover_01a_PRE.prefab
-  artifactKey: Guid(9895332d2189d074892860f64e7d113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Village/Building/Other/EA03_Village_Tover_01a_PRE.prefab using Guid(9895332d2189d074892860f64e7d113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f482c111377cef84191290f2245e1184') in 0.0220519 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_03b_PRE.prefab
+  artifactKey: Guid(18085d3fce37a864a89d6a5db7b67d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_03b_PRE.prefab using Guid(18085d3fce37a864a89d6a5db7b67d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9105af12446ecc8f48f669b6ab02b7c') in 0.0239948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.625540 seconds.
-  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Texture/Flower_Grass_NM.png
-  artifactKey: Guid(440be66d71848fe4fa7bbdb16f1f056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Texture/Flower_Grass_NM.png using Guid(440be66d71848fe4fa7bbdb16f1f056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '243b82e16bc250b73296a7798986baf7') in 0.035785 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000031 seconds.
+  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_03a_PRE.prefab
+  artifactKey: Guid(c81ddac14e06bd74aa5cebb160dd3fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_03a_PRE.prefab using Guid(c81ddac14e06bd74aa5cebb160dd3fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '248e877b7af5d2a0cc942976a5e4503f') in 0.0241957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Texture/Pobbles_Sand_Dirt.png
-  artifactKey: Guid(1bae7c5a0b81e0248a1e9dbb77efd1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Texture/Pobbles_Sand_Dirt.png using Guid(1bae7c5a0b81e0248a1e9dbb77efd1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ed8100c797ca71d20c439af0b3edd4e') in 0.0180824 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000028 seconds.
+  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_03d_PRE.prefab
+  artifactKey: Guid(94d2beb49de72264f9fc5cc1af32f5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_03d_PRE.prefab using Guid(94d2beb49de72264f9fc5cc1af32f5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aea1b7a3749f7df71c51e6b1f58d482') in 0.0204217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.235285 seconds.
-  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Material/Art_02.mat
-  artifactKey: Guid(19f30ba0cc04af44ba2b498acb981acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Material/Art_02.mat using Guid(19f30ba0cc04af44ba2b498acb981acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e014004f3dd6a395be3f1018bbf1cc34') in 0.0515957 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000024 seconds.
+  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_02b_PRE.prefab
+  artifactKey: Guid(868e0aee227f98d4a9898e5be91652cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_02b_PRE.prefab using Guid(868e0aee227f98d4a9898e5be91652cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5bf0582a7025a00e5c0f1f398054637') in 0.020991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Material/EA03_LPNP - Grass.mat
-  artifactKey: Guid(7a1160409d7033a4aa04f47785fdaa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Material/EA03_LPNP - Grass.mat using Guid(7a1160409d7033a4aa04f47785fdaa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26880e27ce94a0b62f4912a45f7fe8d9') in 0.0302166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_wind_tree.mat
-  artifactKey: Guid(832aba01891ef884caabb15bdd767a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_wind_tree.mat using Guid(832aba01891ef884caabb15bdd767a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '483b965a55ef9586aea5e5d5bec02d6a') in 0.0254108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 45.212953 seconds.
+  path: Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Tree/EA03_Nature_Tree_03b_PRE.prefab
+  artifactKey: Guid(9cd2dd4d6232e7042ae210310ee2cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Prefabs/EmaceArt/Slavic World Free/Prefabs/Nature/Tree/EA03_Nature_Tree_03b_PRE.prefab using Guid(9cd2dd4d6232e7042ae210310ee2cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e187e66f90827d41c64d8eec0ef53614') in 0.0347479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

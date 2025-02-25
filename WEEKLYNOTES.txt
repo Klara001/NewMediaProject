@@ -90,3 +90,12 @@ Started working on a rough objectives list so the player knows what needs to be 
 
 -- 2/22/25 --
 Switched to a different style for the trees, looks fuller and more appealing in my opinion. 
+
+-- 2/24/25 --
+Continued to work on forest. Got a good set up of the entire forest's layout, if time will go back to add more details and make it feel fuller/livelier.
+
+--2/25/25 --
+Finished up the forest environment base. I decided to focus on finishing up the environments of all three levels first before going into the mechanics and code, since those will most likely be linked or similar in both the forest and dungeon level.
+
+Got started on the dungeon level. For this level, I possibly want a more "platformer" feel in addition to continuing to find clues and tools, so might add some chasms the player needs to jump over to avoid dying. To create the deadly chasms, I decided to create traps on the bottom, so I added a few spike models from Sketchfab.
+	- Wooden Spike Trap by Ananda Yokesh
