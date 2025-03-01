@@ -99,3 +99,6 @@ Finished up the forest environment base. I decided to focus on finishing up the 
 
 Got started on the dungeon level. For this level, I possibly want a more "platformer" feel in addition to continuing to find clues and tools, so might add some chasms the player needs to jump over to avoid dying. To create the deadly chasms, I decided to create traps on the bottom, so I added a few spike models from Sketchfab.
 	- Wooden Spike Trap by Ananda Yokesh
+
+-- 3/1/25 --
+Continued working on the dungeon environment. I have the base layout set up, with where the lord will be held and where the key to his cell will be hiding. Just need to add in a few details and imperfections, and then the environments should be completed.
