@@ -102,3 +102,7 @@ Got started on the dungeon level. For this level, I possibly want a more "platfo
 
 -- 3/1/25 --
 Continued working on the dungeon environment. I have the base layout set up, with where the lord will be held and where the key to his cell will be hiding. Just need to add in a few details and imperfections, and then the environments should be completed.
+
+-- 3/4/25 --
+Updated the dungeon environment and added components that will be interactable.
+My biggest priority now is getting the designs of the characters into Unity and fully working. Once that is completed and fully functionating, I will go back and focus on getting as much of the mechanics working as I can before next week.

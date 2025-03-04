@@ -12,5 +12,6 @@ SketchFab:
 	- Stylized Wood PBR Material by nikola
 	- Adventure Bag by Yury Misiyuk
 	- Wooden Spike Trap by Ananda Yokesh
+	- Stylized key lp by ForevereQ
 
 
