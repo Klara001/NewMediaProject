@@ -1,6 +1,8 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement; //added to change scenes
 
 public class DoorInteraction : MonoBehaviour
 {
@@ -10,6 +12,7 @@ public class DoorInteraction : MonoBehaviour
     public string playerTag = "Player";
     public ObjectivesController objectivesController;
     private bool playerNearDoor = false;
+    [SerializeField] private string loadLevel; //load new level
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -28,6 +31,8 @@ public class DoorInteraction : MonoBehaviour
             {
                 dialogueUI.SetActive(false);
                 adventureReadyUI.SetActive(true);
+
+                StartCoroutine(LoadLevelWithDelay(2f));
             }
             else
             {
@@ -70,5 +75,9 @@ public class DoorInteraction : MonoBehaviour
         objectivesController.RemoveObjective(objective);
     }
 
-
+    private IEnumerator LoadLevelWithDelay (float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(loadLevel);
+    }
 }
