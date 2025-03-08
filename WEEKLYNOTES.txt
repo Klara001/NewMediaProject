@@ -106,3 +106,6 @@ Continued working on the dungeon environment. I have the base layout set up, wit
 -- 3/4/25 --
 Updated the dungeon environment and added components that will be interactable.
 My biggest priority now is getting the designs of the characters into Unity and fully working. Once that is completed and fully functionating, I will go back and focus on getting as much of the mechanics working as I can before next week.
+
+-- 3/8/25 --
+Updated the UI for the dialogue system, including the sketch Icon of Bryndis. Added mechanics to the forest scene and connected the different scenes so the player can jump from bedroom to forest to dungeon in game.
