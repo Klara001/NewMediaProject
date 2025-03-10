@@ -44,11 +44,11 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity += new Vector3(0f, jumpForce, 0f);
         }
 
-        if(!sr.flipX && moveInput.x < 0)
+        if(!sr.flipX && moveInput.x > 0)
         {
             sr.flipX = true;
         }
-        else if(sr.flipX && moveInput.x > 0)
+        else if(sr.flipX && moveInput.x < 0)
         {
             sr.flipX = false;
         }
