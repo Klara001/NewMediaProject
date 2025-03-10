@@ -109,3 +109,6 @@ My biggest priority now is getting the designs of the characters into Unity and 
 
 -- 3/8/25 --
 Updated the UI for the dialogue system, including the sketch Icon of Bryndis. Added mechanics to the forest scene and connected the different scenes so the player can jump from bedroom to forest to dungeon in game.
+
+-- 3/9/25 --
+Finished up the sprite icons for both Bryndis and Fabian, got them imported and placed into the game. Worked on finishing touches of the character icons to import them into Unity as well
